@@ -15,6 +15,8 @@ import java.util.Scanner;
  *
  * @Blog : __
  **/
+
+
 public class SW문제해결기본_1일차_D4_1210_Ladder1 {
 	public static void main(String args[]) throws Exception {
 
