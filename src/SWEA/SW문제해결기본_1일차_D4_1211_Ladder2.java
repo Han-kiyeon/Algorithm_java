@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @PackageName: SWEA
  * @FileName : SW문제해결기본_1일차_D4_1211_Ladder2.java
  *
- * @Date : 2020. 7. 18.
+ * @Date : 2019. 7. 18.
  * @작성자 : 한기연
  * @메모리 : 114,200 kb
  * @실행시간 : 290 ms
