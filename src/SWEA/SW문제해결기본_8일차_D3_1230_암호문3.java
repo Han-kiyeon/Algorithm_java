@@ -4,6 +4,18 @@ import java.io.FileInputStream;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA
+ * @FileName : SW문제해결기본_8일차_D3_1230_암호문3.java
+ *
+ * @Date : 2019. 8. 4.
+ * @작성자 : 한기연
+ * @메모리 : 94,792 kb
+ * @실행시간 : 324 ms
+ *
+ * @Blog : __
+ **/
 public class SW문제해결기본_8일차_D3_1230_암호문3 {
 
 	private static Scanner sc;
