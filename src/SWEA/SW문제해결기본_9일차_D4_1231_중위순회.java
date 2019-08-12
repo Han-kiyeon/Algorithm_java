@@ -15,7 +15,7 @@ import java.util.Scanner;
  *
  * @Blog : __
  **/
-public class SW문제해결_9일차_D4_1231_중위순회 {
+public class SW문제해결기본_9일차_D4_1231_중위순회 {
 	static char[] arr;
 	static int N;
 
