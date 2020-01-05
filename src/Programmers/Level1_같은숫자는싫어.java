@@ -1,7 +1,8 @@
 package Programmers;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
+import java.util.List;
 
 public class Level1_같은숫자는싫어 {
 	public static void main(String[] args) {
@@ -10,16 +11,18 @@ public class Level1_같은숫자는싫어 {
 	}
 
 	public static int[] solution(int[] arr) {
-		LinkedList<Integer> list = new LinkedList<>();
+		List<Integer> list = new ArrayList<Integer>();
 		list.add(arr[0]);
-		 for (int i = 1; i < arr.length; i++) {
+		for (int i = 1; i < arr.length; i++) {
 			if (arr[i] != arr[i - 1])
 				list.add(arr[i]);
 		}
-		int[] ans = new int[list.size()];
-		for (int i = 0; i < ans.length; i++) {
-			ans[i] = list.get(i);
-		}
-		return ans;
+
+		int[] answer = new int[list.size()];
+
+		for (int i = 0; i < list.size(); i++)
+			answer[i] = list.get(i);
+
+		return answer;
 	}
 }
