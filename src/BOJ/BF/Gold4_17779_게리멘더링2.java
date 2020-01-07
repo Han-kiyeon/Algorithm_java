@@ -1,6 +1,19 @@
+package BOJ.BF;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Gold4_17779_게리멘더링2.java
+ *
+ * @Date : 2020. 5. 17.
+ * @작성자 : 한기연
+ * @메모리 : 17256 kb
+ * @실행시간 : 244 ms
+ *
+ * @Blog : __
+ **/
+public class Gold4_17779_게리멘더링2 {
 	static int N, ans;
 	static int[][] map;
 
@@ -40,8 +53,8 @@ public class Main {
 			for (int c = 0; c < N; c++) {
 				if (r + c >= x + y && // Math.abs((0) - (x)) + Math.abs((0) - (y))
 						r + c <= x + y + 2 * d2 && // Math.abs((0) - (x + d1 + d2)) + Math.abs((0) - (y + d2 - d1))
-						r + (N - c) >= x + N - y && // Math.abs((0) - (x)) + Math.abs((N) - (y)) &&
-						r + (N - c) <= Math.abs((0) - (x + d1)) + Math.abs((N) - (y - d1))) {
+						r + (N - c) >= x + N - y && // Math.abs((0) - (x)) + Math.abs((N) - (y))
+						r + (N - c) <= x + N - y + 2 * d1) {// Math.abs((0) - (x + d1)) + Math.abs((N) - (y - d1)))
 					// map[r][c] = 5;
 					sum[0] += map[r][c];
 					continue;
