@@ -2,9 +2,8 @@
   * @FileName : hello.java
   * @Project : Algorithm_java
   * @Date : 2020. 1. 9. 
-  * @ÀÛ¼ºÀÚ : ÇÑ±â¿¬
+  * @ì‘ì„±ì : í•œê¸°ì—°
 **/
-
 public class hello {
 	
 	public static void main(String[] args) {
