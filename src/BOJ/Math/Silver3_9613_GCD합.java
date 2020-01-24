@@ -1,8 +1,19 @@
+package BOJ.Math;
+
 import java.util.Scanner;
 
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.Math
+ * @FileName : Silver3_9613_GCD합.java
+ *
+ * @Date : 2020. 1. 24.
+ * @작성자 : 한기연
+ * @메모리 : 14360 kb
+ * @실행시간 : 116 ms
+ **/
 
-
-public class Main {
+public class Silver3_9613_GCD합 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
@@ -16,7 +27,7 @@ public class Main {
 			}
 			// System.out.println(Arrays.toString(arr));
 
-			long  ans = 0;
+			long ans = 0;
 			for (int i = 0; i < N - 1; i++) {
 				for (int j = i + 1; j < N; j++) {
 					ans += gcd(arr[i], arr[j]);
