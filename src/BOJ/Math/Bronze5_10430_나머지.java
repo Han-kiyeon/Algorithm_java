@@ -2,7 +2,6 @@ package BOJ.Math;
 
 import java.util.Scanner;
 
-
 /**
  * @Project : Algorithm_java
  * @PackageName: BOJ.Math
@@ -13,6 +12,7 @@ import java.util.Scanner;
  * @메모리 : 14248 kb
  * @실행시간 : 108 ms
  **/
+
 public class Bronze5_10430_나머지 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
