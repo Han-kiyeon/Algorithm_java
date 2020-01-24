@@ -10,8 +10,8 @@ import java.util.Scanner;
  *
  * @Date : 2020. 1. 24.
  * @작성자 : 한기연
- * @메모리 : __ kb
- * @실행시간 : __ ms
+ * @메모리 : 14248 kb
+ * @실행시간 : 108 ms
  **/
 public class Bronze5_10430_나머지 {
 	public static void main(String[] args) {
