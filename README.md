@@ -6,7 +6,7 @@ JAVA Algorithm solution
 
 - [x] [나머지](https://www.acmicpc.net/problem/10430)
 - [x] [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609)
-- [ ] [최소공배수](https://www.acmicpc.net/problem/1934)
+- [x] [최소공배수](https://www.acmicpc.net/problem/1934)
 - [ ] [GCD 합](https://www.acmicpc.net/problem/9613)
 - [ ] [소수 찾기](https://www.acmicpc.net/problem/1978)
 - [ ] [골드바흐의 추측](https://www.acmicpc.net/problem/6588)

@@ -1,6 +1,19 @@
+package BOJ.Math;
+
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.Math
+ * @FileName : Silver4_1934_최소공배수.java
+ *
+ * @Date : 2020. 1. 24.
+ * @작성자 : 한기연
+ * @메모리 : 19660 kb
+ * @실행시간 : 220 ms
+ **/
+		 
+public class Silver4_1934_최소공배수 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
