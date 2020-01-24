@@ -1,7 +1,8 @@
+package BOJ.BF;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class Bronze2_2309_일곱난쟁이 {
 	static int[] data = new int[9];
 	static boolean[] res = new boolean[9];
 	static boolean flag = false;
