@@ -2,6 +2,17 @@
 
 JAVA Algorithm solution
 
+
+
+- SW 역량 테스트 준비 - 기초: 브루트 포스, BFS, 다이나믹 프로그래밍에 대한 설명과 기초 문제를 풀어봅니다.
+- SW 역량 테스트 준비 - 연습: 기초에서 설명한 알고리즘의 여러가지 연습 문제를 풀어봅니다.
+- SW 역량 테스트 준비 - 문제: 다양한 문제 풀이를 통해 여러가지 알고리즘을 연습해 봅니다.
+- SW 역량 테스트 준비 - 문제 2: 다양한 문제 풀이를 통해 여러가지 알고리즘을 더 연습해 봅니다.
+
+---
+
+# SW 역량 테스트 준비 - 기초
+
 ## 수학
 
 - [x] [나머지](https://www.acmicpc.net/problem/10430)
@@ -87,6 +98,10 @@ JAVA Algorithm solution
 - [ ] [제곱수의 합](https://www.acmicpc.net/problem/1699)
 - [ ] [합분해](https://www.acmicpc.net/problem/2225)
 
+
+
+# SW 역량 테스트 준비 - 연습
+
 ## 브루트 포스
 
 - [ ] [리모컨](https://www.acmicpc.net/problem/1107)
@@ -139,6 +154,8 @@ JAVA Algorithm solution
 - [ ] [기타리스트](https://www.acmicpc.net/problem/1495)
 - [ ] [1학년](https://www.acmicpc.net/problem/5557)
 - [ ] [괄호](https://www.acmicpc.net/problem/10422)
+
+# SW 역량 테스트 준비 - 문제
 
 ### 시뮬레이션
 
@@ -220,6 +237,8 @@ JAVA Algorithm solution
 - [ ] [사탕 게임](https://www.acmicpc.net/problem/3085)
 - [ ] [로봇 조종하기](https://www.acmicpc.net/problem/2169)
 - [ ] [가장 큰 정사각형](https://www.acmicpc.net/problem/1915)
+
+# SW 역량 테스트 준비 - 문제 2
 
 ### 시뮬레이션
 
