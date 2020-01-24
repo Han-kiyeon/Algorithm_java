@@ -2,8 +2,6 @@
 
 JAVA Algorithm solution
 
-
-
 - SW 역량 테스트 준비 - 기초: 브루트 포스, BFS, 다이나믹 프로그래밍에 대한 설명과 기초 문제를 풀어봅니다.
 - SW 역량 테스트 준비 - 연습: 기초에서 설명한 알고리즘의 여러가지 연습 문제를 풀어봅니다.
 - SW 역량 테스트 준비 - 문제: 다양한 문제 풀이를 통해 여러가지 알고리즘을 연습해 봅니다.
@@ -19,8 +17,8 @@ JAVA Algorithm solution
 - [x] [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609)
 - [x] [최소공배수](https://www.acmicpc.net/problem/1934)
 - [x] [GCD 합](https://www.acmicpc.net/problem/9613)
-- [ ] [소수 찾기](https://www.acmicpc.net/problem/1978)
-- [ ] [골드바흐의 추측](https://www.acmicpc.net/problem/6588)
+- [x] [소수 찾기](https://www.acmicpc.net/problem/1978)
+- [x] [골드바흐의 추측](https://www.acmicpc.net/problem/6588)
 
 ## 브루트 포스
 
@@ -61,7 +59,7 @@ JAVA Algorithm solution
 - [ ] [ABCDE](https://www.acmicpc.net/problem/13023)
 - [ ] [DFS와 BFS](https://www.acmicpc.net/problem/1260)
 - [ ] [연결 요소](https://www.acmicpc.net/problem/11724)
-- [ ] [이분 그래프](https://www.acmicpc.net/problem/1707)
+- [ ] [이분 그래프](https://www.acmicpc.net/problem/1707)
 - [ ] [단지번호붙이기](https://www.acmicpc.net/problem/2667)
 - [ ] [섬의 개수](https://www.acmicpc.net/problem/4963)
 - [ ] [미로 탐색](https://www.acmicpc.net/problem/2178)
