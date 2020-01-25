@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @Project : Algorithm_java
  * @PackageName: BOJ.BF
- * @FileName : Main.java
+ * @FileName : Gold5_14500_테트로미노.java
  *
  * @Date : 2020. 1. 25.
  * @작성자 : 한기연
