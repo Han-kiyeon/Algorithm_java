@@ -28,7 +28,7 @@ JAVA Algorithm solution
 - [x] [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
 - [ ] [다음 순열](https://www.acmicpc.net/problem/10972)
 - [ ] [이전 순열](https://www.acmicpc.net/problem/10973)
-- [ ] [모든 순열](https://www.acmicpc.net/problem/10974)
+- [x] [모든 순열](https://www.acmicpc.net/problem/10974)
 - [ ] [차이를 최대로](https://www.acmicpc.net/problem/10819)
 - [ ] [외판원 순회 2](https://www.acmicpc.net/problem/10971)
 - [ ] [로또](https://www.acmicpc.net/problem/6603)

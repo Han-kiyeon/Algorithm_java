@@ -1,10 +1,22 @@
+package BOJ.BF;
+
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Silver2_10974_모든순열.java
+ *
+ * @Date : 2020. 1. 25.
+ * @작성자 : 한기연
+ * @메모리 : 73692 kb
+ * @실행시간 : 1016 ms
+ **/
+
+public class Silver2_10974_모든순열 {
 	static int N;
 	static int[] data;
 	static boolean[] visit;
-	static boolean flag;
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -18,7 +30,7 @@ public class Main {
 	private static void solve(int idx, int depth) {
 		if (depth == N) {
 			for (int i = 0; i < data.length; i++) {
-				System.out.print(data[i]+" ");
+				System.out.print(data[i] + " ");
 			}
 			System.out.println();
 			return;
