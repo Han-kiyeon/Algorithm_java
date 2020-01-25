@@ -1,6 +1,19 @@
+package BOJ.BF;
+
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Silver3_9095_123더하기.java
+ *
+ * @Date : 2020. 1. 25.
+ * @작성자 : 한기연
+ * @메모리 : 14244 kb
+ * @실행시간 : 108 ms
+ **/
+
+public class Silver3_9095_123더하기 {
 	static int data, rlt;
 
 	public static void main(String[] args) {

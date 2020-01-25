@@ -25,7 +25,7 @@ JAVA Algorithm solution
 - [x] [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
 - [x] [날짜 계산](https://www.acmicpc.net/problem/1476)
 - [x] [테트로미노](https://www.acmicpc.net/problem/14500)
-- [ ] [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
+- [x] [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
 - [ ] [다음 순열](https://www.acmicpc.net/problem/10972)
 - [ ] [이전 순열](https://www.acmicpc.net/problem/10973)
 - [ ] [모든 순열](https://www.acmicpc.net/problem/10974)
