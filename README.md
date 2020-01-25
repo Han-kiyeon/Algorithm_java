@@ -22,7 +22,7 @@ JAVA Algorithm solution
 
 ## 브루트 포스
 
-- [ ] [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
+- [x] [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
 - [ ] [날짜 계산](https://www.acmicpc.net/problem/1476)
 - [ ] [테트로미노](https://www.acmicpc.net/problem/14500)
 - [ ] [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)

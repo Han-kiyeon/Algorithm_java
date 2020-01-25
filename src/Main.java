@@ -1,41 +1,22 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
-	static int[] data = new int[9];
-	static boolean[] res = new boolean[9];
-	static boolean flag = false;
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		for (int i = 0; i < 9; i++) {
-			data[i] = sc.nextInt();
-		}
-		Arrays.sort(data);
-		select(0, 0);
-	}
 
-	private static void select(int start, int depth) {
-		if (depth == 2 && !flag) {
-			int sum = 0;
-			for (int i = 0; i < 9; i++)
-				if (!res[i])
-					sum += data[i];
+		int E, S, M;
+		E = sc.nextInt();
+		S = sc.nextInt();
+		M = sc.nextInt();
 
-			if (sum == 100) {
-				for (int i = 0; i < 9; i++)
-					if (!res[i])
-						System.out.println(data[i]);
-				flag = true;
-			}
-			return;
+		int year = 1;
+
+		while (true) {
+			if ((year - E) % 15 == 0 && (year - S) % 28 == 0 && (year - M) % 19== 0)
+				break;
+			year++;
 		}
-		for (int i = start; i < 9; i++) {
-			if (!res[i]) {
-				res[i] = true;
-				select(i, depth + 1);
-				res[i] = false;
-			}
-		}
+
+		System.out.println(year);
 	}
 }
