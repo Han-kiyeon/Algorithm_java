@@ -2,6 +2,17 @@ package BOJ.BF;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Bronze2_2309_일곱난쟁이.java
+ *
+ * @Date : 2020. 1. 25.
+ * @작성자 : 한기연
+ * @메모리 : 14300 kb
+ * @실행시간 : 108 ms
+ **/
+
 public class Bronze2_2309_일곱난쟁이 {
 	static int[] data = new int[9];
 	static boolean[] res = new boolean[9];
