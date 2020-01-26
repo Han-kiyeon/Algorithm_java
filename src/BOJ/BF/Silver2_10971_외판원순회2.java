@@ -1,6 +1,19 @@
+package BOJ.BF;
+
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Silver2_10971_외판원순회2.java
+ *
+ * @Date : 2020. 1. 26.
+ * @작성자 : 한기연
+ * @메모리 : 16024 kb
+ * @실행시간 : 404 ms
+ **/
+
+public class Silver2_10971_외판원순회2 {
 	static int N, ret;
 	static boolean[] visit;
 	static int[][] map;
