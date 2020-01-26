@@ -1,7 +1,20 @@
+package BOJ.BF;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Gold5_1759_암호만들기.java
+ *
+ * @Date : 2020. 1. 26.
+ * @작성자 : 한기연
+ * @메모리 : 14736 kb
+ * @실행시간 : 116 ms
+ **/
+
+public class Gold5_1759_암호만들기 {
 	static int L, C;
 	static char[] data, rlt;
 	static boolean[] visit;
