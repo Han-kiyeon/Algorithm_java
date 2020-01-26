@@ -1,6 +1,12 @@
+[TOC]
+
 # Algorithm_java
 
 JAVA Algorithm solution
+
+---
+
+## BOJ
 
 - SW 역량 테스트 준비 - 기초: 브루트 포스, BFS, 다이나믹 프로그래밍에 대한 설명과 기초 문제를 풀어봅니다.
 - SW 역량 테스트 준비 - 연습: 기초에서 설명한 알고리즘의 여러가지 연습 문제를 풀어봅니다.
@@ -11,9 +17,9 @@ JAVA Algorithm solution
 
 ---
 
-# SW 역량 테스트 준비 - 기초
+### SW 역량 테스트 준비 - 기초
 
-## 수학
+#### 수학
 
 - [x] [나머지](https://www.acmicpc.net/problem/10430)
 - [x] [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609)
@@ -22,7 +28,7 @@ JAVA Algorithm solution
 - [x] [소수 찾기](https://www.acmicpc.net/problem/1978)
 - [x] [골드바흐의 추측](https://www.acmicpc.net/problem/6588)
 
-## 브루트 포스
+#### 브루트 포스
 
 - [x] [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
 - [x] [날짜 계산](https://www.acmicpc.net/problem/1476)
@@ -41,7 +47,7 @@ JAVA Algorithm solution
 - [ ] [연산자 끼워넣기 (2)](https://www.acmicpc.net/problem/15658)
 - [ ] [집합](https://www.acmicpc.net/problem/11723)
 
-## 브루트 포스 (N과 M 연습)
+#### 브루트 포스 (N과 M 연습)
 
 - [ ] [N과 M(1)](https://www.acmicpc.net/problem/15649)
 - [ ] [N과 M(2)](https://www.acmicpc.net/problem/15650)
@@ -56,7 +62,7 @@ JAVA Algorithm solution
 - [ ] [N과 M(11)](https://www.acmicpc.net/problem/15665)
 - [ ] [N과 M(12)](https://www.acmicpc.net/problem/15666)
 
-## 그래프와 BFS
+#### 그래프와 BFS
 
 - [ ] [ABCDE](https://www.acmicpc.net/problem/13023)
 - [ ] [DFS와 BFS](https://www.acmicpc.net/problem/1260)
@@ -73,7 +79,7 @@ JAVA Algorithm solution
 - [ ] [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)
 - [ ] [탈출](https://www.acmicpc.net/problem/3055)
 
-## 다이나믹 프로그래밍
+#### 다이나믹 프로그래밍
 
 - [ ] [1로 만들기](https://www.acmicpc.net/problem/1463)
 - [ ] [2×n 타일링](https://www.acmicpc.net/problem/11726)
@@ -100,9 +106,9 @@ JAVA Algorithm solution
 
 
 
-# SW 역량 테스트 준비 - 연습
+### SW 역량 테스트 준비 - 연습
 
-## 브루트 포스
+#### 브루트 포스
 
 - [ ] [리모컨](https://www.acmicpc.net/problem/1107)
 - [ ] [카잉 달력](https://www.acmicpc.net/problem/6064)
@@ -125,7 +131,7 @@ JAVA Algorithm solution
 - [ ] [두 배열의 합](https://www.acmicpc.net/problem/2143)
 - [ ] [합이 0인 네 정수](https://www.acmicpc.net/problem/7453)
 
-## BFS
+#### BFS
 
 - [ ] [숨바꼭질 4](https://www.acmicpc.net/problem/13913)
 - [ ] [DSLR](https://www.acmicpc.net/problem/9019)
@@ -139,7 +145,7 @@ JAVA Algorithm solution
 - [ ] [0과 1](https://www.acmicpc.net/problem/8111)
 - [ ] [점프 게임](https://www.acmicpc.net/problem/15558)
 
-## 다이나믹 프로그래밍
+#### 다이나믹 프로그래밍
 
 - [ ] [이동하기](https://www.acmicpc.net/problem/11048)
 - [ ] [점프](https://www.acmicpc.net/problem/1890)
@@ -155,9 +161,9 @@ JAVA Algorithm solution
 - [ ] [1학년](https://www.acmicpc.net/problem/5557)
 - [ ] [괄호](https://www.acmicpc.net/problem/10422)
 
-# SW 역량 테스트 준비 - 문제
+### SW 역량 테스트 준비 - 문제
 
-### 시뮬레이션
+#### 시뮬레이션
 
 - [ ] :star:[주사위 굴리기](https://www.acmicpc.net/problem/14499)
 - [ ] :star:[톱니바퀴](https://www.acmicpc.net/problem/14891)
@@ -170,7 +176,7 @@ JAVA Algorithm solution
 - [ ] [iSharp](https://www.acmicpc.net/problem/3568)
 - [ ] [LCD Test](https://www.acmicpc.net/problem/2290)
 
-## 브루트 포스
+#### 브루트 포스
 
 - [ ] :star:[테트로미노](https://www.acmicpc.net/problem/14500)
 - [ ] [링크와 스타트](https://www.acmicpc.net/problem/15661)
@@ -187,7 +193,7 @@ JAVA Algorithm solution
 - [ ] [두 동전](https://www.acmicpc.net/problem/16197)
 - [ ] [에너지 모으기](https://www.acmicpc.net/problem/16198)
 
-## BFS
+#### BFS
 
 - [ ] [구슬 탈출 4](https://www.acmicpc.net/problem/15653)
 - [ ] [과외맨](https://www.acmicpc.net/problem/5213)
@@ -204,7 +210,7 @@ JAVA Algorithm solution
 - [ ] [거울 설치](https://www.acmicpc.net/problem/2151)
 - [ ] [견우와 직녀](https://www.acmicpc.net/problem/16137)
 
-# 다이나믹 프로그래밍
+#### 다이나믹 프로그래밍
 
 - [ ] [퇴사 2](https://www.acmicpc.net/problem/15486)
 - [ ] [알약](https://www.acmicpc.net/problem/4811)
@@ -216,7 +222,7 @@ JAVA Algorithm solution
 - [ ] [N-Rook II](https://www.acmicpc.net/problem/1767)
 - [ ] [사다리 게임](https://www.acmicpc.net/problem/2008)
 
-## 기타
+#### 기타
 
 - [ ] :star:[시험 감독](https://www.acmicpc.net/problem/13458)
 - [ ] [AB](https://www.acmicpc.net/problem/12970)
@@ -228,7 +234,7 @@ JAVA Algorithm solution
 - [ ] [무한 문자열](https://www.acmicpc.net/problem/12871)
 - [ ] [A와 B](https://www.acmicpc.net/problem/12904)
 
-## 추가 문제
+#### 추가 문제
 
 - [ ] [NxM 보드 완주하기](https://www.acmicpc.net/problem/9944)
 - [ ] [수족관 1](https://www.acmicpc.net/problem/8982)
@@ -238,16 +244,16 @@ JAVA Algorithm solution
 - [ ] [로봇 조종하기](https://www.acmicpc.net/problem/2169)
 - [ ] [가장 큰 정사각형](https://www.acmicpc.net/problem/1915)
 
-# SW 역량 테스트 준비 - 문제 2
+### SW 역량 테스트 준비 - 문제 2
 
-### 시뮬레이션
+#### 시뮬레이션
 
 - [ ] :star:[나무 재테크](https://www.acmicpc.net/problem/16235)
 - [ ] [2×2×2 큐브](https://www.acmicpc.net/problem/16939)
 - [ ] :star:[큐빙](https://www.acmicpc.net/problem/5373)
 - [ ] [봄버맨](https://www.acmicpc.net/problem/16918)
 
-### 브루트 포스
+#### 브루트 포스
 
 - [ ] :star:[파이프 옮기기 1](https://www.acmicpc.net/problem/17070)
 - [ ] [Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)
@@ -271,7 +277,7 @@ JAVA Algorithm solution
 - [ ] :star:[캐슬 디펜스](https://www.acmicpc.net/problem/17135)
 - [ ] :star:[색종이 붙이기](https://www.acmicpc.net/problem/17136)
 
-### BFS
+#### BFS
 
 - [ ] [뱀과 사다리 게임](https://www.acmicpc.net/problem/16928)
 - [ ] [데스 나이트](https://www.acmicpc.net/problem/16948)
@@ -286,7 +292,7 @@ JAVA Algorithm solution
 - [ ] [움직이는 미로 탈출](https://www.acmicpc.net/problem/16954)
 - [ ] [직사각형 탈출](https://www.acmicpc.net/problem/16973)
 
-### 기타
+#### 기타
 
 - [ ] [배열 돌리기 1](https://www.acmicpc.net/problem/16926)
 - [ ] [배열 돌리기 3](https://www.acmicpc.net/problem/16935)
@@ -307,7 +313,7 @@ JAVA Algorithm solution
 
 ---
 
-## 삼성 SW 역량 테스트 기출 문제
+### 삼성 SW 역량 테스트 기출 문제
 
 - [ ] :star:[미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
 - [ ] :star:[낚시왕](https://www.acmicpc.net/problem/17143)
@@ -320,10 +326,74 @@ JAVA Algorithm solution
 
 ---
 
-## 삼성 A형 기출 문제
+### 삼성 A형 기출 문제
 
 - [ ] :star:[:baseball:](https://www.acmicpc.net/problem/17281)
-- [ ] :star:[Brainf**k 인터프리터](https://www.acmicpc.net/problem/3954)
+- [ ] :star:[Brainf\**k 인터프리터](https://www.acmicpc.net/problem/3954)
 - [ ] :star:[배열 돌리기 4](https://www.acmicpc.net/problem/17406)
 - [ ] :star:[게리맨더링](https://www.acmicpc.net/problem/17471)
 - [ ] :star:[다리 만들기 2](https://www.acmicpc.net/problem/17472)
+
+
+
+## SWEA
+
+### 기본
+
+#### 1일차
+
+- [ ] [View](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV134DPqAA8CFAYh)
+- [ ] [Flatten](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV139KOaABgCFAYh)
+- [ ] [최빈수 구하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV13zo1KAAACFAYh)
+
+#### 2일차
+
+- [ ] [Sum](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV13_BWKACUCFAYh)
+- [ ] [Ladder1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14ABYKADACFAYh)
+- [ ] [Ladder2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14BgD6AEECFAYh)
+
+#### 3일차
+
+- [ ] [String](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14P0c6AAUCFAYi)
+- [ ] [회문1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14QpAaAAwCFAYi)
+- [ ] [회문2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14Rq5aABUCFAYi)
+
+#### 4일차
+
+- [ ] [거듭 제곱](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14dUIaAAUCFAYD)
+- [ ] [괄호 짝짓기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14eWb6AAkCFAYD)
+- [ ] [길찾기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14geLqABQCFAYD)
+
+#### 5일차
+
+- [ ] [Magnetic](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14hwZqABsCFAYD)
+- [ ] [GNS](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14jJh6ACYCFAYD)
+
+#### 6일차
+
+- [ ] [계산기1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14mbSaAEwCFAYD)
+- [ ] [계산기2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14nnAaAFACFAYD)
+- [ ] [계산기3](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14tDX6AFgCFAYD)
+
+#### 7일차
+
+- [ ] [암호생성기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14uWl6AF0CFAYD)
+- [ ] [미로1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14vXUqAGMCFAYD)
+- [ ] [미로2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14wL9KAGkCFAYD)
+
+#### 8일차
+
+- [ ] [암호문1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14w-rKAHACFAYD)
+- [ ] [암호문2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14yIsqAHYCFAYD)
+- [ ] [암호문3](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14zIwqAHwCFAYD)
+
+#### 9일차
+
+- [ ] [중위순회](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV140YnqAIECFAYD)
+- [ ] [사칙연산 유효성 검사](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV141176AIwCFAYD)
+- [ ] [사칙연산](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV141J8KAIcCFAYD)
+
+#### 10일차
+
+- [ ] [비밀번호](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14_DEKAJcCFAYD)
+- [ ] [Contact](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15B1cKAKwCFAYD)
