@@ -7,6 +7,8 @@ JAVA Algorithm solution
 - SW 역량 테스트 준비 - 문제: 다양한 문제 풀이를 통해 여러가지 알고리즘을 연습해 봅니다.
 - SW 역량 테스트 준비 - 문제 2: 다양한 문제 풀이를 통해 여러가지 알고리즘을 더 연습해 봅니다.
 
+:star: 삼성 SW 역량 테스트와 A형 기출문제입니다.
+
 ---
 
 # SW 역량 테스트 준비 - 기초
@@ -24,7 +26,7 @@ JAVA Algorithm solution
 
 - [x] [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
 - [x] [날짜 계산](https://www.acmicpc.net/problem/1476)
-- [x] [테트로미노](https://www.acmicpc.net/problem/14500)
+- [x] :star:[테트로미노](https://www.acmicpc.net/problem/14500)
 - [x] [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
 - [ ] [다음 순열](https://www.acmicpc.net/problem/10972)
 - [ ] [이전 순열](https://www.acmicpc.net/problem/10973)
@@ -32,10 +34,10 @@ JAVA Algorithm solution
 - [x] [차이를 최대로](https://www.acmicpc.net/problem/10819)
 - [x] [외판원 순회 2](https://www.acmicpc.net/problem/10971)
 - [x] [로또](https://www.acmicpc.net/problem/6603)
-- [x] [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
+- [x] :star:[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
 - [x] [암호 만들기](https://www.acmicpc.net/problem/1759)
 - [x] [부분수열의 합](https://www.acmicpc.net/problem/1182)
-- [ ] [퇴사](https://www.acmicpc.net/problem/14501)
+- [ ] :star:[퇴사](https://www.acmicpc.net/problem/14501)
 - [ ] [연산자 끼워넣기 (2)](https://www.acmicpc.net/problem/15658)
 - [ ] [집합](https://www.acmicpc.net/problem/11723)
 
@@ -107,15 +109,15 @@ JAVA Algorithm solution
 - [ ] [수 이어 쓰기 1](https://www.acmicpc.net/problem/1748)
 - [ ] [부등호](https://www.acmicpc.net/problem/2529)
 - [ ] [단어 수학](https://www.acmicpc.net/problem/1339)
-- [ ] [스타트와 링크](https://www.acmicpc.net/problem/14889)
+- [ ] :star:[스타트와 링크](https://www.acmicpc.net/problem/14889)
 - [ ] [맞춰봐](https://www.acmicpc.net/problem/1248)
 - [ ] [N-Queen](https://www.acmicpc.net/problem/9663)
 - [ ] [스도쿠](https://www.acmicpc.net/problem/2580)
 - [ ] [알파벳](https://www.acmicpc.net/problem/1987)
 - [ ] [종이 조각](https://www.acmicpc.net/problem/14391)
 - [ ] [가르침](https://www.acmicpc.net/problem/1062)
-- [ ] [구슬 탈출 2](https://www.acmicpc.net/problem/13460)
-- [ ] [2048 (Easy)](https://www.acmicpc.net/problem/12100)
+- [ ] :star:[구슬 탈출 2](https://www.acmicpc.net/problem/13460)
+- [ ] :star:[2048 (Easy)](https://www.acmicpc.net/problem/12100)
 - [ ] [수들의 합 2](https://www.acmicpc.net/problem/2003)
 - [ ] [부분합](https://www.acmicpc.net/problem/1806)
 - [ ] [소수의 연속합](https://www.acmicpc.net/problem/1644)
@@ -132,7 +134,7 @@ JAVA Algorithm solution
 - [ ] [숨바꼭질 2](https://www.acmicpc.net/problem/12851)
 - [ ] [탈옥](https://www.acmicpc.net/problem/9376)
 - [ ] [열쇠](https://www.acmicpc.net/problem/9328)
-- [ ] [로봇 청소기](https://www.acmicpc.net/problem/4991)
+- [ ] :star:[로봇 청소기](https://www.acmicpc.net/problem/4991)
 - [ ] [레이저 통신](https://www.acmicpc.net/problem/6087)
 - [ ] [0과 1](https://www.acmicpc.net/problem/8111)
 - [ ] [점프 게임](https://www.acmicpc.net/problem/15558)
@@ -157,25 +159,25 @@ JAVA Algorithm solution
 
 ### 시뮬레이션
 
-- [ ] [주사위 굴리기](https://www.acmicpc.net/problem/14499)
-- [ ] [톱니바퀴](https://www.acmicpc.net/problem/14891)
+- [ ] :star:[주사위 굴리기](https://www.acmicpc.net/problem/14499)
+- [ ] :star:[톱니바퀴](https://www.acmicpc.net/problem/14891)
 - [ ] [톱니바퀴 (2)](https://www.acmicpc.net/problem/15662)
 - [ ] [로봇 청소기](https://www.acmicpc.net/problem/14503)
-- [ ] [경사로](https://www.acmicpc.net/problem/14890)
-- [ ] [뱀](https://www.acmicpc.net/problem/3190)
-- [ ] [드래곤 커브](https://www.acmicpc.net/problem/15685)
+- [ ] :star:[경사로](https://www.acmicpc.net/problem/14890)
+- [ ] :star:[뱀](https://www.acmicpc.net/problem/3190)
+- [ ] :star:[드래곤 커브](https://www.acmicpc.net/problem/15685)
 - [ ] [미네랄](https://www.acmicpc.net/problem/2933)
 - [ ] [iSharp](https://www.acmicpc.net/problem/3568)
 - [ ] [LCD Test](https://www.acmicpc.net/problem/2290)
 
 ## 브루트 포스
 
-- [ ] [테트로미노](https://www.acmicpc.net/problem/14500)
+- [ ] :star:[테트로미노](https://www.acmicpc.net/problem/14500)
 - [ ] [링크와 스타트](https://www.acmicpc.net/problem/15661)
-- [ ] [연구소](https://www.acmicpc.net/problem/14502)
-- [ ] [감시](https://www.acmicpc.net/problem/15683)
-- [ ] [사다리 조작](https://www.acmicpc.net/problem/15684)
-- [ ] [치킨 배달](https://www.acmicpc.net/problem/15686)
+- [ ] :star:[연구소](https://www.acmicpc.net/problem/14502)
+- [ ] :star:[감시](https://www.acmicpc.net/problem/15683)
+- [ ] :star:[사다리 조작](https://www.acmicpc.net/problem/15684)
+- [ ] :star:[치킨 배달](https://www.acmicpc.net/problem/15686)
 - [ ] [숫자판 점프](https://www.acmicpc.net/problem/2210)
 - [ ] [테트리스](https://www.acmicpc.net/problem/3019)
 - [ ] [삼각형의 값](https://www.acmicpc.net/problem/4902)
@@ -216,7 +218,7 @@ JAVA Algorithm solution
 
 ## 기타
 
-- [ ] [시험 감독](https://www.acmicpc.net/problem/13458)
+- [ ] :star:[시험 감독](https://www.acmicpc.net/problem/13458)
 - [ ] [AB](https://www.acmicpc.net/problem/12970)
 - [ ] [곱셈](https://www.acmicpc.net/problem/1629)
 - [ ] [이항 계수 2](https://www.acmicpc.net/problem/11051)
@@ -240,19 +242,19 @@ JAVA Algorithm solution
 
 ### 시뮬레이션
 
-- [ ] [나무 재테크](https://www.acmicpc.net/problem/16235)
+- [ ] :star:[나무 재테크](https://www.acmicpc.net/problem/16235)
 - [ ] [2×2×2 큐브](https://www.acmicpc.net/problem/16939)
-- [ ] [큐빙](https://www.acmicpc.net/problem/5373)
+- [ ] :star:[큐빙](https://www.acmicpc.net/problem/5373)
 - [ ] [봄버맨](https://www.acmicpc.net/problem/16918)
 
 ### 브루트 포스
 
-- [ ] [파이프 옮기기 1](https://www.acmicpc.net/problem/17070)
+- [ ] :star:[파이프 옮기기 1](https://www.acmicpc.net/problem/17070)
 - [ ] [Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)
 - [ ] [인싸들의 가위바위보](https://www.acmicpc.net/problem/16986)
 - [ ] [계란으로 계란치기](https://www.acmicpc.net/problem/16987)
 - [ ] [Baaaaaaaaaduk2 (Easy)](https://www.acmicpc.net/problem/16988)
-- [ ] [괄호 추가하기](https://www.acmicpc.net/problem/16637)
+- [ ] :star:[괄호 추가하기](https://www.acmicpc.net/problem/16637)
 - [ ] [괄호 추가하기 2](https://www.acmicpc.net/problem/16638)
 - [ ] [로마 숫자 만들기](https://www.acmicpc.net/problem/16922)
 - [ ] [문자열 추측](https://www.acmicpc.net/problem/16925)
@@ -266,15 +268,15 @@ JAVA Algorithm solution
 - [ ] [차량 번호판 1](https://www.acmicpc.net/problem/16968)
 - [ ] [십자가 2개 놓기](https://www.acmicpc.net/problem/17085)
 - [ ] [등차수열 변환](https://www.acmicpc.net/problem/17088)
-- [ ] [캐슬 디펜스](https://www.acmicpc.net/problem/17135)
-- [ ] [색종이 붙이기](https://www.acmicpc.net/problem/17136)
+- [ ] :star:[캐슬 디펜스](https://www.acmicpc.net/problem/17135)
+- [ ] :star:[색종이 붙이기](https://www.acmicpc.net/problem/17136)
 
 ### BFS
 
 - [ ] [뱀과 사다리 게임](https://www.acmicpc.net/problem/16928)
 - [ ] [데스 나이트](https://www.acmicpc.net/problem/16948)
-- [ ] [인구 이동](https://www.acmicpc.net/problem/16234)
-- [ ] [아기 상어](https://www.acmicpc.net/problem/16236)
+- [ ] :star:[인구 이동](https://www.acmicpc.net/problem/16234)
+- [ ] :star:[아기 상어](https://www.acmicpc.net/problem/16236)
 - [ ] [숨바꼭질 5](https://www.acmicpc.net/problem/17071)
 - [ ] [확장 게임](https://www.acmicpc.net/problem/16920)
 - [ ] [벽 부수고 이동하기 4](https://www.acmicpc.net/problem/16946)
@@ -302,3 +304,26 @@ JAVA Algorithm solution
 - [ ] [배열 B의 값](https://www.acmicpc.net/problem/16971)
 - [ ] [레벨 햄버거](https://www.acmicpc.net/problem/16974)
 - [ ] [파이프 옮기기 2](https://www.acmicpc.net/problem/17069)
+
+---
+
+## 삼성 SW 역량 테스트 기출 문제
+
+- [ ] :star:[미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
+- [ ] :star:[낚시왕](https://www.acmicpc.net/problem/17143)
+- [ ] :star:[이차원 배열과 연산](https://www.acmicpc.net/problem/17140)
+- [ ] :star:[연구소 3](https://www.acmicpc.net/problem/17142)
+- [ ] :star:[게리맨더링 2](https://www.acmicpc.net/problem/17779)
+- [ ] :star:[새로운 게임 2](https://www.acmicpc.net/problem/17837)
+- [ ] :star:[원판 돌리기](https://www.acmicpc.net/problem/17822)
+- [ ] :star:[주사위 윷놀이](https://www.acmicpc.net/problem/17825)
+
+---
+
+## 삼성 A형 기출 문제
+
+- [ ] :star:[:baseball:](https://www.acmicpc.net/problem/17281)
+- [ ] :star:[Brainf**k 인터프리터](https://www.acmicpc.net/problem/3954)
+- [ ] :star:[배열 돌리기 4](https://www.acmicpc.net/problem/17406)
+- [ ] :star:[게리맨더링](https://www.acmicpc.net/problem/17471)
+- [ ] :star:[다리 만들기 2](https://www.acmicpc.net/problem/17472)
