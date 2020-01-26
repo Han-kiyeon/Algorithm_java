@@ -1,6 +1,19 @@
+package BOJ.BF;
+
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Silver1_1182_부분수열의합.java
+ *
+ * @Date : 2020. 1. 26.
+ * @작성자 : 한기연
+ * @메모리 : 14872 kb
+ * @실행시간 : 240 ms
+ **/
+
+public class Silver1_1182_부분수열의합 {
 	static int N, S, ans;
 	static int[] data, rlt;
 	static boolean[] visit;
