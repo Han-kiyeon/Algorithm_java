@@ -32,7 +32,7 @@ JAVA Algorithm solution
 - [x] [차이를 최대로](https://www.acmicpc.net/problem/10819)
 - [x] [외판원 순회 2](https://www.acmicpc.net/problem/10971)
 - [x] [로또](https://www.acmicpc.net/problem/6603)
-- [ ] [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
+- [x] [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
 - [ ] [암호 만들기](https://www.acmicpc.net/problem/1759)
 - [ ] [부분집합의 합](https://www.acmicpc.net/problem/1182)
 - [ ] [퇴사](https://www.acmicpc.net/problem/14501)

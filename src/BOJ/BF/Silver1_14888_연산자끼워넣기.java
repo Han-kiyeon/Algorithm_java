@@ -1,7 +1,18 @@
-import java.util.Arrays;
+package BOJ.BF;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Silver1_14888_연산자끼워넣기.java
+ *
+ * @Date : 2020. 1. 26.
+ * @작성자 : 한기연
+ * @메모리 : 15648 kb
+ * @실행시간 : 120 ms
+ **/
+
+public class Silver1_14888_연산자끼워넣기 {
 	static int N, max, min;
 	static int[] data, op, ret;
 
@@ -20,7 +31,9 @@ public class Main {
 		max = Integer.MIN_VALUE;
 		min = Integer.MAX_VALUE;
 		ret = new int[N - 1];
+		
 		solve(0);
+		
 		System.out.println(max);
 		System.out.println(min);
 	}
