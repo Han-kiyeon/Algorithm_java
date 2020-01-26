@@ -1,6 +1,19 @@
+package BOJ.BF;
+
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Silver2_6603_로또.java
+ *
+ * @Date : 2020. 1. 26.
+ * @작성자 : 한기연
+ * @메모리 : 16952 kb
+ * @실행시간 : 196 ms
+ **/
+
+public class Silver2_6603_로또 {
 	static int K;
 	static int[] S, data;
 	static boolean[] visit;
