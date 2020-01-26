@@ -29,7 +29,7 @@ JAVA Algorithm solution
 - [ ] [다음 순열](https://www.acmicpc.net/problem/10972)
 - [ ] [이전 순열](https://www.acmicpc.net/problem/10973)
 - [x] [모든 순열](https://www.acmicpc.net/problem/10974)
-- [ ] [차이를 최대로](https://www.acmicpc.net/problem/10819)
+- [x] [차이를 최대로](https://www.acmicpc.net/problem/10819)
 - [ ] [외판원 순회 2](https://www.acmicpc.net/problem/10971)
 - [ ] [로또](https://www.acmicpc.net/problem/6603)
 - [ ] [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
