@@ -1,5 +1,3 @@
-[TOC]
-
 # Algorithm_java
 
 JAVA Algorithm solution
@@ -44,7 +42,7 @@ JAVA Algorithm solution
 - [x] [암호 만들기](https://www.acmicpc.net/problem/1759)
 - [x] [부분수열의 합](https://www.acmicpc.net/problem/1182)
 - [ ] :star:[퇴사](https://www.acmicpc.net/problem/14501)
-- [ ] [연산자 끼워넣기 (2)](https://www.acmicpc.net/problem/15658)
+- [x] [연산자 끼워넣기 (2)](https://www.acmicpc.net/problem/15658)
 - [ ] [집합](https://www.acmicpc.net/problem/11723)
 
 #### 브루트 포스 (N과 M 연습)
