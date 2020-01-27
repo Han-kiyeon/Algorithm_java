@@ -1,6 +1,19 @@
+package BOJ.DP;
+
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DP
+ * @FileName : Silver1_9465_스티커.java
+ *
+ * @Date : 2020. 1. 27.
+ * @작성자 : 한기연
+ * @메모리 : 287096 kb
+ * @실행시간 : 1412 ms
+ **/
+
+public class Silver1_9465_스티커 {
 
 	static int T, n;
 	static int[][] data, dp;
