@@ -1,32 +1,53 @@
-import java.util.Scanner;
+class Solution {
+	static int len, ans;
+	static boolean[] visit;
+	static String[] input;
 
-public class Main {
+	public int solution(String[] A) {
+		input = A.clone();
+		len = A.length;
 
-	static int T, n;
-	static int[][] data, dp;
+		visit = new boolean[len];
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		T = sc.nextInt();
-		for (int tc = 0; tc < T; tc++) {
-
-			n = sc.nextInt();
-			data = new int[2][n + 1];
-			dp = new int[2][n + 1];
-
-			for (int i = 0; i < 2; i++) {
-				for (int j = 1; j <= n; j++) {
-					data[i][j] = sc.nextInt();
-				}
-			}
-			dp[0][1] = data[0][1];
-			dp[1][1] = data[1][1];
-
-			for (int i = 2; i <= n; i++) {
-				dp[0][i] = Math.max(dp[1][i - 1], dp[1][i - 2]) + data[0][i];
-				dp[1][i] = Math.max(dp[0][i - 1], dp[0][i - 2]) + data[1][i];
-			}
-			System.out.println(Math.max(dp[0][n], dp[1][n]));
+		ans = 0;
+		for (int i = 1; i <= len; i++) {
+			solve(i, 0, 0);
 		}
+
+		return ans;
+	}
+
+	private static void solve(int n, int idx, int depth) {
+		if (depth == n) {
+			check();
+			return;
+		}
+		for (int i = 0; i < len; i++) {
+			if (!visit[i]) {
+				visit[i] = true;
+				solve(n, i, depth + 1);
+				visit[i] = false;
+			}
+		}
+	}
+
+	private static void check() {
+		String str = "";
+		int[] alpabet = new int[26];
+		for (int i = 0; i < len; i++) {
+			if (visit[i])
+				str += input[i];
+		}
+		
+		for (int i = 0; i < str.length(); i++) {
+			alpabet[str.charAt(i) - 'a']++;
+		}
+
+		for (int i = 0; i < alpabet.length; i++) {
+			if (alpabet[i] > 1)
+				return;
+		}
+		if (ans < str.length())
+			ans = str.length();
 	}
 }
