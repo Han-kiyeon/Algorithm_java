@@ -1,7 +1,19 @@
+package BOJ.Graph;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.Graph
+ * @FileName : Gold5_13023_ABCDE.java
+ *
+ * @Date : 2020. 2. 3.
+ * @작성자 : 한기연
+ * @메모리 : 22684 kb
+ * @실행시간 : 436 ms
+ **/
+
+class Gold5_13023_ABCDE {
 	static int N, M, ans;
 	static ArrayList<Integer>[] graph;
 	static boolean[] visit;
