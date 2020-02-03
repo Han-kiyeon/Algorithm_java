@@ -11,8 +11,9 @@ import java.util.Scanner;
  * @작성자 : 한기연
  * @메모리 : 22684 kb
  * @실행시간 : 436 ms
+ *
+ * @Blog : https://herong.tistory.com/entry/BOJ-13023-ABCDE-Graph
  **/
-
 class Gold5_13023_ABCDE {
 	static int N, M, ans;
 	static ArrayList<Integer>[] graph;
