@@ -1,8 +1,23 @@
+package BOJ.Graph;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.Graph
+ * @FileName : Silver1_1206_DFS와BFS_ver2.java
+ *
+ * @Date : 2020. 2. 4.
+ * @작성자 : 한기연
+ * @메모리 : 39384 kb
+ * @실행시간 : 452 ms
+ *
+ * @Blog : __
+ **/
+
+public class Silver1_1206_DFS와BFS_ver2 {
 	static int N, M, V;
 	static int[][] graph;
 	static boolean[] visit;
