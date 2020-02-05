@@ -69,7 +69,7 @@ JAVA Algorithm solution
 - [ ] [단지번호붙이기](https://www.acmicpc.net/problem/2667)
 - [ ] [섬의 개수](https://www.acmicpc.net/problem/4963)
 - [ ] [미로 탐색](https://www.acmicpc.net/problem/2178)
-- [ ] [토마토](https://www.acmicpc.net/problem/7576)
+- [x] [토마토](https://www.acmicpc.net/problem/7576)
 - [ ] [숨바꼭질](https://www.acmicpc.net/problem/1697)
 - [ ] [이모티콘](https://www.acmicpc.net/problem/14226)
 - [ ] [숨바꼭질 3](https://www.acmicpc.net/problem/13549)

@@ -1,11 +1,23 @@
-
+package BOJ.DFS_BFS;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main{
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Silver1_7576_토마토_ver1.java
+ *
+ * @Date : 2019. 8. 16.
+ * @작성자 : 한기연
+ * @메모리 : 123040 kb
+ * @실행시간 : 568 ms
+ *
+ * @Blog : __
+ **/
+public class Silver1_7576_토마토_ver1{
 	// -------------------------//상, 하, 좌, 우
 	public static int[] maskI = { -1, 1, 0, 0 };
 	public static int[] maskJ = { 0, 0, -1, 1 };
