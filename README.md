@@ -210,7 +210,7 @@ JAVA Algorithm solution
 
 #### 다이나믹 프로그래밍
 
-- [ ] [퇴사 2](https://www.acmicpc.net/problem/15486)
+- [x] [퇴사 2](https://www.acmicpc.net/problem/15486)
 - [ ] [알약](https://www.acmicpc.net/problem/4811)
 - [ ] [ABC](https://www.acmicpc.net/problem/12969)
 - [ ] [출근 기록](https://www.acmicpc.net/problem/14238)

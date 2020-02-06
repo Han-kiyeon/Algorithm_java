@@ -1,6 +1,21 @@
+package BOJ.DP;
+
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DP
+ * @FileName : Silver2_15486_퇴사2.java
+ *
+ * @Date : 2020. 2. 6.
+ * @작성자 : 한기연
+ * @메모리 : 370112 kb
+ * @실행시간 : 2232 ms
+ *
+ * @Blog : __
+ **/
+
+public class Silver2_15486_퇴사2 {
 	public static void main(String[] z) {
 		Scanner s = new Scanner(System.in);
 		int N = s.nextInt();
