@@ -1,6 +1,19 @@
+package BOJ.BF;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Silver4_14501_퇴사.java
+ *
+ * @Date : 2020. 2. 6.
+ * @작성자 : 한기연
+ * @메모리 : 17516 kb
+ * @실행시간 : 140 ms
+ *
+ * @Blog : __
+ **/
+public class Silver4_14501_퇴사 {
 	static int N, ans;
 	static int[][] data;
 	static boolean[] visit;

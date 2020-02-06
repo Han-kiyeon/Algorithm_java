@@ -41,7 +41,7 @@ JAVA Algorithm solution
 - [x] :star:[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
 - [x] [암호 만들기](https://www.acmicpc.net/problem/1759)
 - [x] [부분수열의 합](https://www.acmicpc.net/problem/1182)
-- [ ] :star:[퇴사](https://www.acmicpc.net/problem/14501)
+- [x] :star:[퇴사](https://www.acmicpc.net/problem/14501)
 - [x] [연산자 끼워넣기 (2)](https://www.acmicpc.net/problem/15658)
 - [ ] [집합](https://www.acmicpc.net/problem/11723)
 
