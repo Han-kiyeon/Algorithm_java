@@ -113,7 +113,7 @@ JAVA Algorithm solution
 - [ ] [수 이어 쓰기 1](https://www.acmicpc.net/problem/1748)
 - [ ] [부등호](https://www.acmicpc.net/problem/2529)
 - [ ] [단어 수학](https://www.acmicpc.net/problem/1339)
-- [ ] :star:[스타트와 링크](https://www.acmicpc.net/problem/14889)
+- [x] :star:[스타트와 링크](https://www.acmicpc.net/problem/14889)
 - [ ] [맞춰봐](https://www.acmicpc.net/problem/1248)
 - [ ] [N-Queen](https://www.acmicpc.net/problem/9663)
 - [ ] [스도쿠](https://www.acmicpc.net/problem/2580)

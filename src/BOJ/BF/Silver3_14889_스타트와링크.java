@@ -1,6 +1,21 @@
+package BOJ.BF;
+
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Silver3_14889_스타트와링크.java
+ *
+ * @Date : 2020. 2. 7.
+ * @작성자 : 한기연
+ * @메모리 : 15556 kb
+ * @실행시간 : 328 ms
+ *
+ * @Blog : __
+ **/
+
+public class Silver3_14889_스타트와링크 {
 	static int N, half, ans;
 	static int[][] data;
 	static boolean[] visit;
@@ -40,13 +55,13 @@ public class Main {
 		int tmp1 = 0, tmp2 = 0;
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < N; j++) {
-				if (visit[i]==visit[j])
-				{
-					if(visit[i])
+				if (visit[i] == visit[j]) {
+					if (visit[i])
 						tmp1 += data[i][j];
-				else
-					tmp2 += data[i][j];
-			}}
+					else
+						tmp2 += data[i][j];
+				}
+			}
 		}
 		int rlt = Math.abs(tmp1 - tmp2);
 
