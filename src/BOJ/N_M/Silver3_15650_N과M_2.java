@@ -1,7 +1,22 @@
+package BOJ.N_M;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.N_M
+ * @FileName : Silver3_15650_N과M_2.java
+ *
+ * @Date : 2020. 2. 9.
+ * @작성자 : 한기연
+ * @메모리 : 14312 kb
+ * @실행시간 : 116 ms
+ *
+ * @Blog : __
+ **/
+
+public class Silver3_15650_N과M_2 {
 	static int N, M;
 	static int[] rlt;
 	static boolean[] visit;
