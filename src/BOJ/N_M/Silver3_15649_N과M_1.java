@@ -1,7 +1,21 @@
-import java.util.Arrays;
+package BOJ.N_M;
+
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.N_M
+ * @FileName : Silver3_15649_N과M_1.java
+ *
+ * @Date : 2020. 2. 9.
+ * @작성자 : 한기연
+ * @메모리 : 68804 kb
+ * @실행시간 : 908 ms
+ *
+ * @Blog : __
+ **/
+
+public class Silver3_15649_N과M_1 {
 	static int N, M;
 	static int[] rlt;
 	static boolean[] visit;
@@ -26,7 +40,7 @@ public class Main {
 		for (int i = 0; i < N; i++) {
 			if (!visit[i]) {
 				visit[i] = true;
-				rlt[depth] = i+1;
+				rlt[depth] = i + 1;
 				solve(depth + 1);
 				visit[i] = false;
 			}
