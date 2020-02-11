@@ -49,7 +49,7 @@ JAVA Algorithm solution
 
 - [x] [N과 M(1)](https://www.acmicpc.net/problem/15649)
 - [x] [N과 M(2)](https://www.acmicpc.net/problem/15650)
-- [ ] [N과 M(3)](https://www.acmicpc.net/problem/15651)
+- [x] [N과 M(3)](https://www.acmicpc.net/problem/15651) >>  JAVA 출력 시간초과......
 - [ ] [N과 M(4)](https://www.acmicpc.net/problem/15652)
 - [ ] [N과 M(5)](https://www.acmicpc.net/problem/15654)
 - [ ] [N과 M(6)](https://www.acmicpc.net/problem/15655)
