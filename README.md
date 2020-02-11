@@ -254,7 +254,7 @@ JAVA Algorithm solution
 #### 브루트 포스
 
 - [ ] :star:[파이프 옮기기 1](https://www.acmicpc.net/problem/17070)
-- [ ] [Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)
+- [x] [Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)
 - [ ] [인싸들의 가위바위보](https://www.acmicpc.net/problem/16986)
 - [ ] [계란으로 계란치기](https://www.acmicpc.net/problem/16987)
 - [ ] [Baaaaaaaaaduk2 (Easy)](https://www.acmicpc.net/problem/16988)

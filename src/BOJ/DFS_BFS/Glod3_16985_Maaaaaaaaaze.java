@@ -1,9 +1,23 @@
-import java.util.Arrays;
+package BOJ.DFS_BFS;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Glod3_16985_Maaaaaaaaaze.java
+ *
+ * @Date : 2020. 2. 11.
+ * @작성자 : 한기연
+ * @메모리 : 279664 kb
+ * @실행시간 : 1176 ms
+ *
+ * @Blog : __
+ **/
+
+public class Glod3_16985_Maaaaaaaaaze {
 	static int[][][][] map = new int[5][4][5][5];
 	static int[] solData = new int[5], goData = new int[5];
 	static boolean[] visit = new boolean[5];
@@ -42,7 +56,6 @@ public class Main {
 
 	private static void solve(int depth) {
 		if (depth == 5) {
-			// System.out.println(Arrays.toString(solData));
 			go(0); // 판의 순서를 결정
 			return;
 		}
@@ -54,7 +67,6 @@ public class Main {
 
 	private static void go(int depth) {
 		if (depth == 5) {
-			// System.out.println(Arrays.toString(goData));
 			calc();
 			return;
 		}
@@ -69,9 +81,6 @@ public class Main {
 	}
 
 	private static void calc() {
-		// System.out.println(Arrays.toString(goData));
-		// System.out.println(Arrays.toString(solData));
-		// System.out.println();
 		int[][][] copy = new int[5][5][5];
 		for (int k = 0; k < 5; k++) {
 			for (int i = 0; i < 5; i++) {
@@ -106,7 +115,6 @@ public class Main {
 				int ny = cur[1] + dy[dir];
 				int nx = cur[2] + dx[dir];
 				if (isRange(nz, ny, nx) && !visit[nz][ny][nx] && copy[nz][ny][nx] == 1) {
-					// System.out.println(nz + " " + ny + " " + nx +" " + (cur[3]+1));
 					q.offer(new int[] { nz, ny, nx, cur[3] + 1 });
 					visit[nz][ny][nx] = true;
 				}
