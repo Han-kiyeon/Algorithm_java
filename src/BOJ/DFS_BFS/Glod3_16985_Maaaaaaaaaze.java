@@ -14,7 +14,7 @@ import java.util.Scanner;
  * @메모리 : 279664 kb
  * @실행시간 : 1176 ms
  *
- * @Blog : __
+ * @Blog : https://herong.tistory.com/entry/BOJ-16985-Maaaaaaaaaze-GraphBFBFS
  **/
 
 public class Glod3_16985_Maaaaaaaaaze {
