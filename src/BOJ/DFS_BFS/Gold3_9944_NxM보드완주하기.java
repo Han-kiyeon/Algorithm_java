@@ -1,7 +1,19 @@
-
+package BOJ.DFS_BFS;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Gold3_9944_NxM보드완주하기.java
+ *
+ * @Date : 2020. 2. 13.
+ * @작성자 : 한기연
+ * @메모리 : 20148 kb
+ * @실행시간 : 356 ms
+ *
+ * @Blog : __
+ **/
+public class Gold3_9944_NxM보드완주하기 {
 	static int N, M, ans;
 	static int[][] map;
 	// 상 하 좌 우

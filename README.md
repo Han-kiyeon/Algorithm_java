@@ -234,7 +234,7 @@ JAVA Algorithm solution
 
 #### 추가 문제
 
-- [ ] [NxM 보드 완주하기](https://www.acmicpc.net/problem/9944)
+- [x] [NxM 보드 완주하기](https://www.acmicpc.net/problem/9944)
 - [ ] [수족관 1](https://www.acmicpc.net/problem/8982)
 - [ ] [스도미노쿠](https://www.acmicpc.net/problem/4574)
 - [ ] [욕심쟁이 판다](https://www.acmicpc.net/problem/1937)
