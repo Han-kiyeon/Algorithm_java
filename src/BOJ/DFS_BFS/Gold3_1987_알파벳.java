@@ -1,6 +1,20 @@
+package BOJ.DFS_BFS;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Gold3_1987_알파벳.java
+ *
+ * @Date : 2020. 2. 14.
+ * @작성자 : 한기연
+ * @메모리 : 15,140 kb
+ * @실행시간 : 940 ms
+ *
+ * @Blog : https://herong.tistory.com/entry/BOJ-1987-%EC%95%8C%ED%8C%8C%EB%B2%B3-BFS-Java
+ **/
+
+public class Gold3_1987_알파벳 {
 	static int R, C, ans;
 	static char[][] map;
 	static boolean[] visit = new boolean[26];
