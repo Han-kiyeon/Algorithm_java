@@ -6,16 +6,16 @@ import java.util.Scanner;
 /**
  * @Project : Algorithm_java
  * @PackageName: BOJ.BF
- * @FileName : Gold5_17660807_리모컨.java
+ * @FileName : Gold5_1107_리모컨.java
  *
  * @Date : 2020. 2. 13.
  * @작성자 : 한기연
  * @메모리 : 109160 kb
  * @실행시간 : 384	 ms
  *
- * @Blog : __
+ * @Blog : https://herong.tistory.com/entry/BOJ-1107-%EB%A6%AC%EB%AA%A8%EC%BB%A8-BF
  **/
-public class Gold5_17660807_리모컨 {
+public class Gold5_1107_리모컨 {
 	static boolean[] broken;
 
 	public static void main(String[] args) throws Exception {
