@@ -1,6 +1,21 @@
+package BOJ.BF;
+
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Silver5_2422_한윤정이이탈리아에가서아이스크림을사먹는데.java
+ *
+ * @Date : 2020. 2. 14.
+ * @작성자 : 한기연
+ * @메모리 : 34032 kb
+ * @실행시간 : 404 ms
+ *
+ * @Blog : __
+ **/
+
+public class Silver5_2422_한윤정이이탈리아에가서아이스크림을사먹는데 {
 	static int N, M, ans;
 	static boolean[][] graph;
 	static boolean[] visit;

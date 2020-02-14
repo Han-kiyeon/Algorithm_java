@@ -186,7 +186,7 @@ JAVA Algorithm solution
 - [ ] [테트리스](https://www.acmicpc.net/problem/3019)
 - [ ] [삼각형의 값](https://www.acmicpc.net/problem/4902)
 - [ ] [자와 각도기](https://www.acmicpc.net/problem/2916)
-- [ ] [한윤정이 이탈리아에 가서 아이스크림을 사먹는데](https://www.acmicpc.net/problem/2422)
+- [x] [한윤정이 이탈리아에 가서 아이스크림을 사먹는데](https://www.acmicpc.net/problem/2422)
 - [ ] [부분수열의 합](https://www.acmicpc.net/problem/14225)
 - [ ] [두 동전](https://www.acmicpc.net/problem/16197)
 - [ ] [에너지 모으기](https://www.acmicpc.net/problem/16198)
