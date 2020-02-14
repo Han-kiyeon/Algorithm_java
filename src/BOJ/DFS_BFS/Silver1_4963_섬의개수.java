@@ -13,7 +13,7 @@ import java.util.Scanner;
  * @메모리 : 32616 kb
  * @실행시간 : 312 ms
  *
- * @Blog : __
+ * @Blog : https://herong.tistory.com/entry/BOJ-4963-%EC%84%AC%EC%9D%98-%EA%B0%9C%EC%88%98-DFS-1
  **/
 
 public class Silver1_4963_섬의개수 {
