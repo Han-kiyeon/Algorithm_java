@@ -67,7 +67,7 @@ JAVA Algorithm solution
 - [ ] [연결 요소](https://www.acmicpc.net/problem/11724)
 - [ ] [이분 그래프](https://www.acmicpc.net/problem/1707)
 - [ ] [단지번호붙이기](https://www.acmicpc.net/problem/2667)
-- [ ] [섬의 개수](https://www.acmicpc.net/problem/4963)
+- [x] [섬의 개수](https://www.acmicpc.net/problem/4963)
 - [ ] [미로 탐색](https://www.acmicpc.net/problem/2178)
 - [x] [토마토](https://www.acmicpc.net/problem/7576)
 - [ ] [숨바꼭질](https://www.acmicpc.net/problem/1697)

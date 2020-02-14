@@ -1,15 +1,30 @@
+package BOJ.DFS_BFS;
+
 import java.io.FileInputStream;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Silver1_4963_섬의개수.java
+ *
+ * @Date : 2020. 2. 14.
+ * @작성자 : 한기연
+ * @메모리 : 32616 kb
+ * @실행시간 : 312 ms
+ *
+ * @Blog : __
+ **/
+
+public class Silver1_4963_섬의개수 {
 	static int W, H, ans;
 	static int[][] map;
-	// 상,하,좌,우, 좌상, 좌하, 우상,우하
+	// 상, 하, 좌, 우, 좌상, 좌하, 우상, 우하
 	static int[] dr = { -1, 1, 0, 0, -1, 1, -1, 1 };
 	static int[] dc = { 0, 0, -1, 1, -1, -1, 1, 1 };
 
 	public static void main(String[] args) throws Exception {
-		//System.setIn(new FileInputStream("res/input.txt"));
+		System.setIn(new FileInputStream("res/input.txt"));
 		Scanner sc = new Scanner(System.in);
 
 		while (true) {
@@ -31,7 +46,7 @@ public class Main {
 					if (map[i][j] == 1) {
 						DFS(i, j);
 						ans++;
-						
+
 					}
 				}
 			}
