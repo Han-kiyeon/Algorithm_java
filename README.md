@@ -335,7 +335,7 @@ JAVA Algorithm solution
 ---
 
 
-#### 1200 - 그래프 2
+#### 1200 - 그래프 2
 
 - [ ] [줄 세우기](https://www.acmicpc.net/problem/2252)
 - [ ] [문제집](https://www.acmicpc.net/problem/1766)
