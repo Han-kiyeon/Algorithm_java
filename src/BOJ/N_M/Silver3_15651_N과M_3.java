@@ -1,6 +1,21 @@
+package BOJ.N_M;
+
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.N_M
+ * @FileName : Silver3_15651_N과M_3.java
+ *
+ * @Date : 2020. 2. 16.
+ * @작성자 : 한기연
+ * @메모리 : 373,692 kb
+ * @실행시간 : 696 ms
+ *
+ * @Blog : __
+ **/
+
+public class Silver3_15651_N과M_3 {
 	static int N, M;
 	static int[] rlt;
 	static StringBuilder sb = new StringBuilder();
