@@ -43,7 +43,7 @@ JAVA Algorithm solution
 - [x] [부분수열의 합](https://www.acmicpc.net/problem/1182)
 - [x] :star:[퇴사](https://www.acmicpc.net/problem/14501)
 - [x] [연산자 끼워넣기 (2)](https://www.acmicpc.net/problem/15658)
-- [ ] [집합](https://www.acmicpc.net/problem/11723)
+- [x] [집합](https://www.acmicpc.net/problem/11723)
 
 #### 브루트 포스 (N과 M 연습)
 

@@ -1,7 +1,21 @@
+package BOJ.BF;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Silver5_11723_집합.java
+ *
+ * @Date : 2020. 2. 16.
+ * @작성자 : 한기연
+ * @메모리 : 389,056 kb
+ * @실행시간 : 3,632 ms
+ *
+ * @Blog : __
+ **/
+
+public class Silver5_11723_집합 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		StringBuilder ans = new StringBuilder();
