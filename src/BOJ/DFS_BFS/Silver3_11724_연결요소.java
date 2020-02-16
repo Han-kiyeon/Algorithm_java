@@ -1,8 +1,22 @@
+package BOJ.DFS_BFS;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Silver3_11724_연결요소.java
+ *
+ * @Date : 2020. 2. 16.
+ * @작성자 : 한기연
+ * @메모리 : 283,972 kb
+ * @실행시간 : 1,352 ms
+ *
+ * @Blog : __
+ **/
+public class Silver3_11724_연결요소 {
 	static int N, M, ans;
 	static boolean[][] graph;
 	static boolean[] visit;
