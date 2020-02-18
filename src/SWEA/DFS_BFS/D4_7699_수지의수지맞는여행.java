@@ -1,6 +1,21 @@
+package SWEA.DFS_BFS;
+
 import java.util.Scanner;
 
-class Solution {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA.DFS_BFS
+ * @FileName : D4_7699_수지의수지맞는여행.java
+ *
+ * @Date : 2020. 2. 18.
+ * @작성자 : 한기연
+ * @메모리 : 24,648 kb
+ * @실행시간 : 2,068 ms
+ *
+ * @Blog : __
+ **/
+
+class D4_7699_수지의수지맞는여행 {
 	static int T, R, C, ans;
 	static char[][] map;
 	static boolean[] visit;
