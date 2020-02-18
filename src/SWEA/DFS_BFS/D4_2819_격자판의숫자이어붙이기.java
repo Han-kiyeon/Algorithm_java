@@ -52,16 +52,16 @@ class D4_2819_격자판의숫자이어붙이기 {
 			return;
 		}
 		for (int dir = 0; dir < dc.length; dir++) {
-			int n = i + dr[dir];
-			int r = j + dc[dir];
-			if (isRange(n, r)) {
-				DFS(n, r, depth + 1, str + map[n][r]);
+			int r = i + dr[dir];
+			int c = j + dc[dir];
+			if (isRange(r, c)) {
+				DFS(r, c, depth + 1, str + map[r][c]);
 			}
 		}
 	}
 
-	private static boolean isRange(int n, int r) {
-		if (0 <= n && n < 4 && 0 <= r && r < 4)
+	private static boolean isRange(int r, int c) {
+		if (0 <= r && r < 4 && 0 <= c && c < 4)
 			return true;
 		return false;
 	}
