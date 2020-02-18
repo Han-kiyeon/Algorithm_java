@@ -1,7 +1,21 @@
+package SWEA.DFS_BFS;
 import java.util.HashSet;
 import java.util.Scanner;
 
-class Solution {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA.DFS_BFS
+ * @FileName : D4_2819_격자판의숫자이어붙이기.java
+ *
+ * @Date : 2020. 2. 18.
+ * @작성자 : 한기연
+ * @메모리 : 57,648 kb
+ * @실행시간 : 224 ms
+ *
+ * @Blog : __
+ **/
+
+class D4_2819_격자판의숫자이어붙이기 {
 	static int T, N;
 	static HashSet<String> set;
 	static int[][] map;
