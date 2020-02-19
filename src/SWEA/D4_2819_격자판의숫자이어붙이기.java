@@ -1,10 +1,10 @@
-package SWEA.DFS_BFS;
+package SWEA;
 import java.util.HashSet;
 import java.util.Scanner;
 
 /**
  * @Project : Algorithm_java
- * @PackageName: SWEA.DFS_BFS
+ * @PackageName: SWEA
  * @FileName : D4_2819_격자판의숫자이어붙이기.java
  *
  * @Date : 2020. 2. 18.

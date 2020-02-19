@@ -1,10 +1,10 @@
-package SWEA.DFS_BFS;
+package SWEA;
 
 import java.util.Scanner;
 
 /**
  * @Project : Algorithm_java
- * @PackageName: SWEA.DFS_BFS
+ * @PackageName: SWEA
  * @FileName : D4_7699_수지의수지맞는여행.java
  *
  * @Date : 2020. 2. 18.

@@ -1,6 +1,22 @@
+package SWEA;
+
 import java.util.Scanner;
 
-public class Solution {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA
+ * @FileName : SW문제해결기본_2일차_D3_1209_Sum.java
+ *
+ * @Date : 2020. 01. 09.
+ * @작성자 : 한기연
+ * @메모리 : 96,804 kb
+ * @실행시간 : 328 ms
+ *
+ * @Blog : __
+ **/
+
+public class SW문제해결기본_2일차_D3_1209_Sum {
+
 	public static void main(String args[]) throws Exception {
 		Scanner s = new Scanner(System.in);
 
