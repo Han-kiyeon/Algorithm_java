@@ -1,7 +1,22 @@
+package BOJ.DFS_BFS;
+
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Gold5_1261_알고스팟.java
+ *
+ * @Date : 2020. 2. 19.
+ * @작성자 : 한기연
+ * @메모리 : 24700 kb
+ * @실행시간 : 352 ms
+ *
+ * @Blog : __
+ **/
+
+public class Gold5_1261_알고스팟 {
 
 	static int N, M, ans;
 	static boolean[][] map, visit;
