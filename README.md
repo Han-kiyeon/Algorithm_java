@@ -73,7 +73,7 @@ JAVA Algorithm solution
 - [ ] [숨바꼭질](https://www.acmicpc.net/problem/1697)
 - [ ] [이모티콘](https://www.acmicpc.net/problem/14226)
 - [ ] [숨바꼭질 3](https://www.acmicpc.net/problem/13549)
-- [ ] [알고스팟](https://www.acmicpc.net/problem/1261)
+- [x] [알고스팟](https://www.acmicpc.net/problem/1261)
 - [ ] [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)
 - [ ] [탈출](https://www.acmicpc.net/problem/3055)
 
