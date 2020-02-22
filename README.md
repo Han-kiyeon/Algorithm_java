@@ -131,7 +131,7 @@ JAVA Algorithm solution
 
 #### BFS
 
-- [ ] [숨바꼭질 4](https://www.acmicpc.net/problem/13913)
+- [x] [숨바꼭질 4](https://www.acmicpc.net/problem/13913)
 - [ ] [DSLR](https://www.acmicpc.net/problem/9019)
 - [ ] [퍼즐](https://www.acmicpc.net/problem/1525)
 - [ ] [물통](https://www.acmicpc.net/problem/2251)
