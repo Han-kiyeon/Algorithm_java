@@ -170,7 +170,7 @@ JAVA Algorithm solution
 - [ ] :star:[경사로](https://www.acmicpc.net/problem/14890)
 - [ ] :star:[뱀](https://www.acmicpc.net/problem/3190)
 - [ ] :star:[드래곤 커브](https://www.acmicpc.net/problem/15685)
-- [x] [미네랄](https://www.acmicpc.net/problem/2933)
+- [x] [미네랄](https://www.acmicpc.net/problem/2933)   >> 다시풀어보기
 - [ ] [iSharp](https://www.acmicpc.net/problem/3568)
 - [ ] [LCD Test](https://www.acmicpc.net/problem/2290)
 
