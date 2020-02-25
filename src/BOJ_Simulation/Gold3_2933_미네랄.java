@@ -1,9 +1,22 @@
+package BOJ_Simulation;
 import java.io.FileInputStream;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ_Simulation
+ * @FileName : Gold3_2933_미네랄.java
+ *
+ * @Date : 2020. 2. 25.
+ * @작성자 : 한기연
+ * @메모리 : 54368 kb
+ * @실행시간 : 468 ms
+ *
+ * @Blog : __
+ **/
+public class Gold3_2933_미네랄 {
 	static int R, C, cnt;
 	static char[][] map;
 	static int[][] visit;
