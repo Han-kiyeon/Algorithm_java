@@ -1,25 +1,25 @@
-package com.d4;
+package SWEA;
 
 import java.io.FileInputStream;
 import java.util.Scanner;
 
 /**
  * @Project : Algorithm_java
- * @PackageName: com.d4
- * @FileName : SW문제해결기본_D4_1226_미로1.java
+ * @PackageName: SWEA
+ * @FileName : SW문제해결기본_7일차_D4_1227_미로2.java
  *
  * @Date : 2019. 8. 4.
  * @작성자 : 한기연
- * @메모리 : 24,664 kb
- * @실행시간 : 141 ms
+ * @메모리 : 37,892 kb
+ * @실행시간 : 163 ms
  *
  * @Blog : __
  **/
-public class SW문제해결기본_D4_1226_미로1 {
+public class SW문제해결기본_7일차_D4_1227_미로2 {
 
 	static int map[][];
 	static boolean visit[][];
-	static int N = 16; // mapSize
+	static int N = 100; // mapSize
 	static int sy, sx, answer;
 	// ------------------상, 하, 좌, 우
 	static int[] dy = { -1, 1, 0, 0 };
@@ -48,7 +48,7 @@ public class SW문제해결기본_D4_1226_미로1 {
 	}
 
 	public static void main(String[] args) throws Exception {
-		System.setIn(new FileInputStream("res/D4_1226_미로1.txt"));
+		System.setIn(new FileInputStream("res/1227_D4_미로2.txt"));
 		Scanner sc = new Scanner(System.in);
 
 		int T = 10; // 테스트 케이스
