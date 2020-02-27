@@ -1,9 +1,23 @@
+package BOJ.DFS_BFS;
+
 import java.io.FileInputStream;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Silver1_2178_미로탐색.java
+ *
+ * @Date : 2020. 2. 27.
+ * @작성자 : 한기연
+ * @메모리 : 19064 kb
+ * @실행시간 : 152 ms
+ *
+ * @Blog : __
+ **/
+public class Silver1_2178_미로탐색 {
 	static int N, M;
 	static int[] dr = { -1, 1, 0, 0 };
 	static int[] dc = { 0, 0, -1, 1 };
