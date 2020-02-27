@@ -1,49 +1,40 @@
-import java.io.FileInputStream;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
-	static int N, M;
-	static int[] dr = { -1, 1, 0, 0 };
-	static int[] dc = { 0, 0, -1, 1 };
-
-	public static void main(String[] args) throws Exception {
-		System.setIn(new FileInputStream("res/input.txt"));
+	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		N = sc.nextInt();
-		M = sc.nextInt();
-
-		char[][] maze = new char[N][M];
-		for (int i = 0; i < N; i++) {
-			String str = sc.next();
-			for (int j = 0; j < M; j++) {
-				maze[i][j] = str.charAt(j);
-			}
-		}
-		int[][] visit = new int[N][M];
+		int S = sc.nextInt();
+		boolean visit[][] = new boolean[S + 1][S + 1];
 		Queue<int[]> q = new LinkedList<>();
-		q.offer(new int[] { 0, 0 });
-		visit[0][0] = 1;
+		q.add(new int[] { 1, 0, 0 });
+		visit[1][0] = true;
 
 		while (!q.isEmpty()) {
-			int[] cur = q.poll();
-
-			for (int dir = 0; dir < dr.length; dir++) {
-				int r = cur[0] + dr[dir];
-				int c = cur[1] + dc[dir];
-				if (isRange(r, c) && visit[r][c] == 0 && maze[r][c] == '1') {
-					q.offer(new int[] { r, c });
-					visit[r][c] = visit[cur[0]][cur[1]] + 1;
-				}
+			int[] now = q.poll();
+			if (now[0] == S) {
+				System.out.println(now[2]);
+				return;
+			}
+			// 복사
+			int next = now[0];
+			if (!visit[next][now[0]]) {
+				visit[next][now[0]] = true;
+				q.add(new int[] { next, now[0], now[2] + 1 });
+			}
+			// 붙여넣기
+			next = now[0] + now[1];
+			if (next <= S && !visit[next][now[1]]) {
+				visit[next][now[1]] = true;
+				q.add(new int[] { next, now[1], now[2] + 1 });
+			}
+			// 지우기
+			next = now[0] - 1;
+			if (next > 0 && !visit[next][now[1]]) {
+				visit[next][now[1]] = true;
+				q.add(new int[] { next, now[1], now[2] + 1 });
 			}
 		}
-		System.out.println(visit[N - 1][M - 1]);
-	}
-
-	private static boolean isRange(int r, int c) {
-		if (0 <= r && r < N && 0 <= c && c < M)
-			return true;
-		return false;
 	}
 }
