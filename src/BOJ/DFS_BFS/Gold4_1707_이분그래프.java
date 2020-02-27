@@ -1,9 +1,24 @@
+package BOJ.DFS_BFS;
+
 import java.io.FileInputStream;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Gold4_1707_이분그래프.java
+ *
+ * @Date : 2020. 2. 27.
+ * @작성자 : 한기연
+ * @메모리 : 314196 kb
+ * @실행시간 : 2804 ms
+ *
+ * @Blog : __
+ **/
+
+public class Gold4_1707_이분그래프 {
 	public static void main(String[] args) throws Exception {
 		System.setIn(new FileInputStream("res/input.txt"));
 		Scanner sc = new Scanner(System.in);
