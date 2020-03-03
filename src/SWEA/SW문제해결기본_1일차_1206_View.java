@@ -1,12 +1,22 @@
-package com.d3;
+package SWEA;
 
 import java.util.*;
 import java.io.*;
 
-public class Solution_D3_1206_View_한기연 {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA
+ * @FileName : SW문제해결기본_1일차_1206_View.java
+ *
+ * @Date : 2019. 8. 26.
+ * @작성자 : 한기연
+ * @메모리 : 54,536 kb
+ * @실행시간 : 223 ms
+ *
+ * @Blog : __
+ **/
+public class SW문제해결기본_1일차_1206_View {
 	public static void main(String args[]) throws Exception {
-
-		System.setIn(new FileInputStream("res/1206_D3_View.txt"));
 		Scanner s = new Scanner(System.in);
 
 		for (int tc = 0; tc < 10; tc++) {

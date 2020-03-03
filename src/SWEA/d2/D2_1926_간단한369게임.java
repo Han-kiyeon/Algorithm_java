@@ -1,9 +1,9 @@
-package com.d2;
+package SWEA.d2;
 
 import java.io.*;
 import java.util.*;
 
-public class Solution_D2_1926_간단한369게임 {
+public class D2_1926_간단한369게임 {
 
 	public static void main(String[] args) throws Exception {
 		System.setIn(new FileInputStream("res/D2_1926_간단한369게임.txt"));

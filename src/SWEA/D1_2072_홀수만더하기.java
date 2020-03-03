@@ -1,12 +1,25 @@
-package com.d1;
+package SWEA;
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
-public class Solution_D1_2071_평균값구하기 {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA
+ * @FileName : D1_2072_홀수만더하기.java
+ *
+ * @Date : 2019. 8. 20.
+ * @작성자 : 한기연
+ * @메모리 : 18,972 kb
+ * @실행시간 : 113 ms
+ *
+ * @Blog : __
+ **/
+public class D1_2072_홀수만더하기 {
 
 	public static void main(String[] args) throws Exception {
-		System.setIn(new FileInputStream("res/D1_2072_홀수만더하기.txt"));
+		// System.setIn(new FileInputStream("res/D1_2072_홀수만더하기.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int T = Integer.parseInt(br.readLine());

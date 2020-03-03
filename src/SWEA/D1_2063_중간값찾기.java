@@ -1,9 +1,21 @@
-package SWEA.d1;
+package SWEA;
 
 import java.io.*;
 import java.util.*;
 
-public class Solution_D1_2063_중간값찾기 {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA
+ * @FileName : D1_2063_중간값찾기.java
+ *
+ * @Date : 2019. 7. 15.
+ * @작성자 : 한기연
+ * @메모리 : 20,780 kb
+ * @실행시간 : 153 ms
+ *
+ * @Blog : __
+ **/
+public class D1_2063_중간값찾기 {
 
 	public static void main(String[] args) throws Exception {
 		System.setIn(new FileInputStream("res/D1_2063_중간값찾기.txt"));
