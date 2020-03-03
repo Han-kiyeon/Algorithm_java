@@ -1,10 +1,21 @@
-package com.d4;
+package SWEA;
 
-import java.util.*;
-import java.io.*;
+import java.io.FileInputStream;
+import java.util.Scanner;
 
-
-public class Solution_D4_1211_Ladder2_한기연{
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA
+ * @FileName : SW문제해결기본_1일차_D4_1211_Ladder2.java
+ *
+ * @Date : 2020. 7. 18.
+ * @작성자 : 한기연
+ * @메모리 : 114,200 kb
+ * @실행시간 : 290 ms
+ *
+ * @Blog : __
+ **/
+public class SW문제해결기본_1일차_D4_1211_Ladder2 {
 
 	static int[][] matrix = new int[100][100];
 
@@ -28,9 +39,7 @@ public class Solution_D4_1211_Ladder2_한기연{
 				if (matrix[99][j] == 1) {
 					I = 99;
 					J = j;
-					
-					
-					
+
 					int cnt = 0;
 					while (I != 0) {
 						if (J != 0 && (matrix[I][J - 1] == 1)) {// 왼쪽이면
@@ -52,12 +61,11 @@ public class Solution_D4_1211_Ladder2_한기연{
 							cnt++;
 						}
 					}
-					
-					
-					if(cnt<min) {
+
+					if (cnt < min) {
 						min = cnt;
-						idx=J;
-						
+						idx = J;
+
 					}
 				}
 			System.out.println("#" + tc + " " + idx);

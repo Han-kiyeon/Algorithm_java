@@ -6,7 +6,7 @@ import java.io.*;
 /**
  * @Project : Algorithm_java
  * @PackageName: SWEA
- * @FileName : SW문제해결기본_1일차_1206_View.java
+ * @FileName : SW문제해결기본_1일차_D3_1206_View.java
  *
  * @Date : 2019. 8. 26.
  * @작성자 : 한기연
@@ -15,7 +15,7 @@ import java.io.*;
  *
  * @Blog : __
  **/
-public class SW문제해결기본_1일차_1206_View {
+public class SW문제해결기본_1일차_D3_1206_View {
 	public static void main(String args[]) throws Exception {
 		Scanner s = new Scanner(System.in);
 

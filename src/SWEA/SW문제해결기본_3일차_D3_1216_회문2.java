@@ -1,16 +1,27 @@
-package com.d3;
+package SWEA;
 
-import java.io.*;
-import java.util.*;
+import java.io.FileInputStream;
+import java.util.Scanner;
 
-public class Solution_D3_1215_회문1_한기연 {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA
+ * @FileName : SW문제해결기본_3일차_D3_1216_회문2.java
+ *
+ * @Date : 2019. 7. 23.
+ * @작성자 : 한기연
+ * @메모리 : 41,540 kb
+ * @실행시간 : 264 ms
+ *
+ * @Blog : __
+ **/
+public class SW문제해결기본_3일차_D3_1216_회문2 {
 
-	public static int solve(int a, char[][] matrix) {
-		int cnt = 0;
+	public static char[][] matrix = new char[100][100];
 
+	public static boolean solve(int a) {
 		int head, tail;
 
-		
 		for (int i = 0; i < matrix.length; i++) {
 			for (int j = 0; j <= matrix[i].length - a; j++) {
 				// 가로 탐색
@@ -24,62 +35,56 @@ public class Solution_D3_1215_회문1_한기연 {
 						break;
 				}
 				if (head > tail) {
-					cnt++;
-					//System.out.print("[" + i + "][" + j + "]>");
-					//for (int k = 0; k < a; k++)
-					//	System.out.print(matrix[i][j + k]);
-					//System.out.println();
+					return true;
 				}
 			}
 		}
-		
-		for (int i = 0; i <= matrix.length-a; i++) {
+
+		for (int i = 0; i <= matrix.length - a; i++) {
 			for (int j = 0; j < matrix[i].length; j++) {
 				// 가로 탐색
 				head = 0;
 				tail = a - 1;
 				while (head <= tail) {
-					if (matrix[i+head][j] == matrix[i+tail][j]) {
+					if (matrix[i + head][j] == matrix[i + tail][j]) {
 						head++;
 						tail--;
 					} else
 						break;
 				}
 				if (head > tail) {
-					cnt++;
-//					System.out.print("[" + i + "][" + j + "]^");
-//					for (int k = 0; k < a; k++)
-//						System.out.print(matrix[i + k][j]);
-//					System.out.println();
+					return true;
 				}
 			}
 		}
 
-		return cnt;
+		return false;
 	}
 
 	public static void main(String[] args) throws Exception {
-		System.setIn(new FileInputStream("res/1215_D3_회문1.txt"));
+		System.setIn(new FileInputStream("res/1216_D3_회문2.txt"));
 		Scanner s = new Scanner(System.in);
 
 		int T = 10;
-		char[][] matrix = new char[8][8];
-		int a;
+
 		for (int tc = 1; tc <= T; tc++) {
 
-			a = s.nextInt();
+			s.nextInt();
 
-			for (int i = 0; i < 8; i++) {
+			for (int i = 0; i < 100; i++) {
 				char[] row = s.next().toCharArray();
-				for (int j = 0; j < 8; j++) {
+				for (int j = 0; j < 100; j++) {
 					matrix[i][j] = row[j];
 				}
 			}
-			
+
 //			for(char[] b :matrix)
 //				System.out.println(Arrays.toString(b));
 
-			int ans = solve(a, matrix);
+			int ans = -1;
+			for (int i = 1; i <= 100; i++)
+				if (solve(i))
+					ans = i;
 
 			System.out.println("#" + tc + " " + ans);
 		}
@@ -87,7 +92,3 @@ public class Solution_D3_1215_회문1_한기연 {
 		s.close(); // Scanner close
 	}
 }
-
-/*
- * #1 12 #2 10 #3 31 #4 11 #5 1 #6 43 #7 2 #8 11 #9 34 #10 8
- */

@@ -1,13 +1,25 @@
-package com.d3;
+package SWEA;
 
-import java.io.*;
-import java.util.*;
+import java.io.FileInputStream;
+import java.util.Scanner;
 
-public class Solution_D3_1216_회문2_한기연 {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA
+ * @FileName : SW문제해결기본_3일차_D3_1215_회문1.java
+ *
+ * @Date : 2019. 7. 23.
+ * @작성자 : 한기연
+ * @메모리 : 27,096 kb
+ * @실행시간 : 146 ms
+ *
+ * @Blog : __
+ **/
+public class SW문제해결기본_3일차_D3_1215_회문1 {
 
-	public static char[][] matrix = new char[100][100];
+	public static int solve(int a, char[][] matrix) {
+		int cnt = 0;
 
-	public static boolean solve(int a) {
 		int head, tail;
 
 		for (int i = 0; i < matrix.length; i++) {
@@ -23,7 +35,7 @@ public class Solution_D3_1216_회문2_한기연 {
 						break;
 				}
 				if (head > tail) {
-					return true;
+					cnt++;
 				}
 			}
 		}
@@ -41,39 +53,33 @@ public class Solution_D3_1216_회문2_한기연 {
 						break;
 				}
 				if (head > tail) {
-					return true;
+					cnt++;
 				}
 			}
 		}
 
-		return false;
+		return cnt;
 	}
 
 	public static void main(String[] args) throws Exception {
-		System.setIn(new FileInputStream("res/1216_D3_회문2.txt"));
+		System.setIn(new FileInputStream("res/1215_D3_회문1.txt"));
 		Scanner s = new Scanner(System.in);
 
 		int T = 10;
-
-
+		char[][] matrix = new char[8][8];
+		int a;
 		for (int tc = 1; tc <= T; tc++) {
 
-			s.nextInt();
+			a = s.nextInt();
 
-			for (int i = 0; i < 100; i++) {
+			for (int i = 0; i < 8; i++) {
 				char[] row = s.next().toCharArray();
-				for (int j = 0; j < 100; j++) {
+				for (int j = 0; j < 8; j++) {
 					matrix[i][j] = row[j];
 				}
 			}
 
-//			for(char[] b :matrix)
-//				System.out.println(Arrays.toString(b));
-
-			int ans = -1;
-			for (int i = 1; i <= 100; i++)
-				if (solve(i))
-					ans = i;
+			int ans = solve(a, matrix);
 
 			System.out.println("#" + tc + " " + ans);
 		}

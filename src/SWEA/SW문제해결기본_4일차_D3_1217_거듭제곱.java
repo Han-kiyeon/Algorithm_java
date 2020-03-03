@@ -1,16 +1,28 @@
-package com.d4;
+package SWEA;
 
 import java.io.FileInputStream;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Solution_D4_1218_괄호짝짓기_한기연_ver2 {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA
+ * @FileName : SW문제해결기본_4일차_D3_1217_거듭제곱.java
+ *
+ * @Date : 2020. 7. 29.
+ * @작성자 : 한기연
+ * @메모리 : 26,484 kb
+ * @실행시간 : 143 ms
+ *
+ * @Blog : __
+ **/
+public class SW문제해결기본_4일차_D3_1217_거듭제곱 {
 
 	public static int N;
 	public static char[] tcArr;
 
 	public static void main(String[] args) throws Exception {
-		System.setIn(new FileInputStream("res/1218_D4_괄호짝짓기.txt"));
+		// System.setIn(new FileInputStream("res/1218_D4_괄호짝짓기.txt"));
 		Scanner s = new Scanner(System.in);
 		int T = 10; // 테스트 케이스의 개수
 
@@ -45,6 +57,5 @@ public class Solution_D4_1218_괄호짝짓기_한기연_ver2 {
 			System.out.println("#" + tc + " " + result);
 
 		}
-		s.close();
 	}
 }
