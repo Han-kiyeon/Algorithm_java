@@ -71,7 +71,7 @@ JAVA Algorithm solution
 - [x] [미로 탐색](https://www.acmicpc.net/problem/2178)
 - [x] [토마토](https://www.acmicpc.net/problem/7576)
 - [x] [숨바꼭질](https://www.acmicpc.net/problem/1697)
-- [ ] [이모티콘](https://www.acmicpc.net/problem/14226) >> 어려워....
+- [x] [이모티콘](https://www.acmicpc.net/problem/14226) >> 어려워....
 - [ ] [숨바꼭질 3](https://www.acmicpc.net/problem/13549)
 - [x] [알고스팟](https://www.acmicpc.net/problem/1261)
 - [ ] [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)
