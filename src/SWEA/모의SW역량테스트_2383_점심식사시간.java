@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * @Project : Algorithm_java
  * @PackageName: SWEA
- * @FileName : dsf.java
+ * @FileName : 모의SW역량테스트_2383_점심식사시간.java
  *
  * @Date : 2019. 11. 15.
  * @작성자 : 한기연

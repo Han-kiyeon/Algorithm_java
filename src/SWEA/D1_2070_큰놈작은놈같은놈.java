@@ -1,9 +1,20 @@
-package com.d1;
-
+package SWEA;
 import java.io.*;
 import java.util.*;
 
-public class Solution_D1_2070_큰놈작은놈같은놈 {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA
+ * @FileName : D1_2070_큰놈작은놈같은놈.java
+ *
+ * @Date : 2019. 8. 20.
+ * @작성자 : 한기연
+ * @메모리 : 17,232 kb
+ * @실행시간 : 115 ms
+ *
+ * @Blog : __
+ **/
+public class D1_2070_큰놈작은놈같은놈 {
 
 	public static void main(String[] args) throws Exception {
 		System.setIn(new FileInputStream("res/D1_2070_큰놈작은놈같은놈.txt"));

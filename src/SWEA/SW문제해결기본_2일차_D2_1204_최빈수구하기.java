@@ -1,7 +1,6 @@
 package SWEA;
 
 import java.util.Scanner;
-import java.io.FileInputStream;
 
 /**
  * @Project : Algorithm_java

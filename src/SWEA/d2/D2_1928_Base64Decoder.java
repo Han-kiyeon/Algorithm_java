@@ -1,9 +1,9 @@
-package com.d2;
+package SWEA.d2;
 
 import java.io.*;
 import java.util.*;
 
-public class Solution_D2_1928_Base64Decoder {
+public class D2_1928_Base64Decoder {
 
 	public static void main(String[] args) throws Exception {
 		System.setIn(new FileInputStream("res/D2_1928_Base64Decoder.txt"));

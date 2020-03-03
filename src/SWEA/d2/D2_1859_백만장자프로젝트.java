@@ -1,9 +1,9 @@
-package com.d2;
+package SWEA.d2;
 
 import java.io.*;
 import java.util.*;
 
-public class Solution_D2_1859_백만장자프로젝트 {
+public class D2_1859_백만장자프로젝트 {
 	 public static void main(String[] args) throws Exception{
 			System.setIn(new FileInputStream("res/D2_1859_백만장자프로젝트.txt"));
        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -1,9 +1,9 @@
-package com.d2;
+package SWEA.d2;
 
 import java.io.*;
 import java.util.*;
 
-public class Solution_D2_1954_달팽이숫자 {
+public class D2_1954_달팽이숫자 {
 
 	public static int N;
 
