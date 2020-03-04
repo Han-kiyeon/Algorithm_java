@@ -1,9 +1,23 @@
+package SWEA;
+
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Solution {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA
+ * @FileName : D4_7988_내전경기.java
+ *
+ * @Date : 2020. 3. 4.
+ * @작성자 : 한기연
+ * @메모리 : 68,456 kb
+ * @실행시간 : 215 ms
+ *
+ * @Blog : __
+ **/
+public class D4_7988_내전경기 {
 	static int K, count;
 	static int[][] map;
 	static HashMap<String, Integer> player;
@@ -36,8 +50,8 @@ public class Solution {
 			team = new int[count];
 			ans = true;
 			for (int i = 0; i < count; i++) {
-				if (team[i] == 0) { //팀 미정
-					team[i] = 1; //일단 1번팀으로.
+				if (team[i] == 0) { // 팀 미정
+					team[i] = 1; // 일단 1번팀으로.
 					bfs(i);
 				}
 				if (!ans)
@@ -55,7 +69,7 @@ public class Solution {
 		while (!queue.isEmpty()) {
 			int cur = queue.poll();
 			for (int i = 0; i < count; i++) {
-				if (map[cur][i] == 1) { //시너지 
+				if (map[cur][i] == 1) { // 시너지
 					if (team[i] != 0 && team[i] == team[cur]) {
 						ans = false;
 						return;
