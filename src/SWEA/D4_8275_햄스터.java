@@ -1,6 +1,20 @@
+package SWEA;
+
 import java.util.Scanner;
 
-public class Solution {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA
+ * @FileName : D4_8275_햄스터.java
+ *
+ * @Date : 2020. 3. 4.
+ * @작성자 : 한기연
+ * @메모리 : 34,304 kb
+ * @실행시간 : 697 ms
+ *
+ * @Blog : __
+ **/
+public class D4_8275_햄스터 {
 	static int[] cage;
 	static int N, X, M;
 	static int[][] input;
