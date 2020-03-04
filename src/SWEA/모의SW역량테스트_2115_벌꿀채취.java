@@ -16,6 +16,7 @@ import java.util.StringTokenizer;
  *
  * @Blog : __
  **/
+
 public class 모의SW역량테스트_2115_벌꿀채취 {
 	static int N, M, C; // N : 벌통크기, M : 연속된 벌통수, C: 채취량
 	static int[][] map, maxMap; // map : 입력된 벌통정도, maxMap : i,j 위치에서 가질 수 있는 최대 이익
