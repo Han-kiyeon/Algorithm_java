@@ -1,6 +1,21 @@
+package SWEA;
+
 import java.util.Scanner;
 
-public class Solution {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA
+ * @FileName : D3_2814_최장경로.java
+ *
+ * @Date : 2020. 3. 4.
+ * @작성자 : 한기연
+ * @메모리 : 38,140 kb
+ * @실행시간 : 164 ms
+ *
+ * @Blog : __
+ **/
+
+public class D3_2814_최장경로 {
 	static int N, M;
 	static boolean[] visited;
 	static boolean[][] graph;
