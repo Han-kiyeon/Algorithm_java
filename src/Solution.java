@@ -1,43 +1,58 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Solution {
-	static int N, M;
-	static boolean[] visited;
-	static boolean[][] graph;
-	static int ans = 0;
 
-	public static void main(String[] args) {
+	static int N;
+	static List<Integer>[] list;
+	static long[][] memo;
+	static long mod = 1000000007;
+
+	public static void main(String[] args) throws Exception, Exception {
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
-		for (int tc = 1; tc <= T; tc++) {
+		for (int t = 1; t <= T; t++) {
 			N = sc.nextInt();
-			M = sc.nextInt();
-			graph = new boolean[N + 1][N + 1];
-			for (int m = 0; m < M; m++) {
-				int u = sc.nextInt();
-				int v = sc.nextInt();
-				graph[u][v] = graph[v][u] = true;
+			list = new ArrayList[N + 1];
+			for (int n = 0; n < N + 1; n++) {
+				list[n] = new ArrayList<>();
 			}
 
-			ans = 0;
-			for (int i = 1; i <= N; i++) {
-				visited = new boolean[N + 1];
-				dfs(i, 1);
+			memo = new long[2][N + 1];
+			for (int n = 1; n < N; n++) {
+				int s = sc.nextInt();
+				int e = sc.nextInt();
+				list[s].add(e);
+				list[e].add(s);
 			}
-			System.out.println("#" + tc + " " + ans);
+			System.out.println("#" + t + " " + (simul(1, 0, -1) + simul(1, 1, -1)) % mod);
 		}
-		sc.close();
 	}
 
-	static void dfs(int here, int depth) {
-		if (ans < depth)
-			ans = depth;
-
-		visited[here] = true;
-		for (int i = 1; i <= N; i++) {
-			if (graph[here][i] && !visited[i])
-				dfs(i, depth + 1);
+	static long simul(int node, int color, int parent) {
+		if (memo[color][node] != 0) { //
+			return memo[color][node];
 		}
-		visited[here] = false;
+		long time = 1; // 이 노드에서의 경우의 수 초기화
+		if (color == 0) { // 이 노드의 색깔이 흰색일 경우
+			for (int i = 0; i < list[node].size(); i++) {
+				if (list[node].get(i) != parent) {
+					// 모든 자식 노드들의 흰색 경우와 검은색 경우를 더해 곱한다
+					time *= (simul(list[node].get(i), 0, node) + simul(list[node].get(i), 1, node));
+					time %= mod;
+				}
+			}
+		} else { // 이 노드의 색깔이 검은색일 경우
+			for (int i = 0; i < list[node].size(); i++) {
+				if (list[node].get(i) != parent) {
+					// 모든 자식 노드들의 흰색 경우를 곱한다
+					time *= simul(list[node].get(i), 0, node);
+					time %= mod;
+				}
+			}
+		}
+		memo[color][node] = time; // 이 노드 이 색깔의 경우의 수를 저장한다
+		return time; // 이 노드 이 색깔의 경우의 수를 반환한다
 	}
 }
