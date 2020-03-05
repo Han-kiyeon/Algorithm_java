@@ -11,8 +11,8 @@ import java.util.Scanner;
  *
  * @Date : 2020. 3. 5.
  * @작성자 : 한기연
- * @메모리 : 106,528 kb
- * @실행시간 : 401 ms
+ * @메모리 : 96,024 kb
+ * @실행시간 : 381 ms
  *
  * @Blog : __
  **/
@@ -21,7 +21,6 @@ public class D4_5684_운동 {
 	static int[][] map;
 
 	public static void main(String args[]) throws Exception {
-//		System.setIn(new FileInputStream("res/input.txt"));
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();// (1 ≤ T ≤ 20)
 		for (int tc = 1; tc <= T; tc++) {
@@ -32,9 +31,6 @@ public class D4_5684_운동 {
 			for (int i = 0; i < M; i++) {
 				map[sc.nextInt() - 1][sc.nextInt() - 1] = sc.nextInt(); // 거리는 10,000 이하의 자연수
 			}
-//			for (int[] is : map) {
-//				System.out.println(Arrays.toString(is));
-//			}
 			ans = Integer.MAX_VALUE;
 			for (int i = 0; i < N; i++) {
 				BFS(i);
@@ -51,7 +47,7 @@ public class D4_5684_운동 {
 			int[] cur = q.poll();
 			for (int i = 0; i < N; i++) {
 				if (map[cur[0]][i] != 0 && !visit[i]) {
-					visit[cur[0]] = true;
+					visit[i] = true;
 					q.offer(new int[] { i, cur[1] + map[cur[0]][i] });
 				}
 				if (map[cur[0]][i] != 0 && i == start) {
