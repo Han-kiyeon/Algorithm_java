@@ -1,13 +1,9 @@
-3
-2
-Alex Tom
-Paul Alex
-4
-A B
-B C
-C D
-D A
-3
-z d
-d u_i
-z u_i
+1       
+3 4     
+1 2 1   
+3 2 1   
+1 3 5
+2 3 2
+
+
+#1 3
