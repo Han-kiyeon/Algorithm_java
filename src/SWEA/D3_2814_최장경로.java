@@ -9,8 +9,8 @@ import java.util.Scanner;
  *
  * @Date : 2020. 3. 4.
  * @작성자 : 한기연
- * @메모리 : 38,140 kb
- * @실행시간 : 164 ms
+ * @메모리 : 36,252 kb
+ * @실행시간 : 158 ms
  *
  * @Blog : __
  **/
@@ -35,9 +35,11 @@ public class D3_2814_최장경로 {
 			}
 
 			ans = 0;
+			visited = new boolean[N + 1];
 			for (int i = 1; i <= N; i++) {
-				visited = new boolean[N + 1];
+				visited[i] = true;
 				dfs(i, 1);
+				visited[i] = false;
 			}
 			System.out.println("#" + tc + " " + ans);
 		}
@@ -48,11 +50,12 @@ public class D3_2814_최장경로 {
 		if (ans < depth)
 			ans = depth;
 
-		visited[here] = true;
 		for (int i = 1; i <= N; i++) {
-			if (graph[here][i] && !visited[i])
+			if (graph[here][i] && !visited[i]) {
+				visited[i] = true;
 				dfs(i, depth + 1);
+				visited[i] = false;
+			}
 		}
-		visited[here] = false;
 	}
 }
