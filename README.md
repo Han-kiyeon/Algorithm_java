@@ -334,185 +334,95 @@ JAVA Algorithm solution
 
 ---
 
-
-#### 1200 - 그래프 2
-
-- [ ] [줄 세우기](https://www.acmicpc.net/problem/2252)
-- [ ] [문제집](https://www.acmicpc.net/problem/1766)
-- [ ] [작업](https://www.acmicpc.net/problem/2056)
-- [ ] [네트워크 연결](https://www.acmicpc.net/problem/1922)
-- [ ] [최소 스패닝 트리](https://www.acmicpc.net/problem/1197)
-- [ ] [타임머신](https://www.acmicpc.net/problem/11657)
-- [ ] [웜홀](https://www.acmicpc.net/problem/1865)
-- [ ] [최소비용 구하기](https://www.acmicpc.net/problem/1916)
-- [ ] [최소비용 구하기 2](https://www.acmicpc.net/problem/11779)
-- [ ] [최단경로](https://www.acmicpc.net/problem/1753)
-- [ ] [경로 찾기](https://www.acmicpc.net/problem/11403)
-- [ ] [플로이드](https://www.acmicpc.net/problem/11404)
-- [ ] [플로이드 2](https://www.acmicpc.net/problem/11780)
-- [ ] [케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389)
-
-#### 1201 - 그래프 2 (연습)
-
-- [ ] [임계경로](https://www.acmicpc.net/problem/1948)
-- [ ] [특정한 최단 경로](https://www.acmicpc.net/problem/1504)
-- [ ] [도로포장](https://www.acmicpc.net/problem/1162)
-- [ ] [K번째 최단경로 찾기](https://www.acmicpc.net/problem/1854)
-- [ ] [궁금한 민호](https://www.acmicpc.net/problem/1507)
-- [ ] [운동](https://www.acmicpc.net/problem/1956)
-- [ ] [길의 개수](https://www.acmicpc.net/problem/1533)
-- [ ] [두 가중치](https://www.acmicpc.net/problem/12930)
-- [ ] [일방통행](https://www.acmicpc.net/problem/1412)
-- [ ] [역사](https://www.acmicpc.net/problem/1613)
-- [ ] [도시 분할 계획](https://www.acmicpc.net/problem/1647)
-- [ ] [The game of death](https://www.acmicpc.net/problem/2099)
-
-#### 1202 - 그래프 2 (도전)
-
-- [ ] [배열 A 찾기](https://www.acmicpc.net/problem/17361)
-
-#### 1210 - 트리 2
-
-- [ ] [LCA](https://www.acmicpc.net/problem/11437)
-- [ ] [정점들의 거리](https://www.acmicpc.net/problem/1761)
-- [ ] [LCA 2](https://www.acmicpc.net/problem/11438)
-
-#### 1211 - 트리 2 (연습)
-
-- [ ] [합성함수와 쿼리](https://www.acmicpc.net/problem/17435)
-- [ ] [도로 네트워크](https://www.acmicpc.net/problem/3176)
-- [ ] [LCA와 쿼리](https://www.acmicpc.net/problem/15480)
-
-#### 1220 - BFS 2
-
-- [ ] [0과 1](https://www.acmicpc.net/problem/8111)
-- [ ] [숨바꼭질 5](https://www.acmicpc.net/problem/17071)
-- [ ] [퍼즐](https://www.acmicpc.net/problem/1525)
-- [ ] [직사각형 탈출](https://www.acmicpc.net/problem/16973)
-- [ ] [배달](https://www.acmicpc.net/problem/1175)
-- [ ] [체스판 여행 1](https://www.acmicpc.net/problem/16959)
-- [ ] [체스판 여행 2](https://www.acmicpc.net/problem/16952)
-- [ ] [숨바꼭질 2](https://www.acmicpc.net/problem/12851)
-- [ ] [백조의 호수](https://www.acmicpc.net/problem/3197)
-- [ ] [열쇠](https://www.acmicpc.net/problem/9328)
-- [ ] [확장 게임](https://www.acmicpc.net/problem/16920)
-- [ ] [구슬 탈출 4](https://www.acmicpc.net/problem/15653)
-- [ ] [점프 게임](https://www.acmicpc.net/problem/15558)
-
-#### 1230 - 세그먼트 트리
-
-- [ ] [최솟값](https://www.acmicpc.net/problem/10868)
-- [ ] [수열과 쿼리 17](https://www.acmicpc.net/problem/14438)
-
-#### 1240 - 펜윅 트리
-
-- [ ] [구간 합 구하기 4](https://www.acmicpc.net/problem/11659)
-- [ ] [수들의 합 4](https://www.acmicpc.net/problem/2015)
-- [ ] [나머지 합](https://www.acmicpc.net/problem/10986)
-- [ ] [구간 합 구하기 5](https://www.acmicpc.net/problem/11660)
-- [ ] [구간 합 구하기](https://www.acmicpc.net/problem/2042)
-- [ ] [구간 합 구하기 3](https://www.acmicpc.net/problem/11658)
-
-#### 1300 - 다이나믹 프로그래밍 3
-
+- [ ] [구슬 탈출 2](https://www.acmicpc.net/problem/13460)
+- [ ] [2048 (Easy)](https://www.acmicpc.net/problem/12100)
+- [ ] [뱀](https://www.acmicpc.net/problem/3190)
+- [ ] [시험 감독](https://www.acmicpc.net/problem/13458)
+- [ ] [주사위 굴리기](https://www.acmicpc.net/problem/14499)
+- [ ] [테트로미노](https://www.acmicpc.net/problem/14500)
+- [ ] [퇴사](https://www.acmicpc.net/problem/14501)
+- [ ] [연구소](https://www.acmicpc.net/problem/14502)
+- [ ] [로봇 청소기](https://www.acmicpc.net/problem/14503)
+- [ ] [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
+- [ ] [스타트와 링크](https://www.acmicpc.net/problem/14889)
+- [ ] [경사로](https://www.acmicpc.net/problem/14890)
+- [ ] [톱니바퀴](https://www.acmicpc.net/problem/14891)
+- [ ] [감시](https://www.acmicpc.net/problem/15683)
+- [ ] [사다리 조작](https://www.acmicpc.net/problem/15684)
+- [ ] [드래곤 커브](https://www.acmicpc.net/problem/15685)
+- [ ] [치킨 배달](https://www.acmicpc.net/problem/15686)
+- [ ] [큐빙](https://www.acmicpc.net/problem/5373)
+- [ ] [인구 이동](https://www.acmicpc.net/problem/16234)
+- [ ] [나무 재테크](https://www.acmicpc.net/problem/16235)
+- [ ] [아기 상어](https://www.acmicpc.net/problem/16236)
+- [ ] [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
+- [ ] [낚시왕](https://www.acmicpc.net/problem/17143)
+- [ ] [이차원 배열과 연산](https://www.acmicpc.net/problem/17140)
+- [ ] [연구소 3](https://www.acmicpc.net/problem/17142)
+- [ ] [게리맨더링 2](https://www.acmicpc.net/problem/17779)
+- [ ] [새로운 게임 2](https://www.acmicpc.net/problem/17837)
+- [ ] [원판 돌리기](https://www.acmicpc.net/problem/17822)
+- [ ] [주사위 윷놀이](https://www.acmicpc.net/problem/17825)
+- [ ] [괄호 추가하기](https://www.acmicpc.net/problem/16637)
+- [ ] [파이프 옮기기 1](https://www.acmicpc.net/problem/17070)
+- [ ] [캐슬 디펜스](https://www.acmicpc.net/problem/17135)
+- [ ] [색종이 붙이기](https://www.acmicpc.net/problem/17136)
+- [ ] [⚾](https://www.acmicpc.net/problem/17281)
+- [ ] [Brainf**k 인터프리터](https://www.acmicpc.net/problem/3954)
+- [ ] [배열 돌리기 4](https://www.acmicpc.net/problem/17406)
+- [ ] [게리맨더링](https://www.acmicpc.net/problem/17471)
+- [ ] [다리 만들기 2](https://www.acmicpc.net/problem/17472)
+- [ ] [아맞다우산](https://www.acmicpc.net/problem/17244)
+- [ ] [움직이는 미로 탈출](https://www.acmicpc.net/problem/16954)
+- [ ] [Two Dots](https://www.acmicpc.net/problem/16929)
+- [ ] [탈출](https://www.acmicpc.net/problem/3055)
+- [ ] [성곽](https://www.acmicpc.net/problem/2234)
+- [ ] [불](https://www.acmicpc.net/problem/5427)
+- [ ] [공주님을 구해라!](https://www.acmicpc.net/problem/17836)
+- [ ] [Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)
+- [ ] [Baaaaaaaaaduk2 (Easy)](https://www.acmicpc.net/problem/16988)
+- [ ] [테트리스 게임](https://www.acmicpc.net/problem/4920)
 - [ ] [알약](https://www.acmicpc.net/problem/4811)
+- [ ] [안정적인 문자열](https://www.acmicpc.net/problem/4889)
+- [ ] [불!](https://www.acmicpc.net/problem/4179)
+- [ ] [백조의 호수](https://www.acmicpc.net/problem/3197)
+- [ ] [양](https://www.acmicpc.net/problem/3184)
+- [ ] [연결](https://www.acmicpc.net/problem/5022)
+- [ ] [과외맨](https://www.acmicpc.net/problem/5213)
+- [ ] [기업투자](https://www.acmicpc.net/problem/2662)
+- [ ] [라그랑주의 네 제곱수 정리](https://www.acmicpc.net/problem/3933)
+- [ ] [최고의 팀 만들기](https://www.acmicpc.net/problem/1633)
+- [ ] [문제 출제](https://www.acmicpc.net/problem/2854)
+- [ ] [아이템 먹기](https://www.acmicpc.net/problem/2411)
+- [ ] [MT](https://www.acmicpc.net/problem/10265)
+- [ ] [배달](https://www.acmicpc.net/problem/1175)
+- [ ] [안전 영역](https://www.acmicpc.net/problem/2468)
+- [ ] [통나무 옮기기](https://www.acmicpc.net/problem/1938)
+- [ ] [말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600)
+- [ ] [가스관](https://www.acmicpc.net/problem/2931)
 - [ ] [욕심쟁이 판다](https://www.acmicpc.net/problem/1937)
-- [ ] [내리막 길](https://www.acmicpc.net/problem/1520)
-- [ ] [가장 큰 정사각형](https://www.acmicpc.net/problem/1915)
-- [ ] [1, 2, 3 더하기 7](https://www.acmicpc.net/problem/15992)
-- [ ] [1, 2, 3 더하기 9](https://www.acmicpc.net/problem/16195)
-- [ ] [고층 빌딩](https://www.acmicpc.net/problem/1328)
-- [ ] [홍준이의 친위대](https://www.acmicpc.net/problem/3948)
-- [ ] [좋아하는 배열](https://www.acmicpc.net/problem/12911)
-- [ ] [방법을 출력하지 않는 숫자 맞추기](https://www.acmicpc.net/problem/13392)
-- [ ] [숫자 맞추기](https://www.acmicpc.net/problem/2494)
+- [ ] [컨닝](https://www.acmicpc.net/problem/1014)
 - [ ] [자물쇠](https://www.acmicpc.net/problem/1514)
-
-#### 1301 - 다이나믹 프로그래밍 3 (연습)
-
+- [ ] [반도체 설계](https://www.acmicpc.net/problem/2352)
+- [ ] [다이아몬드 광산](https://www.acmicpc.net/problem/1028)
+- [ ] [칵테일](https://www.acmicpc.net/problem/1033)
+- [ ] [가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054)
+- [ ] [줄세우기](https://www.acmicpc.net/problem/2631)
+- [ ] [동물원](https://www.acmicpc.net/problem/1309)
+- [ ] [로봇 시뮬레이션](https://www.acmicpc.net/problem/2174)
+- [ ] [Puyo Puyo](https://www.acmicpc.net/problem/11559)
+- [ ] [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)
+- [ ] [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)
+- [ ] [로봇](https://www.acmicpc.net/problem/1726)
+- [ ] [사탕 게임](https://www.acmicpc.net/problem/3085)
+- [ ] [열쇠](https://www.acmicpc.net/problem/9328)
+- [ ] [퍼즐](https://www.acmicpc.net/problem/1525)
+- [ ] [환승](https://www.acmicpc.net/problem/5214)
+- [ ] [달이 차오른다, 가자.](https://www.acmicpc.net/problem/1194)
+- [ ] [구슬 탈출](https://www.acmicpc.net/problem/13459)
+- [ ] [미로만들기](https://www.acmicpc.net/problem/2665)
+- [ ] [치즈](https://www.acmicpc.net/problem/2638)
+- [ ] [집 구하기](https://www.acmicpc.net/problem/13911)
+- [ ] [탈옥](https://www.acmicpc.net/problem/9376)
 - [ ] [로봇 조종하기](https://www.acmicpc.net/problem/2169)
-- [ ] [여행](https://www.acmicpc.net/problem/2157)
-- [ ] [구간 나누기](https://www.acmicpc.net/problem/2228)
-- [ ] [크리스마스 트리](https://www.acmicpc.net/problem/1234)
-- [ ] [자두나무](https://www.acmicpc.net/problem/2240)
-- [ ] [숫자 박스](https://www.acmicpc.net/problem/1983)
-- [ ] [즐거운 단어](https://www.acmicpc.net/problem/2922)
-- [ ] [미로에 갇힌 상근](https://www.acmicpc.net/problem/5069)
-- [ ] [돌다리 건너기](https://www.acmicpc.net/problem/2602)
-
-#### 1302 - 다이나믹 프로그래밍 3 (도전)
-
-- [ ] [등차수열](https://www.acmicpc.net/problem/1994)
-- [ ] [선물 전달](https://www.acmicpc.net/problem/1947)
-- [ ] [집합의 개수](https://www.acmicpc.net/problem/2092)
-- [ ] [팰린드롬 경로](https://www.acmicpc.net/problem/2172)
-- [ ] [팰린드롬 보행](https://www.acmicpc.net/problem/12950)
-- [ ] [사다리 게임](https://www.acmicpc.net/problem/2008)
-- [ ] [같은 탑](https://www.acmicpc.net/problem/1126)
-- [ ] [경로 찾기](https://www.acmicpc.net/problem/1513)
-- [ ] [경찰차](https://www.acmicpc.net/problem/2618)
-- [ ] [직사각형 만들기](https://www.acmicpc.net/problem/1801)
-- [ ] [서로소의 개수](https://www.acmicpc.net/problem/1750)
-- [ ] [그래프 매칭](https://www.acmicpc.net/problem/3644)
-
-## SWEA
-
-### 기본
-
-#### 1일차
-
-- [ ] [View](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV134DPqAA8CFAYh)
-- [ ] [Flatten](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV139KOaABgCFAYh)
-- [ ] [최빈수 구하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV13zo1KAAACFAYh)
-
-#### 2일차
-
-- [ ] [Sum](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV13_BWKACUCFAYh)
-- [ ] [Ladder1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14ABYKADACFAYh)
-- [ ] [Ladder2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14BgD6AEECFAYh)
-
-#### 3일차
-
-- [ ] [String](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14P0c6AAUCFAYi)
-- [ ] [회문1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14QpAaAAwCFAYi)
-- [ ] [회문2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14Rq5aABUCFAYi)
-
-#### 4일차
-
-- [ ] [거듭 제곱](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14dUIaAAUCFAYD)
-- [ ] [괄호 짝짓기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14eWb6AAkCFAYD)
-- [ ] [길찾기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14geLqABQCFAYD)
-
-#### 5일차
-
-- [ ] [Magnetic](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14hwZqABsCFAYD)
-- [ ] [GNS](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14jJh6ACYCFAYD)
-
-#### 6일차
-
-- [ ] [계산기1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14mbSaAEwCFAYD)
-- [ ] [계산기2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14nnAaAFACFAYD)
-- [ ] [계산기3](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14tDX6AFgCFAYD)
-
-#### 7일차
-
-- [ ] [암호생성기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14uWl6AF0CFAYD)
-- [ ] [미로1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14vXUqAGMCFAYD)
-- [ ] [미로2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14wL9KAGkCFAYD)
-
-#### 8일차
-
-- [ ] [암호문1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14w-rKAHACFAYD)
-- [ ] [암호문2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14yIsqAHYCFAYD)
-- [ ] [암호문3](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14zIwqAHwCFAYD)
-
-#### 9일차
-
-- [ ] [중위순회](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV140YnqAIECFAYD)
-- [ ] [사칙연산 유효성 검사](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV141176AIwCFAYD)
-- [ ] [사칙연산](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV141J8KAIcCFAYD)
-
-#### 10일차
-
-- [ ] [비밀번호](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14_DEKAJcCFAYD)
-- [ ] [Contact](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15B1cKAKwCFAYD)
+- [ ] [게임](https://www.acmicpc.net/problem/1103)
