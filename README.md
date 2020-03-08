@@ -72,9 +72,9 @@ JAVA Algorithm solution
 - [x] [토마토](https://www.acmicpc.net/problem/7576)
 - [x] [숨바꼭질](https://www.acmicpc.net/problem/1697)
 - [x] [이모티콘](https://www.acmicpc.net/problem/14226) >> 어려워....
-- [ ] [숨바꼭질 3](https://www.acmicpc.net/problem/13549)
+- [x] [숨바꼭질 3](https://www.acmicpc.net/problem/13549) >> 숨바꼭질 4와 동일한 문제
 - [x] [알고스팟](https://www.acmicpc.net/problem/1261)
-- [ ] [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)
+- [x] [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)
 - [ ] [탈출](https://www.acmicpc.net/problem/3055)
 
 #### 다이나믹 프로그래밍

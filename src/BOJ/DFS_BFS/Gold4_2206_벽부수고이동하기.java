@@ -1,8 +1,9 @@
+package BOJ.DFS_BFS;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Gold4_2206_벽부수고이동하기 {
 	static int N, M, ans;
 	static char[][] map;
 
