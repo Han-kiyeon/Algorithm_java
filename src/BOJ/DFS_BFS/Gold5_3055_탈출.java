@@ -1,8 +1,22 @@
+package BOJ.DFS_BFS;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Gold5_3055_탈출.java
+ *
+ * @Date : 2020. 3. 8.
+ * @작성자 : 한기연
+ * @메모리 : 14624 kb
+ * @실행시간 : 120 ms
+ *
+ * @Blog : __
+ **/
+public class Gold5_3055_탈출 {
 	static int R, C, ans;
 	static char[][] map;
 
