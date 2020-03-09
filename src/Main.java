@@ -1,97 +1,36 @@
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
-	static int R, C, ans;
-	static char[][] map;
-
-	static Queue<int[]> me, water;
-	static int[] end;
-
-	static int[] dr = { -1, 1, 0, 0 };
-	static int[] dc = { 0, 0, -1, 1 };
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		R = sc.nextInt();
-		C = sc.nextInt();
+		int T = sc.nextInt();
+		for (int tc = 1; tc <= T; tc++) {
+			int M = sc.nextInt();
+			int N = sc.nextInt();
+			int x = sc.nextInt();
+			int y = sc.nextInt();
 
-		map = new char[R][C];
-		me = new LinkedList<>();
-		water = new LinkedList<>();
-		for (int i = 0; i < R; i++) {
-			String str = sc.next();
-			for (int j = 0; j < C; j++) {
-				map[i][j] = str.charAt(j);
-				if (map[i][j] == 'S') {
-					me.add(new int[] { i, j, 0 });
-					map[i][j] = '.';
-				} else if (map[i][j] == 'D') {
-					end = new int[] { i, j };
-				} else if (map[i][j] == '*') {
-					water.add(new int[] { i, j });
+			int year = x;
+			int max = lcm(M, N);
+
+			while (true) {
+				if (year > max) {
+					System.out.println("-1");
+					break;
+				} else if (((year % N) == 0 ? N : year % N) == y) {
+					System.out.println(year);
+					break;
 				}
+				year += M;
 			}
 		}
-		ans = -1;
-		BFS();
-		System.out.println(ans == -1 ? "KAKTUS" : ans);
-
 	}
 
-	private static void BFS() {
-		Queue<int[]> q = new LinkedList<>();
-		boolean[][] visit = new boolean[R][C];
-
-		visit[me.peek()[0]][me.peek()[1]] = true;
-
-		while (!me.isEmpty() || !water.isEmpty()) {
-			while (!water.isEmpty()) {
-				q.offer(water.poll());
-			}
-
-			while (!q.isEmpty()) {
-				// 물의 움직임
-				int[] now = q.poll();
-				for (int dir = 0; dir < dr.length; dir++) {
-					int nr = now[0] + dr[dir];
-					int nc = now[1] + dc[dir];
-					if (isRange(nr, nc) && (map[nr][nc] == '.')) {
-						water.add(new int[] { nr, nc });
-						map[nr][nc] = '*';
-					}
-				}
-			}
-
-			while (!me.isEmpty()) {
-				q.offer(me.poll());
-			}
-
-			while (!q.isEmpty()) {
-				// 비버의 움직임
-				int[] now = q.poll();
-				if (now[0] == end[0] && now[1] == end[1]) {
-					ans = now[2];
-					return;
-				}
-				for (int dir = 0; dir < dr.length; dir++) {
-					int nr = now[0] + dr[dir];
-					int nc = now[1] + dc[dir];
-					if (isRange(nr, nc) && !visit[nr][nc])
-						if (map[nr][nc] == '.' || map[nr][nc] == 'D') {
-							me.add(new int[] { nr, nc, now[2] + 1 });
-							visit[nr][nc] = true;
-						}
-				}
-			}
-		}
-
+	static int gcd(int a, int b) {
+		return b == 0 ? a : gcd(b, a % b);
 	}
 
-	private static boolean isRange(int nr, int nc) {
-		if (0 <= nr && nr < R && 0 <= nc && nc < C)
-			return true;
-		return false;
+	static int lcm(int a, int b) {
+		return (a * b) / gcd(a, b);
 	}
 }
