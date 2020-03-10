@@ -109,7 +109,7 @@ JAVA Algorithm solution
 #### 브루트 포스
 
 - [x] [리모컨](https://www.acmicpc.net/problem/1107) >> 다시한번 
-- [ ] [카잉 달력](https://www.acmicpc.net/problem/6064)
+- [x] [카잉 달력](https://www.acmicpc.net/problem/6064) >> 실버라 무시하면 큰코 다침,,, 갓도하
 - [ ] [수 이어 쓰기 1](https://www.acmicpc.net/problem/1748)
 - [ ] [부등호](https://www.acmicpc.net/problem/2529)
 - [ ] [단어 수학](https://www.acmicpc.net/problem/1339)

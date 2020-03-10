@@ -1,6 +1,20 @@
+package BOJ.Math;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.Math
+ * @FileName : Silver1_6064_카잉달력.java
+ *
+ * @Date : 2020. 3. 10.
+ * @작성자 : 한기연
+ * @메모리 : 23080 kb
+ * @실행시간 : 352 ms
+ *
+ * @Blog : __
+ **/
+
+public class Silver1_6064_카잉달력 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
