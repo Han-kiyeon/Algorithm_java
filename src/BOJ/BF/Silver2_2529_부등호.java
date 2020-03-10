@@ -1,6 +1,19 @@
+package BOJ.BF;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Silver2_2529_부등호.java
+ *
+ * @Date : 2020. 3. 10.
+ * @작성자 : 한기연
+ * @메모리 : 23452 kb
+ * @실행시간 : 508 ms
+ *
+ * @Blog : __
+ **/
+public class Silver2_2529_부등호 {
 	static int K;
 	static long min, max;
 	static char[] op;
