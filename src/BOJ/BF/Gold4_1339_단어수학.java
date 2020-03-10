@@ -1,8 +1,23 @@
+package BOJ.BF;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Gold4_1339_단어수학.java
+ *
+ * @Date : 2020. 3. 10.
+ * @작성자 : 한기연
+ * @메모리 : 19080 kb
+ * @실행시간 : 1408 ms
+ *
+ * @Blog : __
+ **/
+
+public class Gold4_1339_단어수학 {
 	static int N, max;
 	static String[] words;
 
