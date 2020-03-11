@@ -1,64 +1,55 @@
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
-	static int N, max;
-	static String[] words;
-
-	static Map<Character, Integer> alphabet;
-	static boolean[] visit;
+	static int N;
+	static char[][] matrix;
 	static int[] data;
+	static boolean flag;
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		N = sc.nextInt();
 
-		words = new String[N];
-
-		alphabet = new HashMap<Character, Integer>();
-		int count = 0;
+		matrix = new char[N][N];
+		String str = sc.next();
+		int idx = 0;
 		for (int i = 0; i < N; i++) {
-			words[i] = sc.next();
-			for (int j = 0; j < words[i].length(); j++) {
-				if (!alphabet.containsKey(words[i].charAt(j))) {
-					alphabet.put(words[i].charAt(j), count++);
+			for (int j = i; j < N; j++) {
+				matrix[i][j] = str.charAt(idx++);
+			}
+		}
+
+		data = new int[N];
+		flag = false;
+		solve(0);
+	}
+
+	private static void solve(int depth) {
+		if (depth == N) {
+			for (int i : data) {
+				System.out.print(i + " ");
+			}
+			System.out.println();
+			System.exit(0); // 프로그램 종료
+		}
+		for (int i = -10; i <= 10; i++) {
+			data[depth] = i;
+			if (check(depth)) {
+				solve(depth + 1);
+			}
+		}
+	}
+
+	private static boolean check(int idx) {
+		for (int i = 0; i <= idx; i++) {
+			int sum = 0;
+			for (int j = i; j <= idx; j++) {
+				sum += data[j];
+				if (matrix[i][j] != (sum == 0 ? '0' : (sum > 0 ? '+' : '-'))) {
+					return false;
 				}
 			}
 		}
-		data = new int[alphabet.size()];
-		visit = new boolean[10];
-		max = Integer.MIN_VALUE;
-		solve(0, 0);
-		System.out.println(max);
-	}
-
-	private static void solve(int index, int depth) {
-		if (depth == data.length) {
-			check();
-			return;
-		}
-		for (int i = 0; i < 10; i++) {
-			if (!visit[i]) {
-				visit[i] = true;
-				data[depth] = i;
-				solve(i, depth + 1);
-				visit[i] = false;
-			}
-		}
-	}
-
-	private static void check() {
-		int ret = 0;
-		for (int i = 0; i < words.length; i++) {
-			int tmp = 0;
-			for (int j = 0; j < words[i].length(); j++) {
-				tmp += data[alphabet.get(words[i].charAt(j))];
-				tmp *= 10;
-			}
-			ret += tmp / 10;
-		}
-		if (max < ret)
-			max = ret;
+		return true;
 	}
 }
