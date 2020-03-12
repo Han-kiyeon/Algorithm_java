@@ -114,7 +114,7 @@ JAVA Algorithm solution
 - [x] [부등호](https://www.acmicpc.net/problem/2529)
 - [x] [단어 수학](https://www.acmicpc.net/problem/1339)
 - [x] :star:[스타트와 링크](https://www.acmicpc.net/problem/14889)
-- [ ] [맞춰봐](https://www.acmicpc.net/problem/1248)
+- [x] [맞춰봐](https://www.acmicpc.net/problem/1248)
 - [ ] [N-Queen](https://www.acmicpc.net/problem/9663)
 - [ ] [스도쿠](https://www.acmicpc.net/problem/2580)
 - [x] [알파벳](https://www.acmicpc.net/problem/1987)
