@@ -116,7 +116,7 @@ JAVA Algorithm solution
 - [x] :star:[스타트와 링크](https://www.acmicpc.net/problem/14889)
 - [x] [맞춰봐](https://www.acmicpc.net/problem/1248)
 - [x] [N-Queen](https://www.acmicpc.net/problem/9663)
-- [ ] [스도쿠](https://www.acmicpc.net/problem/2580)
+- [x] [스도쿠](https://www.acmicpc.net/problem/2580)
 - [x] [알파벳](https://www.acmicpc.net/problem/1987)
 - [ ] [종이 조각](https://www.acmicpc.net/problem/14391)
 - [ ] [가르침](https://www.acmicpc.net/problem/1062)
