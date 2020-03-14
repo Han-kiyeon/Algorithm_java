@@ -1,6 +1,20 @@
+package BOJ.BF;
+
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Gold3_14391_종이조각.java
+ *
+ * @Date : 2020. 3. 14.
+ * @작성자 : 한기연
+ * @메모리 : 17152 kb
+ * @실행시간 : 160 ms
+ *
+ * @Blog : __
+ **/
+public class Gold3_14391_종이조각 {
 	static int N, M, ans;
 	static int[] map;
 	static boolean[] visit;
@@ -41,9 +55,9 @@ public class Main {
 	}
 
 	private static void check() {
-
 		int sum = 0, tmp = 0;
 
+		// 가로
 		for (int i = 0; i < N; i++) {
 			tmp = 0;
 			for (int j = 0; j < M; j++) {
