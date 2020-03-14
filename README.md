@@ -119,7 +119,7 @@ JAVA Algorithm solution
 - [x] [스도쿠](https://www.acmicpc.net/problem/2580)
 - [x] [알파벳](https://www.acmicpc.net/problem/1987)
 - [x] [종이 조각](https://www.acmicpc.net/problem/14391)
-- [ ] [가르침](https://www.acmicpc.net/problem/1062)
+- [x] [가르침](https://www.acmicpc.net/problem/1062)
 - [ ] :star:[구슬 탈출 2](https://www.acmicpc.net/problem/13460)
 - [ ] :star:[2048 (Easy)](https://www.acmicpc.net/problem/12100)
 - [ ] [수들의 합 2](https://www.acmicpc.net/problem/2003)
