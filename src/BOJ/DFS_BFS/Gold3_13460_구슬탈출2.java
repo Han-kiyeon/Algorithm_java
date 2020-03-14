@@ -1,8 +1,23 @@
+package BOJ.DFS_BFS;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Gold3_13460_구슬탈출2.java
+ *
+ * @Date : 2020. 3. 14.
+ * @작성자 : 한기연
+ * @메모리 : 15680 kb
+ * @실행시간 : 116 ms
+ *
+ * @Blog : __
+ **/
+
+public class Gold3_13460_구슬탈출2 {
 	static int N, M;
 	static char[][] map;
 
