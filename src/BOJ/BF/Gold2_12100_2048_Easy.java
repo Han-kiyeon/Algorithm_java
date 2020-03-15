@@ -1,7 +1,22 @@
+package BOJ.BF;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Gold2_2048_Easy.java
+ *
+ * @Date : 2020. 3. 15.
+ * @작성자 : 한기연
+ * @메모리 : 44464 kb
+ * @실행시간 : 736 ms
+ *
+ * @Blog : __
+ **/
+
+public class Gold2_12100_2048_Easy {
 	static int N, ans;
 	static int[][] map;
 	static int[] data;
