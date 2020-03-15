@@ -1,6 +1,19 @@
+package BOJ.BF;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Gold3_1806_부분합.java
+ *
+ * @Date : 2020. 3. 15.
+ * @작성자 : 한기연
+ * @메모리 : 90640 kb
+ * @실행시간 : 684 ms
+ *
+ * @Blog : __
+ **/
+public class Gold3_1806_부분합 {
 
 	static int N, S, ans, sum;
 	static int[] data;
