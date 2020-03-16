@@ -1,8 +1,22 @@
+package BOJ.BF;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Gold2_1208_부분수열의합2.java
+ *
+ * @Date : 2020. 3. 16.
+ * @작성자 : 한기연
+ * @메모리 : 83140 kb
+ * @실행시간 : 1360 ms
+ *
+ * @Blog : __
+ **/
+
+public class Gold2_1208_부분수열의합2 {
 	static int N, S;
 	static int ans; // int :2^32 long: 2^64 >> 문제: 2^40
 	static int[] input;

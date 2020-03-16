@@ -125,7 +125,7 @@ JAVA Algorithm solution
 - [x] [수들의 합 2](https://www.acmicpc.net/problem/2003)
 - [x] [부분합](https://www.acmicpc.net/problem/1806)
 - [x] [소수의 연속합](https://www.acmicpc.net/problem/1644)
-- [ ] [부분집합의 합 2](https://www.acmicpc.net/problem/1208)
+- [x] [부분집합의 합 2](https://www.acmicpc.net/problem/1208)
 - [ ] [두 배열의 합](https://www.acmicpc.net/problem/2143)
 - [ ] [합이 0인 네 정수](https://www.acmicpc.net/problem/7453)
 
