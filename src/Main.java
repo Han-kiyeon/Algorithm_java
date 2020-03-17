@@ -1,52 +1,56 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class Main {
-	static int N, S;
-	static int ans; // int :2^32 long: 2^64 >> 문제: 2^40
-	static int[] input;
-	static ArrayList<Integer> L, R;
+	static int N;
+	static int[][] data;
+	static int[] AB, CD;
+	static long ans;
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		N = sc.nextInt();
-		S = sc.nextInt();
-		input = new int[N];
+	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		N = Integer.parseInt(br.readLine());
+
+		data = new int[4][N];
+		for (int j = 0; j < N; j++) {
+			st = new StringTokenizer(br.readLine(), " ");
+			for (int i = 0; i < 4; i++) {
+				data[i][j] = Integer.parseInt(st.nextToken());
+			}
+		}
+
+		AB = new int[N * N];
+		CD = new int[N * N];
+
 		for (int i = 0; i < N; i++) {
-			input[i] = sc.nextInt();
+			for (int j = 0; j < N; j++) {
+				AB[i * N + j] = data[0][i] + data[1][j];
+				CD[i * N + j] = data[2][i] + data[3][j];
+			}
 		}
 
-		L = new ArrayList<>();
-		R = new ArrayList<>();
-		solve(0, N / 2, 0, L);
-		solve(N / 2, N, 0, R);
+		Arrays.sort(CD);
 
-		Collections.sort(R);
-
-		ans = 0;
-		for (int val : L) {
-			val = S - val;
-			int hi = upper_bound(R, val);
-			int lo = lower_bound(R, val);
-			ans += hi - lo;
+		for (int i : AB) {
+			int high = upper_bound(CD, -i);
+			int low = lower_bound(CD, -i);
+			ans += high - low;
 		}
 
-		// 공집합 제거
-		if (S == 0) {
-			--ans;
-		}
 		System.out.println(ans);
 	}
 
 	// lower bound는 찾고자 하는 값 이상이 처음 나타나는 위치
-	private static int lower_bound(ArrayList<Integer> list, int val) {
+	private static int lower_bound(int[] arr, int val) {
 		int start = 0;
-		int end = list.size();
+		int end = arr.length;
 		int mid;
 		while (start < end) {
 			mid = (start + end) >> 1;
-			if (list.get(mid) >= val) {
+			if (arr[mid] >= val) {
 				end = mid;
 			} else {
 				start = mid + 1;
@@ -56,13 +60,13 @@ public class Main {
 	}
 
 	// upper bound는 찾고자 하는 값보다 큰 값이 처음으로 나타나는 위치
-	private static int upper_bound(ArrayList<Integer> list, int val) {
+	private static int upper_bound(int[] arr, int val) {
 		int start = 0;
-		int end = list.size();
+		int end = arr.length;
 		int mid;
 		while (start < end) {
 			mid = (start + end) >> 1;
-			if (list.get(mid) <= val) {
+			if (arr[mid] <= val) {
 				start = mid + 1;
 			} else {
 				end = mid;
@@ -70,15 +74,4 @@ public class Main {
 		}
 		return start;
 	}
-
-	// 범위에 해당하는 모든 부분수열의 합을 저장.
-	private static void solve(int pos, int end, int sum, ArrayList<Integer> list) {
-		if (pos == end) {
-			list.add(sum);
-			return;
-		}
-		solve(pos + 1, end, sum, list);
-		solve(pos + 1, end, sum + input[pos], list);
-	}
-
 }
