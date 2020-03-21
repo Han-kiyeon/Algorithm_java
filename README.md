@@ -395,7 +395,7 @@ JAVA Algorithm solution
 - [ ] [문제 출제](https://www.acmicpc.net/problem/2854)
 - [ ] [아이템 먹기](https://www.acmicpc.net/problem/2411)
 - [ ] [MT](https://www.acmicpc.net/problem/10265)
-- [ ] [배달](https://www.acmicpc.net/problem/1175)
+- [x] [배달](https://www.acmicpc.net/problem/1175)
 - [ ] [안전 영역](https://www.acmicpc.net/problem/2468)
 - [ ] [통나무 옮기기](https://www.acmicpc.net/problem/1938)
 - [ ] [말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600)

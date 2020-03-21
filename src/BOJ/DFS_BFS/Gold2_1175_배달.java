@@ -1,8 +1,22 @@
+package BOJ.DFS_BFS;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Gold2_1175_배달.java
+ *
+ * @Date : 2020. 3. 22.
+ * @작성자 : 한기연
+ * @메모리 : 20068 kb
+ * @실행시간 : 168__ ms
+ *
+ * @Blog : __
+ **/
+public class Gold2_1175_배달 {
 	static int N, M;
 	static char[][] map;
 	static int[][] point;
@@ -35,7 +49,7 @@ public class Main {
 		}
 
 		Queue<int[]> q = new LinkedList<>();
-		// visit[r][c][status][dir] 
+		// visit[r][c][status][dir]
 		boolean[][][][] visit = new boolean[N][M][3][4];
 
 		for (int i = 0; i < 4; i++) {
