@@ -1,8 +1,21 @@
+package BOJ.DFS_BFS;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Gold3_1039_교환.java
+ *
+ * @Date : 2020. 3. 21.
+ * @작성자 : 한기연
+ * @메모리 : 55052 kb
+ * @실행시간 : 176 ms
+ *
+ * @Blog : __
+ **/
+public class Gold3_1039_교환 {
 
 	static boolean visit[][];
 	static int N, K, len;
