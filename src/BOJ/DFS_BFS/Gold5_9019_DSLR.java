@@ -1,6 +1,20 @@
+package BOJ.DFS_BFS;
+
 import java.util.*;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Gold5_9019_DSLR.java
+ *
+ * @Date : 2020. 3. 21.
+ * @작성자 : 한기연
+ * @메모리 : 374152 kb
+ * @실행시간 : 3220 ms
+ *
+ * @Blog : __
+ **/
+public class Gold5_9019_DSLR {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -55,7 +69,7 @@ public class Main {
 					path[next] = 'L';
 					q.offer(next);
 				}
-				next = now / 10 + now % 10 * 1000;
+				next = now % 10 * 1000 + now / 10;
 				if (parent[next] == -1) {
 					parent[next] = now;
 					path[next] = 'R';
