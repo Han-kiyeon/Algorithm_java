@@ -1,4 +1,5 @@
 package BOJ.DFS_BFS;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -15,6 +16,7 @@ import java.util.Scanner;
  *
  * @Blog : __
  **/
+
 public class Gold3_1039_교환 {
 
 	static boolean visit[][];
@@ -43,6 +45,7 @@ public class Gold3_1039_교환 {
 				}
 				continue;
 			}
+
 			for (int i = 0; i < len - 1; i++) {
 				for (int j = i + 1; j < len; j++) {
 					int next = solve(now[0], i, j);
@@ -52,6 +55,7 @@ public class Gold3_1039_교환 {
 					}
 				}
 			}
+
 		}
 
 		System.out.println(result);
@@ -67,7 +71,7 @@ public class Gold3_1039_교환 {
 		char tmp = input[i];
 		input[i] = input[j];
 		input[j] = tmp;
-		
+
 		int ret = 0;
 		for (int k = 0; k < input.length; k++) {
 			ret *= 10;
