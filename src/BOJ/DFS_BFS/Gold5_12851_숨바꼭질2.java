@@ -1,9 +1,24 @@
+package BOJ.DFS_BFS;
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Gold5_12851_숨바꼭질2.java
+ *
+ * @Date : 2020. 3. 22.
+ * @작성자 : 한기연
+ * @메모리 : 48664 kb
+ * @실행시간 : 236 ms
+ *
+ * @Blog : __
+ **/
+
+public class Gold5_12851_숨바꼭질2 {
 	static int N, K;
 
 	public static void main(String[] args) {
@@ -26,10 +41,11 @@ public class Main {
 			if (now[1] > time)
 				continue;
 			else if (now[0] == K) {
-				time = Math.min(time, now[1]);
-				if (time != now[1])
-					break;
-				count++;
+				if (time > now[1]) {
+					time = now[1];
+					count = 1;
+				} else if (time == now[1])
+					count++;
 			}
 
 			visited[now[0]] = true;

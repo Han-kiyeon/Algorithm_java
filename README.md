@@ -135,7 +135,7 @@ JAVA Algorithm solution
 - [x] [DSLR](https://www.acmicpc.net/problem/9019)
 - [x] [퍼즐](https://www.acmicpc.net/problem/1525)
 - [x] [물통](https://www.acmicpc.net/problem/2251)
-- [ ] [숨바꼭질 2](https://www.acmicpc.net/problem/12851)
+- [x] [숨바꼭질 2](https://www.acmicpc.net/problem/12851)
 - [ ] [탈옥](https://www.acmicpc.net/problem/9376)
 - [ ] [열쇠](https://www.acmicpc.net/problem/9328)
 - [ ] [로봇 청소기](https://www.acmicpc.net/problem/4991)
