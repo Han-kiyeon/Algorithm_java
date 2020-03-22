@@ -1,3 +1,5 @@
+package BOJ.DFS_BFS;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
@@ -6,7 +8,19 @@ import java.util.Queue;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Silver1_2251_물통.java
+ *
+ * @Date : 2020. 3. 22.
+ * @작성자 : 한기연
+ * @메모리 : 23520 kb
+ * @실행시간 : 112 ms
+ *
+ * @Blog : __
+ **/
+public class Silver1_2251_물통 {
 	static int[] input;
 
 	public static void main(String[] args) {
@@ -43,7 +57,6 @@ public class Main {
 		}
 
 		ArrayList<Integer> ans = new ArrayList<>(set);
-		System.out.println(ans);
 		Collections.sort(ans);
 		StringBuilder sb = new StringBuilder();
 		for (Integer i : ans) {
