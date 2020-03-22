@@ -1,11 +1,24 @@
-import java.util.Arrays;
+package BOJ.DFS_BFS;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Gold3_1525_퍼즐.java
+ *
+ * @Date : 2020. 3. 22.
+ * @작성자 : 한기연
+ * @메모리 : 63944 kb
+ * @실행시간 : 688 ms
+ *
+ * @Blog : __
+ **/
+public class Gold3_1525_퍼즐 {
 	static int[] dr = { -1, 1, 0, 0 };
 	static int[] dc = { 0, 0, -1, 1 };
 

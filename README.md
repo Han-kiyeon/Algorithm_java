@@ -133,7 +133,7 @@ JAVA Algorithm solution
 
 - [x] [숨바꼭질 4](https://www.acmicpc.net/problem/13913)
 - [x] [DSLR](https://www.acmicpc.net/problem/9019)
-- [ ] [퍼즐](https://www.acmicpc.net/problem/1525)
+- [x] [퍼즐](https://www.acmicpc.net/problem/1525)
 - [ ] [물통](https://www.acmicpc.net/problem/2251)
 - [ ] [숨바꼭질 2](https://www.acmicpc.net/problem/12851)
 - [ ] [탈옥](https://www.acmicpc.net/problem/9376)
