@@ -1,8 +1,21 @@
+package BOJ.Graph;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.Graph
+ * @FileName : Gold4_1922_네트워크연결.java
+ *
+ * @Date : 2020. 4. 8.
+ * @작성자 : 한기연
+ * @메모리 : 225564 kb
+ * @실행시간 : 1100 ms
+ *
+ * @Blog : __
+ **/
+public class Gold4_1922_네트워크연결 {
 	static int N, M;
 	static int[] parent;
 
