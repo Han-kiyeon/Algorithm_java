@@ -1,8 +1,7 @@
-import java.util.Arrays;
+package BOJ.BF;
 import java.util.Scanner;
 
-public class Main {
-	// 7:12
+public class Bronze2_2798_블랙잭 {
 	static int N, M, ans;
 	static int[] card;
 	static boolean[] visit;
