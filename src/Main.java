@@ -4,90 +4,115 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
-	static int N, M;
-	static char[][] map;
-
-	static int[] dr = { -1, 1, 0, 0 };
-	static int[] dc = { 0, 0, -1, 1 };
-
-	static boolean[] key;
-	static boolean[][] visit;
+	static int N, ans;
+	static int[] person;
+	static boolean[] group;
+	static int[][] map;
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		N = sc.nextInt();
 
-		int T = sc.nextInt();
-		for (int tc = 0; tc < T; tc++) {
-			N = sc.nextInt() + 2;
-			M = sc.nextInt() + 2;
+		person = new int[N];
+		for (int i = 0; i < N; i++) {
+			person[i] = sc.nextInt();
+		}
 
-			map = new char[N][M];
-
-			for (int i = 0; i < N; i++) {
-				Arrays.fill(map[i], '.');
+		map = new int[N][N];
+		for (int i = 0; i < N; i++) {
+			int K = sc.nextInt();
+			for (int j = 0; j < K; j++) {
+				int now = sc.nextInt() - 1;
+				map[i][now] = map[now][i] = 1;
 			}
-
-			for (int i = 1; i < N - 1; i++) {
-				String str = sc.next();
-				for (int j = 1; j < M - 1; j++) {
-					map[i][j] = str.charAt(j - 1);
-				}
-			}
-
-			String init_key = sc.next();
-			key = new boolean[26];
-
-			for (int i = 0; i < init_key.length(); i++) {
-				if (init_key.charAt(i) == '0')
-					break;
-				key[init_key.charAt(i) - 'a'] = true;
-			}
-
-			int ans = 0;
-			visit = new boolean[N][M];
-			Queue<int[]> q = new LinkedList<>();
-			q.add(new int[] { 0, 0 });
-			visit[0][0] = true;
-
-			while (!q.isEmpty()) {
-				int[] now = q.poll();
-				for (int k = 0; k < dr.length; k++) {
-					int nr = now[0] + dr[k];
-					int nc = now[1] + dc[k];
-					if (!isRange(nr, nc) || map[nr][nc] == '*' || visit[nr][nc])
-						continue;
-					// 문서일경우
-					if (map[nr][nc] == '$') {
-						ans++;
-						map[nr][nc] = '.';
-					}
-					// 문일 경우
-					else if ('A' <= map[nr][nc] && map[nr][nc] <= 'Z') {
-						if (!key[map[nr][nc] - 'A'])
-							continue;
-						map[nr][nc] = '.';
-					}
-					// 열쇠일 경우
-					else if ('a' <= map[nr][nc] && map[nr][nc] <= 'z') {
-						key[map[nr][nc] - 'a'] = true;
-						map[nr][nc] = '.';
-						q.clear();
-						for (int i = 0; i < N; i++) {
-							Arrays.fill(visit[i], false);
-						}
-					}
-					visit[nr][nc] = true;
-					q.add(new int[] { nr, nc });
-				}
-
-			} // end of while
-			System.out.println(ans);
-		} // end of TC
+		}
+		group = new boolean[N];
+		ans = Integer.MAX_VALUE;
+		solve(0);
+		System.out.println(ans == Integer.MAX_VALUE ? -1 : ans);
 	}
 
-	private static boolean isRange(int nr, int nc) {
-		if (0 <= nr && nr < N && 0 <= nc && nc < M)
-			return true;
-		return false;
+	private static void solve(int depth) {
+		if (depth == N) {
+			int T = -1;
+			int F = -1;
+			for (int i = 0; i < group.length; i++) {
+				if (F != -1 && T != -1)
+					break;
+				if (group[i])
+					T = i;
+				else
+					F = i;
+			}
+			if (T == -1 || F == -1)
+				return;
+
+			if (check(T, F)) {
+				int now = get();
+				if (now < ans)
+					ans = now;
+			}
+			return;
+		}
+
+		group[depth] = true;
+		solve(depth + 1);
+		group[depth] = false;
+		solve(depth + 1);
+
+	}
+
+	private static int get() {
+		int T = 0, F = 0;
+		for (int i = 0; i < N; i++) {
+			if (group[i])
+				T += person[i];
+			else
+				F += person[i];
+		}
+		return Math.abs(T - F);
+	}
+
+	private static boolean check(int t, int f) {
+		Queue<Integer> q = new LinkedList<>();
+		boolean[] visit = new boolean[N];
+
+		q.add(t);
+		visit[t] = true;
+
+		while (!q.isEmpty()) {
+			int i = q.poll();
+			for (int j = 0; j < N; j++) {
+				if (map[i][j] == 1 && !visit[j] && group[j]) {
+					visit[j] = true;
+					q.add(j);
+				}
+			}
+		}
+		for (int i = 0; i < N; i++) {
+			if (group[i] != visit[i])
+				return false;
+		}
+
+		q.clear();
+		Arrays.fill(visit, false);
+
+		q.add(f);
+		visit[f] = true;
+
+		while (!q.isEmpty()) {
+			int i = q.poll();
+			for (int j = 0; j < N; j++) {
+				if (map[i][j] == 1 && !visit[j] && !group[j]) {
+					visit[j] = true;
+					q.add(j);
+				}
+			}
+		}
+		for (int i = 0; i < N; i++) {
+			if (group[i] == visit[i])
+				return false;
+		}
+		return true;
 	}
 }
