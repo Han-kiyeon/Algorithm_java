@@ -1,10 +1,23 @@
 package BOJ.DFS_BFS;
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class 구슬탈출2 {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Gold2_15653_구슬탈출4.java
+ *
+ * @Date : 2020. 4. 8.
+ * @작성자 : 한기연
+ * @메모리 : 14488 kb
+ * @실행시간 : 108 ms
+ *
+ * @Blog : __
+ **/
+public class Gold2_15653_구슬탈출4 {
 	static int N, M;
 	static char[][] map;
 	static boolean[][][][] visit;
@@ -63,20 +76,17 @@ public class 구슬탈출2 {
 			count = q.peek()[4];
 			q.poll();
 
+			// 파란공 구멍에 빠짐.
+			if (B[0] == O[0] && B[1] == O[1]) {
+				continue;
+			}
+			
 			// 도착 : 빨간공만 구멍에 빠짐.
 			if (R[0] == O[0] && R[1] == O[1]) {
 //				System.out.println("!!!!!!!!!     " + count);
 				ans = count;
 				break;
 			}
-
-			// 파란공만 구멍에 빠짐.
-			if (B[0] == O[0] && B[1] == O[1]) {
-				continue;
-			}
-			// 10회 초과
-			if (count == 10)
-				continue;
 
 			for (int k = 0; k < dr.length; k++) {
 				boolean flag = false;
@@ -154,11 +164,6 @@ public class 구슬탈출2 {
 						r[0] -= dr[k];
 						r[1] -= dc[k];
 					}
-				}
-
-				// 구멍에 둘다 빠짐.
-				if (b[0] == r[0] && b[1] == r[1]) {
-					continue;
 				}
 
 				if (!visit[r[0]][r[1]][b[0]][b[1]]) {
