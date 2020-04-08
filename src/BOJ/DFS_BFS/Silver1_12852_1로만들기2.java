@@ -1,4 +1,5 @@
 package BOJ.DFS_BFS;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -28,7 +29,7 @@ public class Silver1_12852_1로만들기2 {
 				s.push(next);
 
 				while (!s.isEmpty()) {
-					System.out.print(s.pop()+" ");
+					System.out.print(s.pop() + " ");
 				}
 				System.out.println();
 				return;
