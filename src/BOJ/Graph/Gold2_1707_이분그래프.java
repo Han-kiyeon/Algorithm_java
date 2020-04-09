@@ -1,9 +1,10 @@
+package BOJ.Graph;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Gold2_1707_이분그래프 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
