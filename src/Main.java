@@ -1,60 +1,67 @@
-import java.util.Comparator;
-import java.util.PriorityQueue;
+import java.awt.Point;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-	static int N, M;
-	static int[] parent;
+	static int N, K;
+	static int[][] map;
+	static int W;
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-
 		N = sc.nextInt();
-		M = sc.nextInt();
-		PriorityQueue<int[]> pq = new PriorityQueue<>(new Comparator<int[]>() {
-			@Override
-			public int compare(int[] o1, int[] o2) {
-				return o1[2] - o2[2];
+
+		ArrayList<Integer> list = new ArrayList<>();
+		sc.nextInt();
+		sc.nextInt();
+		for (int i = 0; i < N - 2; i += 2) {
+			Point p1 = new Point(sc.nextInt(), sc.nextInt());
+			Point p2 = new Point(sc.nextInt(), sc.nextInt());
+			for (int j = p1.x; j < p2.x; j++) {
+				list.add(p1.y);
 			}
-		});
-		for (int i = 0; i < M; i++) {
-			pq.offer(new int[] { sc.nextInt() - 1, sc.nextInt() - 1, sc.nextInt() });
+		}
+		sc.nextInt();
+		sc.nextInt();
+		W = list.size();
+		K = sc.nextInt();
+		for (int i = 0; i < K; i++) {
+			Point p1 = new Point(sc.nextInt(), sc.nextInt());
+			Point p2 = new Point(sc.nextInt(), sc.nextInt());
+			int c = (p1.x + p2.x) / 2;
+			int left = c, right = c;
+
+			int tmp = list.get(c);
+			while (left > 0) {
+				if (tmp == 0)
+					break;
+				left--;
+				if (list.get(left) < tmp) {
+					tmp = list.get(left);
+				}
+				list.set(left, list.get(left) - tmp);
+			}
+
+			tmp = list.get(c);
+			while (right < W - 1) {
+				if (tmp == 0)
+					break;
+				right++;
+				if (list.get(right) <= tmp) {
+					tmp = list.get(right);
+				}
+				list.set(right, list.get(right) - tmp);
+			}
+
+			list.set(c, 0);
 		}
 
-		parent = new int[N];
-		for (int i = 0; i < N; i++) {
-			parent[i] = i;
-		}
 		int ans = 0;
-		while (!pq.isEmpty()) {
-			int[] now = pq.poll();
-
-			int a = find(now[0]);
-			int b = find(now[1]);
-
-			if (a == b)
-				continue;
-
-			union(a, b);
-			ans += now[2];
+		for (Integer i : list) {
+			if (i > 0)
+				ans += i;
 		}
+
 		System.out.println(ans);
-	}
-
-	private static void union(int x, int y) {
-		x = find(x);
-		y = find(y);
-		if (x != y) {
-			if (x < y)
-				parent[y] = x;
-			else
-				parent[x] = y;
-		}
-	}
-
-	private static int find(int x) {
-		if (x == parent[x])
-			return x;
-		return parent[x] = find(parent[x]);
 	}
 }
