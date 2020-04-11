@@ -1,8 +1,9 @@
+package BOJ.Simulation;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class Main {
+public class Silver1_3190_뱀 {
 	static int N, K, L;
 	static int[][] map;
 
@@ -39,7 +40,7 @@ public class Main {
 			int[] tail = snake.getFirst();
 			int nr = head[0] + dr[dir];
 			int nc = head[1] + dc[dir];
-			System.out.println(time + ": " + Arrays.toString(head) + "size= " + snake.size() + " " + " >> next="+ nr + " " + nc+" :: " + map[nr][nc]);
+//			System.out.println(time + ": " + Arrays.toString(head) + "size= " + snake.size() + " " + " >> next="+ nr + " " + nc+" :: " + map[nr][nc]);
 			
 			if (!isRange(nr, nc))
 				break;
@@ -50,7 +51,7 @@ public class Main {
 				map[tail[0]][tail[1]] = 0;
 				snake.remove(0);
 			} else if (map[nr][nc] == 1) {
-				System.out.println("사과");
+//				System.out.println("사과");
 				snake.add(new int[] { nr, nc });
 				map[nr][nc] = 2;
 			} else
