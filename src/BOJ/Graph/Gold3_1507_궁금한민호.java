@@ -1,18 +1,20 @@
+package BOJ.Graph;
+
 import java.util.Scanner;
 
-public class Main {
+public class Gold3_1507_궁금한민호 {
 	static int N;
-	static int[][] graph;
+	static int[][] map, graph;
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		N = sc.nextInt();
 
 		graph = new int[N][N];
-
+		map = new int[N][N];
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < N; j++) {
-				graph[i][j] = sc.nextInt();
+				graph[i][j] = map[i][j]= sc.nextInt();
 			}
 		}
 
@@ -24,17 +26,17 @@ public class Main {
 					if (k == j || i == j)
 						continue;
 					if (graph[i][j] == graph[i][k] + graph[k][j])
-						graph[i][j] = 0;
+						map[i][j] = 0;
 				}
 			}
 		}
 		int ans = 0;
 		for (int i = 0; i < N; i++) {
-			for (int j = i+1; j < N; j++) {
-				ans += graph[i][j];
+			for (int j = 0; j < N; j++) {
+				ans += map[i][j];
 			}
 		}
-		System.out.println(ans);
+		System.out.println(ans >> 1);
 
 	}
 }
