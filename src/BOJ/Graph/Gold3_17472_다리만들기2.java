@@ -1,10 +1,12 @@
+package BOJ.Graph;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+
+public class Gold3_17472_다리만들기2 {
 	static int N, M;
 	static int[][] map;
 
