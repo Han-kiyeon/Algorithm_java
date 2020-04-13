@@ -37,6 +37,8 @@ class NaverAI01 {
 		}
 	}
 
+	
+	
 	private static void check() {
 		String str = "";
 		int[] alpabet = new int[26];
