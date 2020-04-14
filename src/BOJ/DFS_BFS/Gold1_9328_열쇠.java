@@ -1,9 +1,10 @@
+package BOJ.DFS_BFS;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Gold1_9328_열쇠 {
 	static int N, M;
 	static char[][] map;
 
@@ -43,12 +44,12 @@ public class Main {
 				key[init_key.charAt(i) - 'a'] = true;
 			}
 
+			int ans = 0;
 			visit = new boolean[N][M];
 			Queue<int[]> q = new LinkedList<>();
 			q.add(new int[] { 0, 0 });
 			visit[0][0] = true;
 
-			int ans = 0;
 			while (!q.isEmpty()) {
 				int[] now = q.poll();
 				for (int k = 0; k < dr.length; k++) {
