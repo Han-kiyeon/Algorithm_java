@@ -17,7 +17,7 @@ import java.util.Scanner;
  * @Blog : https://herong.tistory.com/entry/BOJ-16985-Maaaaaaaaaze-GraphBFBFS
  **/
 
-public class Glod3_16985_Maaaaaaaaaze {
+public class Gold3_16985_Maaaaaaaaaze {
 	static int[][][][] map = new int[5][4][5][5];
 	static int[] solData = new int[5], goData = new int[5];
 	static boolean[] visit = new boolean[5];

@@ -43,12 +43,12 @@ public class Main {
 				key[init_key.charAt(i) - 'a'] = true;
 			}
 
+			int ans = 0;
 			visit = new boolean[N][M];
 			Queue<int[]> q = new LinkedList<>();
 			q.add(new int[] { 0, 0 });
 			visit[0][0] = true;
 
-			int ans = 0;
 			while (!q.isEmpty()) {
 				int[] now = q.poll();
 				for (int k = 0; k < dr.length; k++) {
