@@ -2,7 +2,7 @@ package BOJ.Simulation;
 import java.nio.channels.SelectableChannel;
 import java.util.Scanner;
 
-public class Gold_14499_주사위굴리기 {
+public class Gold5_14499_주사위굴리기 {
 	static int[] dr = { 0, 0, 0, -1, 1 };
 	static int[] dc = { 0, 1, -1, 0, 0 };
 
