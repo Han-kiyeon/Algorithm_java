@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class Gold3_1507_궁금한민호 {
 	static int N;
-	static int[][] map, graph;
+	static int[][] a, dist;
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		N = sc.nextInt();
 
-		graph = new int[N][N];
-		map = new int[N][N];
+		dist = new int[N][N];
+		a = new int[N][N];
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < N; j++) {
-				graph[i][j] = map[i][j]= sc.nextInt();
+				dist[i][j] = a[i][j]= sc.nextInt();
 			}
 		}
 
@@ -25,18 +25,23 @@ public class Gold3_1507_궁금한민호 {
 				for (int j = 0; j < N; j++) {
 					if (k == j || i == j)
 						continue;
-					if (graph[i][j] == graph[i][k] + graph[k][j])
-						map[i][j] = 0;
+					if (dist[i][j] > dist[i][k] + dist[k][j]) {
+						System.out.println(-1);
+						return;
+					}
+					if (dist[i][j] == dist[i][k] + dist[k][j])
+						a[i][j] = 0;
+					
 				}
 			}
 		}
 		int ans = 0;
 		for (int i = 0; i < N; i++) {
-			for (int j = 0; j < N; j++) {
-				ans += map[i][j];
+			for (int j = i+1; j < N; j++) {
+				ans += a[i][j];
 			}
 		}
-		System.out.println(ans >> 1);
+		System.out.println(ans);
 
 	}
 }
