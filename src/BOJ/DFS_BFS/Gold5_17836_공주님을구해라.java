@@ -1,9 +1,9 @@
-import java.util.Arrays;
+package BOJ.DFS_BFS;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Gold5_17836_공주님을구해라 {
 	static int N, M, T, ans;
 	static int[][] map;
 
@@ -36,14 +36,12 @@ public class Main {
 			int time = q.peek()[3];
 			q.poll();
 
-			
-
 			if (r == N - 1 && c == M - 1) {
 				ans = time;
 				break;
 			}
 			if (time == T) {
-				break;
+				continue;
 			}
 			for (int dir = 0; dir < dc.length; dir++) {
 				int nr = r + dr[dir];
@@ -54,11 +52,11 @@ public class Main {
 					continue;
 
 				if (!visit[sword][nr][nc]) {
-					visit[sword][nr][nc] = true;
 					if (map[nr][nc] == 2) {
 						visit[1][nr][nc] = true;
 						q.add(new int[] { nr, nc, 1, time + 1 });
 					} else {
+						visit[sword][nr][nc] = true;
 						q.add(new int[] { nr, nc, sword, time + 1 });
 					}
 				}
