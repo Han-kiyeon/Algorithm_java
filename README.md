@@ -163,7 +163,7 @@ JAVA Algorithm solution
 
 #### 시뮬레이션
 
-- [ ] :star:[주사위 굴리기](https://www.acmicpc.net/problem/14499)
+- [x] :star:[주사위 굴리기](https://www.acmicpc.net/problem/14499)
 - [ ] :star:[톱니바퀴](https://www.acmicpc.net/problem/14891)
 - [ ] [톱니바퀴 (2)](https://www.acmicpc.net/problem/15662)
 - [x] :star:[로봇 청소기](https://www.acmicpc.net/problem/14503)
@@ -338,7 +338,7 @@ JAVA Algorithm solution
 - [ ] [2048 (Easy)](https://www.acmicpc.net/problem/12100)
 - [ ] [뱀](https://www.acmicpc.net/problem/3190)
 - [ ] [시험 감독](https://www.acmicpc.net/problem/13458)
-- [ ] [주사위 굴리기](https://www.acmicpc.net/problem/14499)
+- [x] [주사위 굴리기](https://www.acmicpc.net/problem/14499)
 - [ ] [테트로미노](https://www.acmicpc.net/problem/14500)
 - [ ] [퇴사](https://www.acmicpc.net/problem/14501)
 - [ ] [연구소](https://www.acmicpc.net/problem/14502)
