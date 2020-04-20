@@ -313,7 +313,7 @@ JAVA Algorithm solution
 
 ### 삼성 SW 역량 테스트 기출 문제
 
-- [ ] :star:[미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
+- [x] :star:[미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
 - [ ] :star:[낚시왕](https://www.acmicpc.net/problem/17143)
 - [ ] :star:[이차원 배열과 연산](https://www.acmicpc.net/problem/17140)
 - [ ] :star:[연구소 3](https://www.acmicpc.net/problem/17142)

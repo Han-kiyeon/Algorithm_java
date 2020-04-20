@@ -1,9 +1,21 @@
-import java.util.Arrays;
+package BOJ.DFS_BFS;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DFS_BFS
+ * @FileName : Silver1_2468_안전영역.java
+ *
+ * @Date : 2020. 5. 2.
+ * @작성자 : 한기연
+ * @메모리 : 67692 kb
+ * @실행시간 : 524 ms
+ *
+ * @Blog : __
+ **/
+public class Silver1_2468_안전영역 {
 	static int N;
 	static int[][] map;
 
@@ -22,15 +34,9 @@ public class Main {
 					max = map[i][j];
 			}
 		}
-//		for (int[] is : map) {
-//			System.out.println(Arrays.toString(is));
-//		}
-//		System.out.println();
-//		System.out.println(max);
 		int ans = 0;
 		for (int i = 0; i < max; i++) {
 			int tmp = BFS(i);
-//			System.out.println(tmp);
 			if (ans < tmp)
 				ans = tmp;
 		}
@@ -46,16 +52,6 @@ public class Main {
 					tmp[i][j] = true;
 			}
 		}
-//		for (int i = 0; i < N; i++) {
-//			for (int j = 0; j < N; j++) {
-//				if (tmp[i][j])
-//					System.out.print(1 + " ");
-//				else
-//					System.out.print(0 + " ");
-//			}
-//			System.out.println();
-//		}
-//		System.out.println();
 
 		int cnt = 0;
 		Queue<int[]> q = new LinkedList<>();
