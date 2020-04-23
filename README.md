@@ -397,7 +397,7 @@ JAVA Algorithm solution
 - [ ] [MT](https://www.acmicpc.net/problem/10265)
 - [x] [배달](https://www.acmicpc.net/problem/1175)
 - [x] [안전 영역](https://www.acmicpc.net/problem/2468)
-- [ ] [통나무 옮기기](https://www.acmicpc.net/problem/1938)
+- [x] [통나무 옮기기](https://www.acmicpc.net/problem/1938)
 - [ ] [말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600)
 - [ ] [가스관](https://www.acmicpc.net/problem/2931)
 - [ ] [욕심쟁이 판다](https://www.acmicpc.net/problem/1937)

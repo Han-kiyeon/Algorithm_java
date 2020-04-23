@@ -1,7 +1,7 @@
-import java.util.Arrays;
+package BOJ.Simulation;
 import java.util.Scanner;
 
-public class Main {
+public class Gold5_2174_로봇시뮬레이션 {
 	static int H, W;
 	static int[][] map;
 
@@ -45,10 +45,6 @@ public class Main {
 				this.dir++;
 		}
 
-		@Override
-		public String toString() {
-			return "Robot [r=" + r + ", c=" + c + ", dir=" + dir + "]";
-		}
 	}
 
 	public static void main(String[] args) {
@@ -68,12 +64,6 @@ public class Main {
 			robot[i] = new Robot(r, c, dir);
 			map[r][c] = i;
 		}
-//		for (int[] is : map) {
-//			System.out.println(Arrays.toString(is));
-//		}
-//		for (Robot r : robot) {
-//			System.out.println(r);
-//		}
 
 		for (int i = 0; i < M; i++) {
 			int num = sc.nextInt();
@@ -90,10 +80,9 @@ public class Main {
 				case 'F':
 					int r = robot[num].r;
 					int c = robot[num].c;
-					
+
 					int nr = r + dr[robot[num].dir];
 					int nc = c + dc[robot[num].dir];
-//					System.out.println(r + " " + c + ">> " + nr + " " + nc + " k=" + k);
 					if (!isRange(nr, nc)) {
 						System.out.println("Robot " + num + " crashes into the wall");
 						System.exit(0);
