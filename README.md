@@ -409,7 +409,7 @@ JAVA Algorithm solution
 - [ ] [가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054)
 - [ ] [줄세우기](https://www.acmicpc.net/problem/2631)
 - [ ] [동물원](https://www.acmicpc.net/problem/1309)
-- [ ] [로봇 시뮬레이션](https://www.acmicpc.net/problem/2174)
+- [x] [로봇 시뮬레이션](https://www.acmicpc.net/problem/2174)
 - [ ] [Puyo Puyo](https://www.acmicpc.net/problem/11559)
 - [ ] [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)
 - [ ] [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)
