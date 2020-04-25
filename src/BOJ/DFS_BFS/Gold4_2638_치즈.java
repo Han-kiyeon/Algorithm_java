@@ -1,9 +1,10 @@
+package BOJ.DFS_BFS;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Gold4_2638_치즈 {
 	static int N, M;
 	static int[][] map;
 
