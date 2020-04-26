@@ -421,7 +421,7 @@ JAVA Algorithm solution
 - [ ] [달이 차오른다, 가자.](https://www.acmicpc.net/problem/1194)
 - [ ] [구슬 탈출](https://www.acmicpc.net/problem/13459)
 - [ ] [미로만들기](https://www.acmicpc.net/problem/2665)
-- [ ] [치즈](https://www.acmicpc.net/problem/2638)
+- [x] [치즈](https://www.acmicpc.net/problem/2638)
 - [ ] [집 구하기](https://www.acmicpc.net/problem/13911)
 - [ ] [탈옥](https://www.acmicpc.net/problem/9376)
 - [ ] [로봇 조종하기](https://www.acmicpc.net/problem/2169)
