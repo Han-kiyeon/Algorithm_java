@@ -1,5 +1,5 @@
+package BOJ.DFS_BFS;
 import java.awt.Point;
-import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -15,9 +15,9 @@ public class Main {
 	static Queue<int[]> swanQ;
 	static Queue<int[]> waterQ;
 
-	static boolean[][] visit;
+	static boolean[][] visit_swan;
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		R = sc.nextInt();
 		C = sc.nextInt();
@@ -25,9 +25,10 @@ public class Main {
 		map = new char[R][C];
 		swan = new Point[2];
 
-		visit = new boolean[R][C];
-		waterQ = new LinkedList<>();
 		swanQ = new LinkedList<>();
+		visit_swan = new boolean[R][C];
+
+		waterQ = new LinkedList<>();
 
 		// 데이터 입력
 		int index = 0;
@@ -38,7 +39,8 @@ public class Main {
 				if (map[i][j] == 'L') {
 					map[i][j] = '.';
 					swan[index++] = new Point(i, j);
-				} else if (map[i][j] != 'X') {
+				}
+				if (map[i][j] == '.') {
 					waterQ.add(new int[] { i, j });
 				}
 			}
@@ -46,14 +48,13 @@ public class Main {
 
 		// 출발점이 되는 백조
 		swanQ.add(new int[] { swan[0].x, swan[0].y });
-		visit[swan[0].x][swan[0].y] = true;
+		visit_swan[swan[0].x][swan[0].y] = true;
 
 		int day = 0;
 		while (true) {
 			if (move_swan())
 				break;
-			else
-				melt();
+			melt();
 			day++;
 		}
 
@@ -62,7 +63,6 @@ public class Main {
 
 	private static boolean move_swan() {
 		Queue<int[]> nextQ = new LinkedList<>();
-		visit = new boolean[R][C];
 		while (!swanQ.isEmpty()) {
 			int[] now = swanQ.poll();
 
@@ -74,16 +74,15 @@ public class Main {
 				int nr = now[0] + dr[k];
 				int nc = now[1] + dc[k];
 
-				if (!isRange(nr, nc) || visit[nr][nc])
+				if (!isRange(nr, nc) || visit_swan[nr][nc])
 					continue;
-				visit[nr][nc] = true;
+				visit_swan[nr][nc] = true;
 				if (map[nr][nc] == '.') {
-					swanQ.offer(new int[] { nr, nc });
+					swanQ.add(new int[] { nr, nc });
 				}
 				// 다음날 얼음이 녹아 백조가 지나 갈 수 있음.
 				else if (map[nr][nc] == 'X') {
-					nextQ.offer(new int[] { nr, nc });
-					continue;
+					nextQ.add(new int[] { nr, nc });
 				}
 			}
 		}
@@ -95,8 +94,6 @@ public class Main {
 	private static void melt() {
 		// 얼음을 녹인다.
 		int size = waterQ.size();
-		visit = new boolean[R][C];
-
 		for (int i = 0; i < size; ++i) {
 			int[] now = waterQ.poll();
 
@@ -104,14 +101,10 @@ public class Main {
 				int nr = now[0] + dr[k];
 				int nc = now[1] + dc[k];
 
-				if (!isRange(nr, nc) || visit[nr][nc])
-					continue;
-
 				// 물에 인접한 얼음을 발견하면 녹이고 다시 큐에 넣는다.
-				if (map[nr][nc] == 'X') {
+				if (isRange(nr, nc) && map[nr][nc] == 'X') {
 					map[nr][nc] = '.';
-					visit[nr][nc] = true;
-					waterQ.offer(new int[] { nr, nc });
+					waterQ.add(new int[] { nr, nc });
 				}
 			}
 		}
