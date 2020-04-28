@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Gold1_3197_백조의호수 {
 	static int R, C;
 	static char[][] map;
 	static Point[] swan;
