@@ -177,7 +177,7 @@ JAVA Algorithm solution
 #### 브루트 포스
 
 - [ ] :star:[테트로미노](https://www.acmicpc.net/problem/14500)
-- [ ] [링크와 스타트](https://www.acmicpc.net/problem/15661)
+- [x] [링크와 스타트](https://www.acmicpc.net/problem/15661)
 - [ ] :star:[연구소](https://www.acmicpc.net/problem/14502)
 - [ ] :star:[감시](https://www.acmicpc.net/problem/15683)
 - [ ] :star:[사다리 조작](https://www.acmicpc.net/problem/15684)
