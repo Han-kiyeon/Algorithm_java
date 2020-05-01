@@ -1,6 +1,19 @@
+package BOJ.BF;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.BF
+ * @FileName : Gold5_15661_링크와스타트.java
+ *
+ * @Date : 2020. 5. 6.
+ * @작성자 : 한기연
+ * @메모리 : 16888 kb
+ * @실행시간 : 1092 ms
+ *
+ * @Blog : __
+ **/
+public class Gold5_15661_링크와스타트 {
 	static int N, ans;
 	static int[][] graph;
 	static boolean[] visit;
