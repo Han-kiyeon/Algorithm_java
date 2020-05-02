@@ -336,7 +336,7 @@ JAVA Algorithm solution
 
 - [ ] [구슬 탈출 2](https://www.acmicpc.net/problem/13460)
 - [ ] [2048 (Easy)](https://www.acmicpc.net/problem/12100)
-- [ ] [뱀](https://www.acmicpc.net/problem/3190)
+- [x] [뱀](https://www.acmicpc.net/problem/3190)
 - [ ] [시험 감독](https://www.acmicpc.net/problem/13458)
 - [x] [주사위 굴리기](https://www.acmicpc.net/problem/14499)
 - [ ] [테트로미노](https://www.acmicpc.net/problem/14500)
