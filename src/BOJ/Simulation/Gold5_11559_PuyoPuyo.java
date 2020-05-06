@@ -1,9 +1,22 @@
+package BOJ.Simulation;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.Simulation
+ * @FileName : Gold5_11559_PuyoPuyo.java
+ *
+ * @Date : 2020. 5. 6.
+ * @작성자 : 한기연
+ * @메모리 : 14508 kb
+ * @실행시간 : 104 ms
+ *
+ * @Blog : __
+ **/
+public class Gold5_11559_PuyoPuyo {
 	static int H, W, ans;
 
 	static char[][] map;
