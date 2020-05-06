@@ -1,9 +1,21 @@
 package BOJ.Simulation;
-import java.util.Arrays;
+
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class Silver1_3190_뱀 {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.Simulation
+ * @FileName : Silver1_3190_뱀.java
+ *
+ * @Date : 2020. 5. 6.
+ * @작성자 : 한기연
+ * @메모리 : 15248 kb
+ * @실행시간 : 140 ms
+ *
+ * @Blog : __
+ **/
+public class Gold5_3190_뱀 {
 	static int N, K, L;
 	static int[][] map;
 
@@ -40,8 +52,7 @@ public class Silver1_3190_뱀 {
 			int[] tail = snake.getFirst();
 			int nr = head[0] + dr[dir];
 			int nc = head[1] + dc[dir];
-//			System.out.println(time + ": " + Arrays.toString(head) + "size= " + snake.size() + " " + " >> next="+ nr + " " + nc+" :: " + map[nr][nc]);
-			
+
 			if (!isRange(nr, nc))
 				break;
 
@@ -51,14 +62,12 @@ public class Silver1_3190_뱀 {
 				map[tail[0]][tail[1]] = 0;
 				snake.remove(0);
 			} else if (map[nr][nc] == 1) {
-//				System.out.println("사과");
 				snake.add(new int[] { nr, nc });
 				map[nr][nc] = 2;
 			} else
 				break;
 
 			if (!cmd.isEmpty() && time == cmd.getFirst()[0]) {
-
 				if (cmd.getFirst()[1] == 1) { // 오른쪽
 					if (dir == 3)
 						dir = 0;
@@ -71,7 +80,6 @@ public class Silver1_3190_뱀 {
 						dir--;
 				}
 				cmd.remove(0);
-//				System.out.println("         time=" + time + ", dir=" + dir);
 			}
 		}
 		System.out.println(time);
