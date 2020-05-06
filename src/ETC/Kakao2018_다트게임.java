@@ -1,5 +1,4 @@
 package ETC;
-import java.util.Arrays;
 
 public class Kakao2018_다트게임 {
 	public static void main(String[] args) {
