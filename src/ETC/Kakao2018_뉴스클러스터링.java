@@ -1,6 +1,7 @@
+package ETC;
 import java.util.*;
 
-public class Main {
+public class Kakao2018_뉴스클러스터링 {
 	public static void main(String[] args) {
 
 		System.out.println(solution("FRANCE", "french"));
