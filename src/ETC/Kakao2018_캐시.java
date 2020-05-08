@@ -1,7 +1,8 @@
+package ETC;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Main {
+public class Kakao2018_캐시 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(3, new String[] { "Jeju", "Pangyo", "Seoul", "NewYork", "LA", "Jeju", "Pangyo",
