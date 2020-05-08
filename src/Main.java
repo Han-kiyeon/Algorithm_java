@@ -1,68 +1,54 @@
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class Main {
-//11:38
-	static int N, M, H;
-	static int[][][] map;
-
-	static int[][] dir = { { -1, 0, 0 }, { 1, 0, 0 }, { 0, 0, -1 }, { 0, 0, 1 }, { 0, -1, 0 }, { 0, 1, 0 } };
-
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		M = sc.nextInt();
-		N = sc.nextInt();
-		H = sc.nextInt();
-
-		map = new int[H][N][M];
-		Queue<int[]> q = new LinkedList<>();
-
-		for (int k = 0; k < H; k++) {
-			for (int i = 0; i < N; i++) {
-				for (int j = 0; j < M; j++) {
-					// 1은 익은 토마토, 0 은 익지 않은 토마토, -1은 빈 칸
-					map[k][i][j] = sc.nextInt();
-					if (map[k][i][j] == 1)
-						q.add(new int[] { k, i, j });
-				}
-			}
-		}
-		int ans = -1;
-		while (!q.isEmpty()) {
-			int size = q.size();
-			ans++;
-			for (int s = 0; s < size; s++) {
-				int[] now = q.poll();
-				for (int k = 0; k < dir.length; k++) {
-					int nh = now[0] + dir[k][0];
-					int nr = now[1] + dir[k][1];
-					int nc = now[2] + dir[k][2];
-					if (isRange(nh, nr, nc) && map[nh][nr][nc] == 0) {
-						map[nh][nr][nc] = 1;
-						q.add(new int[] { nh, nr, nc });
-					}
-				}
-			}
-		}
-		boolean flag = true;
-		for (int k = 0; k < H; k++) {
-			for (int i = 0; i < N; i++) {
-				for (int j = 0; j < M; j++) {
-					if (map[k][i][j] == 0) {
-						flag = false;
-						break;
-					}
-				}
-			}
-		}
-		System.out.println(flag ? ans : -1);
-
+		String dartResult = "1D2S#10S";
+		System.out.println(solution(dartResult));
 	}
 
-	private static boolean isRange(int nh, int nr, int nc) {
-		if (0 <= nh && nh < H && 0 <= nr && nr < N && 0 <= nc && nc < M)
-			return true;
-		return false;
+	public static int solution(String dartResult) {
+		int answer = 0;
+		int size = dartResult.length();
+		int index = 0;
+		int[] score = new int[3];
+		for (int i = 0; i < size; i++) {
+			char now = dartResult.charAt(i + 1);
+			int num = now == '0' ? 10 : now - '0';
+			if (now == '0') {
+				num = 10;
+				i += 2;
+			} else {
+				num = dartResult.charAt(i) - '0';
+				i += 1;
+			}
+
+			now = dartResult.charAt(i++);
+			switch (now) {
+			case 'S':
+				break;
+			case 'D':
+				num = (int) Math.pow(num, 2);
+				break;
+			case 'T':
+				num = (int) Math.pow(num, 3);
+				break;
+			}
+			if (i < size) {
+				now = dartResult.charAt(i);
+				if (now == '*') {
+					score[index] = num * 2;
+					if (index > 0)
+						score[index - 1] *= 2;
+				} else if (now == '#') {
+					score[index] = num * -1;
+				} else {
+					score[index] = num;
+					i--;
+				}
+			} else
+				score[index] = num;
+			index++;
+		}
+		return score[0] + score[1] + score[2];
 	}
 }
