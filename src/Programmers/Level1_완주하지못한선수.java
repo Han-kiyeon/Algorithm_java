@@ -1,7 +1,9 @@
+package Programmers;
+
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+public class Level1_완주하지못한선수 {
 	public static void main(String[] args) {
 		System.out.println(
 				solution(new String[] { "leo", "kiki", "eden" }, new String[] { "eden", "kiki" }));// leo
