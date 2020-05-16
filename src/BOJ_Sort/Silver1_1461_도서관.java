@@ -1,10 +1,24 @@
+package BOJ_Sort;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ_Sort
+ * @FileName : Silver1_1461_도서관.java
+ *
+ * @Date : 2020. 5. 17.
+ * @작성자 : 한기연
+ * @메모리 : 14472 kb
+ * @실행시간 : 112 ms
+ *
+ * @Blog : __
+ **/
+public class Silver1_1461_도서관 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
