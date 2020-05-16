@@ -1,10 +1,5 @@
 package Programmers;
 
-<<<<<<< HEAD
-=======
-import java.util.Date;
-
->>>>>>> 74aeb10d8c5ed5694a5ba2af50ab08edb235207e
 public class Level1_가운데글자가져오기 {
 	public static void main(String[] args) {
 		System.out.println(solution("abcde"));// "c";
