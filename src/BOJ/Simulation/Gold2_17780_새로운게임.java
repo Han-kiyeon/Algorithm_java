@@ -1,7 +1,8 @@
+package BOJ.Simulation;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class Main {
+public class Gold2_17780_새로운게임 {
 	static final int WHITE = 0, RED = 1, BLUE = 2;
 	static final int[] change = { 1, 0, 3, 2 };
 	// →, ←, ↑, ↓
