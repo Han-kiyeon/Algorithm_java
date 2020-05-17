@@ -1,7 +1,20 @@
 package BOJ.Simulation;
+
 import java.util.LinkedList;
 import java.util.Scanner;
 
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.Simulation
+ * @FileName : Gold2_17780_새로운게임.java
+ *
+ * @Date : 2020. 5. 18.
+ * @작성자 : 한기연
+ * @메모리 : 14840 kb
+ * @실행시간 : 136 ms
+ *
+ * @Blog : __
+ **/
 public class Gold2_17780_새로운게임 {
 	static final int WHITE = 0, RED = 1, BLUE = 2;
 	static final int[] change = { 1, 0, 3, 2 };
