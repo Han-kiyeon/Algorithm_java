@@ -1,6 +1,20 @@
+package BOJ.Simulation;
+
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.Simulation
+ * @FileName : Gold3_18808_스티커붙이기.java
+ *
+ * @Date : 2020. 5. 20.
+ * @작성자 : 한기연
+ * @메모리 : 22800 kb
+ * @실행시간 : 228 ms
+ *
+ * @Blog : __
+ **/
+public class Gold3_18808_스티커붙이기 {
 	static int N, M, K, H, W;
 	static int[][] map, sticker;
 
