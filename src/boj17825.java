@@ -74,11 +74,11 @@ public class boj17825 {
 						horse[cur][1] = 3;
 					}
 				} else if (idx != 4) { // 맵 번호가 1, 2, 3번일 때
-					int[] common = { 25, 30, 35, 40 };
-					for (int j = 0; j < common.length; j++) {
-						if (map[idx][pos] == common[j]) {
+					for (int j = 0; j < map[4].length; j++) {
+						if (map[idx][pos] == map[4][j]) {
 							horse[cur][0] = 4;
 							horse[cur][1] = j;
+							break;
 						}
 					}
 				}
