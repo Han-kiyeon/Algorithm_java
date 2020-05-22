@@ -1,7 +1,21 @@
+package BOJ_BackTracking;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ_BackTracking
+ * @FileName : Gold5_1043_거짓말.java
+ *
+ * @Date : 2020. 5. 22.
+ * @작성자 : 한기연
+ * @메모리 : 16576 kb
+ * @실행시간 : 120 ms
+ *
+ * @Blog : __
+ **/
+public class Gold5_1043_거짓말 {
 	static int N, M, K, ans;
 	static int[][] party;
 
