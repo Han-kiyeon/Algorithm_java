@@ -1,8 +1,22 @@
+package BOJ.Simulation;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.Simulation
+ * @FileName : Gold3_17143_낚시왕.java
+ *
+ * @Date : 2020. 6. 1.
+ * @작성자 : 한기연
+ * @메모리 : 66352 kb
+ * @실행시간 : 1660 ms
+ *
+ * @Blog : __
+ **/
+public class Gold3_17143_낚시왕 {
 	static int R, C, M;
 
 	static class Shark implements Comparable<Shark> {
