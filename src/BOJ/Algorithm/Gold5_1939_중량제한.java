@@ -1,9 +1,23 @@
+package BOJ.Algorithm;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.Algorithm
+ * @FileName : Gold5_1939_중량제한.java
+ *
+ * @Date : 2020. 6. 3.
+ * @작성자 : 한기연
+ * @메모리 : 243520 kb
+ * @실행시간 : 1240 ms
+ *
+ * @Blog : __
+ **/
+public class Gold5_1939_중량제한 {
 
 	static ArrayList<int[]>[] graph;
 	static int N, M, max;
@@ -13,7 +27,7 @@ public class Main {
 
 		N = sc.nextInt();
 		M = sc.nextInt();
-		
+
 		graph = new ArrayList[N];
 		for (int i = 0; i < N; ++i) {
 			graph[i] = new ArrayList<>();
