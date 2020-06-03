@@ -1,6 +1,19 @@
+package BOJ.Simulation;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.Simulation
+ * @FileName : Gold4_9872_미친아두이노.java
+ *
+ * @Date : 2020. 6. 3.
+ * @작성자 : 한기연
+ * @메모리 : 21964 kb
+ * @실행시간 : 220 ms
+ *
+ * @Blog : __
+ **/
+public class Gold4_9872_미친아두이노 {
 	static int R, C;
 	static char[][] map;
 	static int[] dr = { 0, 1, 1, 1, 0, 0, 0, -1, -1, -1 };
