@@ -1,8 +1,9 @@
+package BOJ.Simulation;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Main {
+public class Gold3_2931_가스관 {
 	static int R, C;
 	static char[][] map;
 	static int[] M, Z;

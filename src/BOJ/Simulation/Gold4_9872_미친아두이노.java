@@ -102,7 +102,7 @@ public class Gold4_9872_미친아두이노 {
 
 					if (r == me.r && c == me.c)
 						return times + 1;
-
+					
 					if (!visit[r][c]) {
 						visit[r][c] = true;
 						move[r][c] = true;
