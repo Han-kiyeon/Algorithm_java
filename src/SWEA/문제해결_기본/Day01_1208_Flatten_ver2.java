@@ -3,6 +3,19 @@ package SWEA.문제해결_기본;
 import java.io.FileInputStream;
 import java.util.Scanner;
 
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA.문제해결_기본
+ * @FileName : Day01_1208_Flatten_ver2.java
+ *
+ * @Date : 2020. 6. 19.
+ * @작성자 : 한기연
+ * @메모리 : 24,444 kb
+ * @실행시간 : 160 ms
+ *
+ * @Blog : __
+ **/
+
 public class Day01_1208_Flatten_ver2 {
 	public static void main(String[] args) throws Exception {
 		System.setIn(new FileInputStream("res/input.txt"));
