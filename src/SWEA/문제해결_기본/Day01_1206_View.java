@@ -1,7 +1,21 @@
+package SWEA.문제해결_기본;
+
 import java.io.FileInputStream;
 import java.util.Scanner;
 
-public class Solution {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA.문제해결_기본
+ * @FileName : Day01_1206_View.java
+ *
+ * @Date : 2020. 6. 17.
+ * @작성자 : 한기연
+ * @메모리 : 37,200 kb
+ * @실행시간 : 182 ms
+ *
+ * @Blog : https://herong.tistory.com/entry/SWEA-1206-SW-%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0-%EA%B8%B0%EB%B3%B8-1%EC%9D%BC%EC%B0%A8-View-D3-Java
+ **/
+public class Day01_1206_View {
 	static int N;
 	static int[] building;
 
