@@ -1,8 +1,22 @@
+package SWEA.문제해결_기본;
+
 import java.io.FileInputStream;
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Solution {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA.문제해결_기본
+ * @FileName : Day02_1211_Lander2.java
+ *
+ * @Date : 2020. 6. 28.
+ * @작성자 : 한기연
+ * @메모리 : 103,156 kb
+ * @실행시간 : 401 ms
+ *
+ * @Blog : __
+ **/
+
+public class Day02_1211_Lander2 {
 	static int[][] map;
 	static boolean[][] visit;
 

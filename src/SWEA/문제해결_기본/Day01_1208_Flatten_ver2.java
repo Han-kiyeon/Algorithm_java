@@ -17,9 +17,11 @@ import java.util.Scanner;
  **/
 
 public class Day01_1208_Flatten_ver2 {
+	
 	public static void main(String[] args) throws Exception {
 		System.setIn(new FileInputStream("res/input.txt"));
 		Scanner sc = new Scanner(System.in);
+		
 		int T = 10;
 		for (int tc = 1; tc <= T; tc++) {
 			int dump = sc.nextInt();
@@ -32,6 +34,7 @@ public class Day01_1208_Flatten_ver2 {
 				max = Math.max(max, tmp);
 				min = Math.min(min, tmp);
 			}
+			
 			for (int i = 0; i < dump; i++) {
 				map[min]--;
 				map[min + 1]++;

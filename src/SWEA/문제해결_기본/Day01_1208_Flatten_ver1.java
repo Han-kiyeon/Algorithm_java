@@ -34,6 +34,7 @@ public class Day01_1208_Flatten_ver1 {
 				map[0]++;
 				map[99]--;
 			}
+			
 			Arrays.sort(map);
 			System.out.println("#" + tc + " " + (map[99] - map[0]));
 		} // end of TC

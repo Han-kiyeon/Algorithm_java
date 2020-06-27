@@ -1,8 +1,21 @@
+package SWEA.문제해결_기본;
+
 import java.io.FileInputStream;
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Solution {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA.문제해결_기본
+ * @FileName : Day02_1210_Ladder1.java
+ *
+ * @Date : 2020. 6. 28.
+ * @작성자 : 한기연
+ * @메모리 : 102,196 kb
+ * @실행시간 : 336 ms
+ *
+ * @Blog : __
+ **/
+public class Day02_1210_Ladder1 {
 	static int[][] map;
 	static boolean[][] visit;
 
@@ -19,32 +32,28 @@ public class Solution {
 				}
 			}
 			int ans = 0;
-			int min = Integer.MAX_VALUE;
+			visit = new boolean[100][100];
 			for (int j = 0; j < 100; j++) {
-				if (map[0][j] == 1) {
-					visit = new boolean[100][100];
-					int cnt = solve(0, j, 0);
-					if (min > cnt) {
-						min = cnt;
-						ans = j;
-					}
+				if (map[99][j] == 2) {
+					ans = solve(99, j);
+					break;
 				}
 			}
 			System.out.println("#" + tc + " " + ans);
 		} // end of TC
 	}// end of Main
 
-	private static int solve(int r, int c, int cnt) {
-		if (r == 99)
-			return cnt;
+	private static int solve(int r, int c) {
+		if (r == 0)
+			return c;
 		visit[r][c] = true;
 
 		if (c - 1 >= 0 && map[r][c - 1] == 1 && !visit[r][c - 1]) {
-			return solve(r, c - 1, cnt + 1);
+			return solve(r, c - 1);
 		} else if (c + 1 < 100 && map[r][c + 1] == 1 && !visit[r][c + 1]) {
-			return solve(r, c + 1, cnt + 1);
+			return solve(r, c + 1);
 		} else {
-			return solve(r + 1, c, cnt + 1);
+			return solve(r - 1, c);
 		}
 	}
 }
