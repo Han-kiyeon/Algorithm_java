@@ -1,3 +1,5 @@
+package BOJ.DataStructure;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
@@ -6,7 +8,19 @@ import java.util.LinkedList;
 import java.util.ListIterator;
 import java.util.StringTokenizer;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.DataStructure
+ * @FileName : Silver3_1406_에디터.java
+ *
+ * @Date : 2020. 6. 28.
+ * @작성자 : 한기연
+ * @메모리 : 115812 kb
+ * @실행시간 : 668 ms
+ *
+ * @Blog : __
+ **/
+public class Silver3_1406_에디터 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
