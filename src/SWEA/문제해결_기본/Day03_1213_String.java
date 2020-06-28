@@ -1,8 +1,21 @@
+package SWEA.문제해결_기본;
 import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Solution {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: SWEA.문제해결_기본
+ * @FileName : Day03_1213_String.java
+ *
+ * @Date : 2020. 6. 29.
+ * @작성자 : 한기연
+ * @메모리 : 22,332 kb
+ * @실행시간 : 151 ms
+ *
+ * @Blog : __
+ **/
+public class Day03_1213_String {
 	public static void main(String[] args) throws Exception {
 		System.setIn(new FileInputStream("res/input.txt"));
 		Scanner sc = new Scanner(System.in);
