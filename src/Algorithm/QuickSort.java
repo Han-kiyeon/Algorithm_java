@@ -1,43 +1,47 @@
 package Algorithm;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class QuickSort {
+	static final int N = 10;
+
 	public static void main(String[] args) {
-		int[] arr = { 7, 2, 10, 1, 6, 9, 4, 5, 8, 3 };
+		Random random = new Random(); // 랜덤함수를 이용
+
+		int[] arr = new int[N];
+		for (int i = 0; i < N; i++) {
+			arr[i] = random.nextInt(100); // 0 ~ 99
+		}
+
 		System.out.println("정렬 전: " + Arrays.toString(arr));
-		quickSort(arr, 0, arr.length - 1);
+		quickSort(0, N - 1, arr);
 		System.out.println("정렬 후: " + Arrays.toString(arr));
 	}
 
-	// arr[start] ~ arr[end]를 정렬한다.
-	private static void quickSort(int[] arr, int start, int end) {
-		if (end - start <= 0) 
-			return; 
-		
-		int pivot = arr[end];
-		int left = start;
-		int right = end - 1;
-		
-		while (true) {
-			while (left <= right && arr[left] <= pivot)
+	private static void quickSort(int start, int end, int[] arr) {
+		if (start >= end)
+			return;
+
+		int left = start + 1, right = end, temp;
+		int pivot = arr[start];
+
+		while (left <= right) {
+			while (left <= end && arr[left] <= pivot)
 				left++;
-			while (left <= right && arr[right] >= pivot)
+			while (right > start && arr[right] >= pivot)
 				right--;
-			
-			if (left > right)
-				break;
-			
-			int tmp = arr[left];
-			arr[left] = arr[right];
-			arr[right] = tmp;
+			if (left <= right) {
+				temp = arr[left];
+				arr[left] = arr[right];
+				arr[right] = temp;
+			} else {
+				temp = arr[right];
+				arr[right] = arr[start];
+				arr[start] = temp;
+			}
 		}
-		int tmp = arr[end];
-		arr[end] = arr[left];
-		arr[left] = tmp;
-
-		quickSort(arr, start, left - 1);
-		quickSort(arr, left + 1, end);
+		quickSort(start, right - 1, arr);
+		quickSort(right + 1, end, arr);
 	}
-
 }
