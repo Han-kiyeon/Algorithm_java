@@ -1,10 +1,19 @@
 package Algorithm;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class BubbleSort {
+	static final int N = 10;
+
 	public static void main(String[] args) {
-		int[] arr = { 4, 5, 7, 3, 9, 0 };
+		Random random = new Random(); // 랜덤함수를 이용
+
+		int[] arr = new int[N];
+		for (int i = 0; i < N; i++) {
+			arr[i] = random.nextInt(100); // 0 ~ 99
+		}
+		
 		System.out.println("정렬 전: " + Arrays.toString(arr));
 		bubbleSort(arr);
 		System.out.println("정렬 후: " + Arrays.toString(arr));
@@ -12,18 +21,17 @@ public class BubbleSort {
 
 	private static void bubbleSort(int[] arr) {
 		boolean flag = true;
-		int n = arr.length;
-		while (flag) {
+		int temp;
+		for (int n = arr.length - 1; n > 0 && flag; n--) {
 			flag = false;
-			for (int i = 0; i < n - 1; i++) {
+			for (int i = 0; i < n; i++) {
 				if (arr[i] > arr[i + 1]) {
-					int tmp = arr[i];
+					temp = arr[i];
 					arr[i] = arr[i + 1];
-					arr[i + 1] = tmp;
+					arr[i + 1] = temp;
 					flag = true;
 				}
 			}
-			n--;
 		}
 	}
 }
