@@ -1,9 +1,11 @@
-import java.util.Arrays;
+package BOJ.Graph;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-class Main {
+
+class Gold2_4195_친구네트워크 {
 	static int[] parent;
 	static int[] size;
 	static Map<String, Integer> map;
