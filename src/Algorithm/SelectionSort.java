@@ -21,7 +21,7 @@ public class SelectionSort {
 	}
 
 	private static void selectionSort(int[] arr) {
-		int index, temp;
+		int index;
 		for (int i = 0; i < arr.length; i++) {
 			index = i;
 			for (int j = i + 1; j < arr.length; j++) {
@@ -29,9 +29,13 @@ public class SelectionSort {
 					index = j;
 				}
 			}
-			temp = arr[index];
-			arr[index] = arr[i];
-			arr[i] = temp;
+			swap(arr, index, i);
 		}
+	}
+
+	private static void swap(int[] arr, int a, int b) {
+		int temp = arr[a];
+		arr[a] = arr[b];
+		arr[b] = temp;
 	}
 }

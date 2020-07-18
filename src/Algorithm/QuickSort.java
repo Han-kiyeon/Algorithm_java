@@ -23,7 +23,7 @@ public class QuickSort {
 		if (start >= end)
 			return;
 
-		int left = start + 1, right = end, temp;
+		int left = start + 1, right = end;
 		int pivot = arr[start];
 
 		while (left <= right) {
@@ -31,17 +31,20 @@ public class QuickSort {
 				left++;
 			while (right > start && arr[right] >= pivot)
 				right--;
+			
 			if (left <= right) {
-				temp = arr[left];
-				arr[left] = arr[right];
-				arr[right] = temp;
+				swap(arr, left, right);
 			} else {
-				temp = arr[right];
-				arr[right] = arr[start];
-				arr[start] = temp;
+				swap(arr, start, right);
 			}
 		}
 		quickSort(start, right - 1, arr);
 		quickSort(right + 1, end, arr);
+	}
+
+	private static void swap(int[] arr, int a, int b) {
+		int temp = arr[a];
+		arr[a] = arr[b];
+		arr[b] = temp;
 	}
 }
