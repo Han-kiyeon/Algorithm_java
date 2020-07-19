@@ -16,11 +16,11 @@ public class RadixSort {
 		}
 
 		System.out.println("정렬 전: " + Arrays.toString(arr));
-		Radix(arr);
+		radixSort(arr);
 		System.out.println("정렬 후: " + Arrays.toString(arr));
 	}
 
-	private static void Radix(int[] arr) {
+	private static void radixSort(int[] arr) {
 		// 최대값 구하기
 		int max = arr[0];
 		for (int i = 1; i < arr.length; i++) {
