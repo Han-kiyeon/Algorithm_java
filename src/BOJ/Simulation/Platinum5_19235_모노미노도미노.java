@@ -1,6 +1,22 @@
+package BOJ.Simulation;
+
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Project : Algorithm_java
+ * @PackageName: BOJ.Simulation
+ * @FileName : Platinum5_19235_모노미노도미노.java
+ *
+ * @Date : 2020. 10. 11.
+ * @작성자 : 한기연
+ * @메모리 : 51312 kb
+ * @실행시간 : 488 ms
+ *
+ * @Blog : __
+ * @Link : https://www.acmicpc.net/problem/19235
+ **/
+
+public class Platinum5_19235_모노미노도미노 {
 	static int BLUE = 0, GREEN = 1;
 	static int N, score, count;
 	static int board[][][] = new int[2][10][4];
