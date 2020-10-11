@@ -1,6 +1,7 @@
+package BOJ.Simulation;
 import java.util.Scanner;
 
-public class Main {
+public class Platinum5_19235_모노미노도미노 {
 	static int BLUE = 0, GREEN = 1;
 	static int N, score, count;
 	static int board[][][] = new int[2][10][4];
