@@ -1,6 +1,7 @@
+package BOJ.Simulation;
 import java.util.Scanner;
 
-public class Main {
+public class Gold3_19236_청소년상어 {
 	static int[] dr = { -1, -1, 0, 1, 1, 1, 0, -1 };
 	static int[] dc = { 0, -1, -1, -1, 0, 1, 1, 1 };
 
